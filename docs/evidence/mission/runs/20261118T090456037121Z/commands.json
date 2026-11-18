@@ -1,0 +1,1148 @@
+[
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 102,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.47432899990963
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 103,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.662429000039992
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 104,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.390518999931373
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 105,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 4.871231999914016
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 106,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.403531999898405
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 107,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.181137999898056
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 108,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.774056000220298
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 109,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.050703999586403
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214302720,
+      "jobs": {},
+      "command_id": 110,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.72762699989471
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214302720,
+      "jobs": {},
+      "command_id": 111,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.426115999853209
+  },
+  {
+    "request": {
+      "op": "ping",
+      "command_id": 100
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214302720,
+      "jobs": {},
+      "command_id": 100
+    },
+    "duration_ms": 3.459836000274663
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "capture_id": "",
+      "reason": "camera inhibited or pipeline busy",
+      "command_id": 112
+    },
+    "duration_ms": 5.447674000151892
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 113
+    },
+    "duration_ms": 6.44186300041838
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 114
+    },
+    "duration_ms": 6.875248999676842
+  },
+  {
+    "request": {
+      "op": "configure",
+      "width": 640,
+      "height": 480,
+      "quality": 75
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "requested_fps": 1,
+      "acquisition": "commanded burst interval",
+      "command_id": 115
+    },
+    "duration_ms": 4.248596999786969
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214302720,
+      "jobs": {},
+      "command_id": 116,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 2.806712999699812
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 117
+    },
+    "duration_ms": 4.5591140001306485
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 118
+    },
+    "duration_ms": 7.084027000018978
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 119
+    },
+    "duration_ms": 6.837415999598306
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214302720,
+      "jobs": {},
+      "command_id": 120,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 3.1498030002694577
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 39.39485499995499
+  },
+  {
+    "request": {
+      "op": "capture",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 2.042189000349026
+  },
+  {
+    "request": {
+      "op": "safe",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "COMMAND_ID_CONFLICT",
+      "command_id": 121
+    },
+    "duration_ms": 1.221579000230122
+  },
+  {
+    "request": {
+      "op": "reconnect"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "session closed; explicit permission/recovery required"
+    },
+    "duration_ms": 0.6607269997402909
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214302720,
+      "jobs": {},
+      "command_id": 122,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.33693200002017
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "capture_id": "",
+      "reason": "camera inhibited or pipeline busy",
+      "command_id": 123
+    },
+    "duration_ms": 6.398456000169972
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "peer disconnected"
+    },
+    "duration_ms": 1.9756760002564988
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "[Errno 111] Connection refused"
+    },
+    "duration_ms": 2.725949999785371
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "[Errno 111] Connection refused"
+    },
+    "duration_ms": 3.4479669998290774
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 128,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.927134000055958
+  },
+  {
+    "request": {
+      "op": "capture",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 1.7798799999582116
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 130,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.18160499966325
+  },
+  {
+    "request": {
+      "op": "ping"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 131
+    },
+    "duration_ms": 4.609389000052033
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 132,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 3.9272480003091914
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 133,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.865045999598806
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 134,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.628820999798336
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 2,
+      "gateway_connected": true,
+      "cpu_percent": 26.48858266527357,
+      "memory_used_bytes": 217333760,
+      "jobs": {},
+      "command_id": 135,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.467072999792435
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 136
+    },
+    "duration_ms": 7.482179999897198
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 137
+    },
+    "duration_ms": 6.296991999988677
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 138
+    },
+    "duration_ms": 6.363586999668769
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 2,
+      "gateway_connected": true,
+      "cpu_percent": 26.48858266527357,
+      "memory_used_bytes": 217333760,
+      "jobs": {},
+      "command_id": 139,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 3.4507769996707793
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 1
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 140
+    },
+    "duration_ms": 6.024622000040836
+  },
+  {
+    "request": {
+      "op": "configure",
+      "source": 1
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "only synthetic camera source is supported",
+      "command_id": 141
+    },
+    "duration_ms": 3.22711100034212
+  },
+  {
+    "request": {
+      "op": "configure",
+      "source": 2
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "only synthetic camera source is supported",
+      "command_id": 142
+    },
+    "duration_ms": 3.1893310001578357
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 143
+    },
+    "duration_ms": 6.859613999949943
+  },
+  {
+    "request": {
+      "op": "delete",
+      "id": "52ea604f-5da4-4557-a8ae-f49db730fe59"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "cannot delete without confirmed ground delivery",
+      "command_id": 144
+    },
+    "duration_ms": 12.12625800008027
+  },
+  {
+    "request": {
+      "op": "confirm",
+      "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "ground confirmation does not match complete capture",
+      "command_id": 145
+    },
+    "duration_ms": 7.184756000242487
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 3
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 146
+    },
+    "duration_ms": 8.096647000002122
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "capture_id": "",
+      "reason": "camera inhibited or pipeline busy",
+      "command_id": 147
+    },
+    "duration_ms": 6.331778000003396
+  },
+  {
+    "request": {
+      "op": "fetch",
+      "id": "52ea604f-5da4-4557-a8ae-f49db730fe59"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "spooled": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+    },
+    "duration_ms": 26.979865000157588
+  },
+  {
+    "request": {
+      "op": "safe"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 150
+    },
+    "duration_ms": 11.956848999943759
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": 0.05,
+        "window": 60,
+        "interrupt_after": 2
+      }
+    },
+    "response": {
+      "status": "INTERRUPTED",
+      "reason": "injected link interruption after durable ACK",
+      "receipts": [],
+      "metrics": {
+        "attempted_wire_bytes": 11302,
+        "lost_packets": 0,
+        "retransmissions": 0,
+        "resumed_bytes": 0,
+        "payload_delivered_bytes": 8192,
+        "wall_seconds": 1.8262100769998142
+      }
+    },
+    "duration_ms": 1827.495461000126
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": 0.5,
+        "window": 0.001
+      }
+    },
+    "response": {
+      "status": "INTERRUPTED",
+      "reason": "pass window closed; resume next pass",
+      "receipts": [],
+      "metrics": {
+        "attempted_wire_bytes": 0,
+        "lost_packets": 0,
+        "retransmissions": 0,
+        "resumed_bytes": 0,
+        "payload_delivered_bytes": 0,
+        "wall_seconds": 0.0013335239996195014
+      }
+    },
+    "duration_ms": 2.452585999890289
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 4,
+      "gateway_connected": true,
+      "cpu_percent": 4.469323503608121,
+      "memory_used_bytes": 227508224,
+      "jobs": {},
+      "command_id": 152,
+      "queue": [
+        {
+          "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+          "manifest": {
+            "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "PENDING"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 9.052910000264092
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 153
+    },
+    "duration_ms": 7.642137999937404
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 154
+    },
+    "duration_ms": 8.507595000082802
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 155
+    },
+    "duration_ms": 7.178619999649527
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 4,
+      "gateway_connected": true,
+      "cpu_percent": 4.469323503608121,
+      "memory_used_bytes": 227508224,
+      "jobs": {},
+      "command_id": 156,
+      "queue": [
+        {
+          "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+          "manifest": {
+            "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "PENDING"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 4.571131999909994
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 3
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 157
+    },
+    "duration_ms": 6.358107000323798
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": 0.5,
+        "window": 60,
+        "loss": 0.1,
+        "seed": 31,
+        "corrupt_once": true
+      }
+    },
+    "response": {
+      "status": "COMPLETED",
+      "receipts": [
+        {
+          "type": "RECEIPT",
+          "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+          "size": 25687,
+          "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+        }
+      ],
+      "metrics": {
+        "attempted_wire_bytes": 35273,
+        "lost_packets": 1,
+        "retransmissions": 2,
+        "resumed_bytes": 8192,
+        "payload_delivered_bytes": 17495,
+        "wall_seconds": 0.5979955429997972
+      }
+    },
+    "duration_ms": 598.6650109998664
+  },
+  {
+    "request": {
+      "op": "delete",
+      "id": "52ea604f-5da4-4557-a8ae-f49db730fe59"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "deleted": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+      "command_id": 160
+    },
+    "duration_ms": 10.24895699993067
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "unknown_setting": 1
+      }
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "Link.__init__() got an unexpected keyword argument 'unknown_setting'"
+    },
+    "duration_ms": 0.7700210003349639
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": "fast"
+      }
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "must be real number, not str"
+    },
+    "duration_ms": 0.7023470002422982
+  },
+  {
+    "request": {
+      "op": "ping"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 3,
+      "state": "DOWNLINK",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 8.626774507853892,
+      "memory_used_bytes": 228298752,
+      "jobs": {},
+      "command_id": 161
+    },
+    "duration_ms": 4.156368999701954
+  }
+]

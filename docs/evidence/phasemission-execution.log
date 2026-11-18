@@ -2,13 +2,14 @@ Starting >>> payload_interfaces
 Starting >>> payload_smoke
 [  1%] Built target payload_interfaces__rs
 [  2%] Built target payload_interfaces__rosidl_generator_type_description
-[  2%] Built target ament_cmake_python_copy_payload_interfaces
 [100%] Built target smoke
+[  2%] Built target ament_cmake_python_copy_payload_interfaces
 [  2%] Built target payload_interfaces__cpp
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_smoke/lib/payload_smoke/smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/package_run_dependencies/payload_smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/parent_prefix_path/payload_smoke
+[ 36%] Built target payload_interfaces__rosidl_generator_c
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.sh
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.dsv
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/path.sh
@@ -22,8 +23,7 @@ Starting >>> payload_smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig.cmake
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/package.xml
-Finished <<< payload_smoke [0.15s]
-[ 36%] Built target payload_interfaces__rosidl_generator_c
+Finished <<< payload_smoke [0.10s]
 [ 49%] Built target payload_interfaces__rosidl_typesupport_introspection_c
 [ 61%] Built target payload_interfaces__rosidl_typesupport_introspection_cpp
 [ 73%] Built target payload_interfaces__rosidl_typesupport_c
@@ -31,8 +31,8 @@ Finished <<< payload_smoke [0.15s]
 [ 85%] Built target payload_interfaces
 [ 86%] Built target payload_interfaces__py
 running egg_info
-writing payload_interfaces.egg-info/PKG-INFO
 [ 97%] Built target payload_interfaces__rosidl_generator_py
+writing payload_interfaces.egg-info/PKG-INFO
 writing dependency_links to payload_interfaces.egg-info/dependency_links.txt
 writing top-level names to payload_interfaces.egg-info/top_level.txt
 [ 98%] Built target payload_interfaces_s__rosidl_typesupport_c
@@ -471,16 +471,16 @@ Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig.cmake
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/package.xml
-Finished <<< payload_interfaces [0.46s]
+Finished <<< payload_interfaces [0.43s]
 Starting >>> payload_storage
 Starting >>> payload_processing
 [ 20%] Built target process
-Built target ament_cmake_python_copy_foundations
+[ 40%] Built target gtest
+[ 60%] Built target gtest_main
 Built target ament_cmake_python_copy_interfaces
-[ 40%] Built target gtest_main
-[ 60%] Built target gtest
-[ 80%] Built target processing_node
-[100%] Built target test_process
+Built target ament_cmake_python_copy_foundations
+[ 80%] Built target test_process
+[100%] Built target processing_node
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_processing/lib/libprocess.a
 -- Up-to-date: /workspace/install/payload_processing/lib/payload_processing/processing_node
@@ -499,15 +499,15 @@ Built target ament_cmake_python_copy_interfaces
 -- Up-to-date: /workspace/install/payload_processing/share/payload_processing/cmake/payload_processingConfig.cmake
 -- Up-to-date: /workspace/install/payload_processing/share/payload_processing/cmake/payload_processingConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_processing/share/payload_processing/package.xml
-Finished <<< payload_processing [0.13s]
+Finished <<< payload_processing [0.16s]
 running egg_info
+writing interfaces.egg-info/PKG-INFO
+writing dependency_links to interfaces.egg-info/dependency_links.txt
+writing top-level names to interfaces.egg-info/top_level.txt
 running egg_info
 writing foundations.egg-info/PKG-INFO
 writing dependency_links to foundations.egg-info/dependency_links.txt
 writing top-level names to foundations.egg-info/top_level.txt
-writing interfaces.egg-info/PKG-INFO
-writing dependency_links to interfaces.egg-info/dependency_links.txt
-writing top-level names to interfaces.egg-info/top_level.txt
 reading manifest file 'interfaces.egg-info/SOURCES.txt'
 writing manifest file 'interfaces.egg-info/SOURCES.txt'
 reading manifest file 'foundations.egg-info/SOURCES.txt'
@@ -524,23 +524,25 @@ Built target ament_cmake_python_build_foundations_egg
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/PKG-INFO
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/control.py
--- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/catalogue.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/__init__.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/ground.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/command_journal.py
 Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations'...
+Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py'...
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/top_level.txt
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/PKG-INFO
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces
--- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/space_packet.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/framing.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/__init__.py
 Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/interfaces'...
+Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py'...
 -- Up-to-date: /workspace/install/payload_storage/lib/payload_storage/storage_node
 -- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/package_run_dependencies/payload_storage
 -- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/parent_prefix_path/payload_storage
@@ -557,7 +559,7 @@ Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/interfa
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig.cmake
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/package.xml
-Finished <<< payload_storage [0.44s]
+Finished <<< payload_storage [0.45s]
 Starting >>> payload_health
 Starting >>> payload_modes
 -- Install configuration: "RelWithDebInfo"
@@ -573,12 +575,14 @@ Starting >>> payload_modes
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.zsh
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.dsv
 -- Installing: /workspace/install/payload_health/share/payload_health/package.dsv
--- Install configuration: "RelWithDebInfo"
--- Up-to-date: /workspace/install/payload_modes/lib/payload_modes/modes_node
 -- Up-to-date: /workspace/install/payload_health/share/ament_index/resource_index/packages/payload_health
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig.cmake
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/package.xml
+Finished <<< payload_health [0.05s]
+Starting >>> payload_gateway
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_modes/lib/payload_modes/modes_node
 -- Up-to-date: /workspace/install/payload_modes/share/ament_index/resource_index/package_run_dependencies/payload_modes
 -- Up-to-date: /workspace/install/payload_modes/share/ament_index/resource_index/parent_prefix_path/payload_modes
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/environment/ament_prefix_path.sh
@@ -594,9 +598,7 @@ Starting >>> payload_modes
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/cmake/payload_modesConfig.cmake
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/cmake/payload_modesConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/package.xml
-Finished <<< payload_health [0.07s]
-Starting >>> payload_gateway
-Finished <<< payload_modes [0.08s]
+Finished <<< payload_modes [0.07s]
 Starting >>> payload_camera
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_gateway/lib/payload_gateway/gateway_node
@@ -642,16 +644,16 @@ Finished <<< payload_gateway [0.08s]
 -- Up-to-date: /workspace/install/payload_camera/share/payload_camera/cmake/payload_cameraConfig.cmake
 -- Up-to-date: /workspace/install/payload_camera/share/payload_camera/cmake/payload_cameraConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_camera/share/payload_camera/package.xml
-Finished <<< payload_camera [0.13s]
+Finished <<< payload_camera [0.12s]
 
-Summary: 8 packages finished [1.20s]
+Summary: 8 packages finished [1.17s]
 Starting >>> payload_processing
 UpdateCTestConfiguration  from :/workspace/build/payload_processing/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
    Site: 43db24d155d3
    Build name: (empty)
  Add coverage exclude regular expressions.
-Create new tag: 20261118-0902 - Experimental
+Create new tag: 20261118-0904 - Experimental
 UpdateCTestConfiguration  from :/workspace/build/payload_processing/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
 Test project /workspace/build/payload_processing
@@ -691,22 +693,22 @@ test 1
 1: -- run_test.py: return code 0
 1: -- run_test.py: inject classname prefix into gtest result file '/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml'
 1: -- run_test.py: verify result file '/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml'
-1/1 Test #1: test_process .....................   Passed    0.06 sec
+1/1 Test #1: test_process .....................   Passed    0.05 sec
 
 100% tests passed, 0 tests failed out of 1
 
 Label Time Summary:
-gtest    =   0.06 sec*proc (1 test)
+gtest    =   0.05 sec*proc (1 test)
 
-Total Test time (real) =   0.06 sec
-Finished <<< payload_processing [0.09s]
+Total Test time (real) =   0.05 sec
+Finished <<< payload_processing [0.08s]
 Starting >>> payload_camera
 UpdateCTestConfiguration  from :/workspace/build/payload_camera/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_camera/CTestConfiguration.ini
    Site: 43db24d155d3
    Build name: (empty)
  Add coverage exclude regular expressions.
-Create new tag: 20261118-0902 - Experimental
+Create new tag: 20261118-0904 - Experimental
 UpdateCTestConfiguration  from :/workspace/build/payload_camera/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_camera/CTestConfiguration.ini
 Test project /workspace/build/payload_camera
@@ -752,11 +754,14 @@ Label Time Summary:
 gtest    =   0.06 sec*proc (1 test)
 
 Total Test time (real) =   0.06 sec
-Finished <<< payload_camera [0.11s]
+Finished <<< payload_camera [0.10s]
 
-Summary: 2 packages finished [0.33s]
+Summary: 2 packages finished [0.32s]
 Summary: 11 tests, 0 errors, 0 failures, 0 skipped
-{"test_id": "P4-01", "initial_state": "payload booting", "injected_fault": "fragmented/coalesced, replay/oversized frames", "expected": "valid ACKs; invalid sessions close", "recovery_action": "fresh session", "recovery_ms": null, "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified", "result": "PASS", "duration_ms": 79.67468800006827}
-{"test_id": "P4-02", "initial_state": "STANDBY/inhibited", "injected_fault": "duplicate/conflicting IDs, reconnect, gateway/bus SIGKILL", "expected": "one exposure; durable replay; SAFE and explicit recovery", "recovery_action": "restart/recover", "recovery_ms": null, "observed": "capture c11a44b7-2925-4911-a851-224419cef4df ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs", "result": "PASS", "duration_ms": 1017.448370999773}
-{"test_id": "P4-03", "initial_state": "READY", "injected_fault": "unsupported directory/V4L2 configuration", "expected": "explicit rejection, no silent source fallback", "recovery_action": "keep synthetic source", "recovery_ms": null, "observed": "source selectors 1 and 2 explicitly rejected; no hardware adapter is claimed", "result": "PASS", "duration_ms": 26.022251000085816}
+{"test_id": "P4-01", "initial_state": "payload booting", "injected_fault": "fragmented/coalesced, replay/oversized frames", "expected": "valid ACKs; invalid sessions close", "recovery_action": "fresh session", "recovery_ms": null, "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified", "result": "PASS", "duration_ms": 73.22977600006197}
+{"test_id": "P4-02", "initial_state": "STANDBY/inhibited", "injected_fault": "duplicate/conflicting IDs, reconnect, gateway/bus SIGKILL", "expected": "one exposure; durable replay; SAFE and explicit recovery", "recovery_action": "restart/recover", "recovery_ms": null, "observed": "capture 52ea604f-5da4-4557-a8ae-f49db730fe59 ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs", "result": "PASS", "duration_ms": 1007.1947290002754}
+{"test_id": "P4-03", "initial_state": "READY", "injected_fault": "unsupported directory/V4L2 configuration", "expected": "explicit rejection, no silent source fallback", "recovery_action": "keep synthetic source", "recovery_ms": null, "observed": "source selectors 1 and 2 explicitly rejected; no hardware adapter is claimed", "result": "PASS", "duration_ms": 19.32871199960573}
 {"phase": 4, "result": "PASS"}
+{"test_id": "P5-01", "initial_state": "one pending JPEG", "injected_fault": "interrupted pass, ground SIGKILL, bad CRC and 10% loss", "expected": "durable resume, rate cap, end-to-end checksum and guarded deletion", "recovery_action": "next pass/restart", "recovery_ms": null, "observed": {"first_pass": {"status": "INTERRUPTED", "reason": "injected link interruption after durable ACK", "receipts": [], "metrics": {"attempted_wire_bytes": 11302, "lost_packets": 0, "retransmissions": 0, "resumed_bytes": 0, "payload_delivered_bytes": 8192, "wall_seconds": 1.8262100769998142}}, "resumed_pass": {"status": "COMPLETED", "receipts": [{"type": "RECEIPT", "id": "52ea604f-5da4-4557-a8ae-f49db730fe59", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}], "metrics": {"attempted_wire_bytes": 35273, "lost_packets": 1, "retransmissions": 2, "resumed_bytes": 8192, "payload_delivered_bytes": 17495, "wall_seconds": 0.5979955429997972}}, "safe_during_downlink_ms": 11.965117999807262, "verified": "ground SIGKILL/restart resumes; CRC corruption retried; wrong receipt and premature deletion rejected; deletion after ground confirmation succeeds"}, "result": "PASS", "duration_ms": 2751.556126000196}
+{"test_id": "P5-02", "initial_state": "live services", "injected_fault": "bad link setting types/keys and malformed UUID", "expected": "bounded error without daemon exit", "recovery_action": "valid next session", "recovery_ms": null, "observed": "malformed operator link settings return ERROR; malformed ground manifest closes session; bus and ground stay alive", "result": "PASS", "duration_ms": 6.095470000218484}
+{"phase": 5, "result": "PASS"}

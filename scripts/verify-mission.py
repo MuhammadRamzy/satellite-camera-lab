@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Real multi-process socket/ROS mission acceptance; no fabricated receipts."""
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -15,7 +16,7 @@ import time
 from PIL import Image
 from foundations.ground import call
 from interfaces.file_link import digest
-from interfaces.framing import read_packet
+from interfaces.framing import read_packet, send_frame
 from interfaces.space_packet import Command, Packet
 
 ROOT = Path('/workspace')
@@ -205,29 +206,54 @@ class Experiment:
             self.cmd('mode', mode=3)
             self.cmd('capture', expected='ERROR')
             self.cmd('fetch', id=image['id'])
-            first = self.cmd('downlink', expected='INTERRUPTED', link={
-                'rate_mbps': 0.5, 'window': 60, 'interrupt_after': 2})
             partial = self.directory / 'ground' / (image['id'] + '.part')
+            with ThreadPoolExecutor(max_workers=1) as worker:
+                transfer = worker.submit(self.cmd, 'downlink', expected='INTERRUPTED', link={
+                    'rate_mbps': 0.05, 'window': 60, 'interrupt_after': 2})
+                self.wait(lambda: partial.exists() and partial.stat().st_size >= 4096)
+                assert not transfer.done()
+                safe_started = time.monotonic()
+                self.cmd('safe')
+                safe_ms = (time.monotonic() - safe_started) * 1000
+                assert safe_ms < 1000 and not transfer.done(), safe_ms
+                first = transfer.result(timeout=10)
             assert partial.stat().st_size == 8192
             assert self.rows()[0]['downlink_status'] == 'PENDING'
+            expired = self.cmd('downlink', expected='INTERRUPTED', link={'rate_mbps': 0.5, 'window': 0.001})
+            assert 'window closed' in expired['reason']
             self.stop('ground', kill=True)
             self.start('ground', ['python3', '-m', 'foundations.ground', 'receive',
                                   '--root', str(self.directory / 'ground')])
             time.sleep(0.2)
+            self.ready()
+            self.cmd('mode', mode=3)
             second = self.cmd('downlink', link={'rate_mbps': 0.5, 'window': 60,
-                'loss': 0.1, 'seed': 1, 'corrupt_once': True})
+                'loss': 0.1, 'seed': 31, 'corrupt_once': True})
             metrics = second['metrics']
             assert metrics['resumed_bytes'] == 8192 and metrics['retransmissions'] > 0
+            assert metrics['lost_packets'] > 0
             assert metrics['wall_seconds'] >= metrics['attempted_wire_bytes'] * 8 / 500000
             assert digest(self.directory / 'ground' / (image['id'] + '.jpg')) == image['sha256']
             assert next(row for row in self.rows() if row['id'] == image['id'])['downlink_status'] == 'DELIVERED'
             self.cmd('delete', id=image['id'])
             assert not any(row['id'] == image['id'] for row in self.rows())
             return {'first_pass': first, 'resumed_pass': second,
+                    'safe_during_downlink_ms': safe_ms,
                     'verified': 'ground SIGKILL/restart resumes; CRC corruption retried; wrong receipt and premature deletion rejected; deletion after ground confirmation succeeds'}
 
         self.case('P5-01', 'one pending JPEG', 'interrupted pass, ground SIGKILL, bad CRC and 10% loss',
                   'durable resume, rate cap, end-to-end checksum and guarded deletion', 'next pass/restart', transfer_faults)
+        def malformed_sessions():
+            self.cmd('downlink', expected='ERROR', link={'unknown_setting': 1})
+            self.cmd('downlink', expected='ERROR', link={'rate_mbps': 'fast'})
+            self.cmd('ping')
+            with socket.create_connection(('127.0.0.1', 47004), timeout=5) as peer:
+                peer.settimeout(5)
+                send_frame(peer, {'type': 'MANIFEST', 'id': 123, 'size': 1, 'sha256': '0' * 64})
+                assert peer.recv(1) == b''
+            return 'malformed operator link settings return ERROR; malformed ground manifest closes session; bus and ground stay alive'
+        self.case('P5-02', 'live services', 'bad link setting types/keys and malformed UUID',
+                  'bounded error without daemon exit', 'valid next session', malformed_sessions)
         self.checkpoint(5)
         if self.through == 5:
             return

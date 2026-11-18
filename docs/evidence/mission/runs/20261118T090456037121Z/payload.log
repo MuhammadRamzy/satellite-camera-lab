@@ -1,0 +1,26 @@
+[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-09-04-56-215937-07f567488418-355
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [storage_node-1]: process started with pid [374]
+[INFO] [processing_node-2]: process started with pid [375]
+[INFO] [camera_node-3]: process started with pid [376]
+[INFO] [modes_node-4]: process started with pid [377]
+[INFO] [health_node-5]: process started with pid [378]
+[storage_node-1] [INFO] [1794992696.757358509] [payload_storage]: {"event": "storage_recovered", "entries": 0}
+[camera_node-3] [ERROR] [1794992697.687264247] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[processing_node-2] [INFO] [1794992697.770433801] [payload_processing]: event=image_processed id=52ea604f-5da4-4557-a8ae-f49db730fe59 bytes=25687 processing_ms=2.392
+[storage_node-1] [INFO] [1794992697.775110340] [payload_storage]: {"event": "file_ready", "id": "52ea604f-5da4-4557-a8ae-f49db730fe59", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 3.834177000044292}
+[camera_node-3] [ERROR] [1794992697.889374429] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[camera_node-3] [ERROR] [1794992698.941795425] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [health_node-5]: sending signal 'SIGINT' to process[health_node-5]
+[INFO] [modes_node-4]: sending signal 'SIGINT' to process[modes_node-4]
+[INFO] [camera_node-3]: sending signal 'SIGINT' to process[camera_node-3]
+[INFO] [processing_node-2]: sending signal 'SIGINT' to process[processing_node-2]
+[INFO] [storage_node-1]: sending signal 'SIGINT' to process[storage_node-1]
+[camera_node-3] [INFO] [1794992702.434992832] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[processing_node-2] [INFO] [1794992702.435359114] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [processing_node-2]: process has finished cleanly [pid 375]
+[INFO] [health_node-5]: process has finished cleanly [pid 378]
+[INFO] [camera_node-3]: process has finished cleanly [pid 376]
+[INFO] [storage_node-1]: process has finished cleanly [pid 374]
+[INFO] [modes_node-4]: process has finished cleanly [pid 377]

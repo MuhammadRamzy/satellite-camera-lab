@@ -119,6 +119,7 @@ class Bus:
         report = []
         # One pass-wide Link: windows/rate accounting do not reset per file.
         link = Link(**settings)
+        link.cancelled = self.stop
         try:
             for entry in self.queued():
                 if entry['state'] == 'DELIVERED':
@@ -149,7 +150,9 @@ class Bus:
         def command(cmd, body=b''):
             return self.command(cmd, body, command_id)
         if op == 'status':
-            return command(Command.PL_GET_STATUS) | {'queue': self.queued(), 'spacecraft_operational': self.operational}
+            queue = self.queued()
+            return command(Command.PL_GET_STATUS) | {'queue': queue[:32], 'queue_count': len(queue),
+                'queue_truncated': len(queue) > 32, 'spacecraft_operational': self.operational}
         if op == 'ping':
             return command(Command.PL_PING)
         if op == 'spacecraft':
@@ -263,6 +266,7 @@ def main():
     except KeyboardInterrupt:
         pass
     finally:
+        bus.stop.set()  # Wake a paced transfer before waiting for its worker.
         workers.shutdown(wait=True)
         bus.close()
 

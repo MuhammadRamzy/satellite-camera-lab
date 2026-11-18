@@ -1,0 +1,4 @@
+{"event": "transfer_interrupted", "reason": "peer disconnected"}
+{"event": "transfer_interrupted", "reason": "peer disconnected"}
+{"event": "ground_verified", "type": "RECEIPT", "id": "52ea604f-5da4-4557-a8ae-f49db730fe59", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}
+{"event": "transfer_interrupted", "reason": "canonical UUID required"}

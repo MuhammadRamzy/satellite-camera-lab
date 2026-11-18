@@ -7,8 +7,8 @@
 | 2: camera pipeline | PASS for phase scope | Five RGB + one transformed JPEG, checksums and restart; phase2-result.json |
 | 3: payload control | PASS | Nine runtime cases: lifecycle/modes, cancel/SAFE, watchdogs, 1 Hz health and restart |
 | 4: gateway/bus | PASS | Live SPP ACKs, command journal, reconnect and gateway/bus SIGKILL tests |
-| 5: downlink | NEXT | Experimental transport foundation passes host tests; live acceptance next |
-| 6: mission | NOT RUN | Five-image delivery all the way to ground |
+| 5: downlink | PASS | Ground SIGKILL/resume, CRC/loss retry, pass window/rate cap, receipt/delete guards, concurrent SAFE |
+| 6: mission | NEXT | Five-image delivery all the way to ground |
 | 7: complete verification | PARTIAL | 15 host + 5 C++ tests and Phase 2 integration; full fault/benchmark campaigns open |
 | 8: migration | PLANNED | ARM64/cFS plans; no ARM execution |
 

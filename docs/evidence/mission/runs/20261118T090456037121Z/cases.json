@@ -1,0 +1,92 @@
+[
+  {
+    "test_id": "P4-01",
+    "initial_state": "payload booting",
+    "injected_fault": "fragmented/coalesced, replay/oversized frames",
+    "expected": "valid ACKs; invalid sessions close",
+    "recovery_action": "fresh session",
+    "recovery_ms": null,
+    "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified",
+    "result": "PASS",
+    "duration_ms": 73.22977600006197
+  },
+  {
+    "test_id": "P4-02",
+    "initial_state": "STANDBY/inhibited",
+    "injected_fault": "duplicate/conflicting IDs, reconnect, gateway/bus SIGKILL",
+    "expected": "one exposure; durable replay; SAFE and explicit recovery",
+    "recovery_action": "restart/recover",
+    "recovery_ms": null,
+    "observed": "capture 52ea604f-5da4-4557-a8ae-f49db730fe59 ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs",
+    "result": "PASS",
+    "duration_ms": 1007.1947290002754
+  },
+  {
+    "test_id": "P4-03",
+    "initial_state": "READY",
+    "injected_fault": "unsupported directory/V4L2 configuration",
+    "expected": "explicit rejection, no silent source fallback",
+    "recovery_action": "keep synthetic source",
+    "recovery_ms": null,
+    "observed": "source selectors 1 and 2 explicitly rejected; no hardware adapter is claimed",
+    "result": "PASS",
+    "duration_ms": 19.32871199960573
+  },
+  {
+    "test_id": "P5-01",
+    "initial_state": "one pending JPEG",
+    "injected_fault": "interrupted pass, ground SIGKILL, bad CRC and 10% loss",
+    "expected": "durable resume, rate cap, end-to-end checksum and guarded deletion",
+    "recovery_action": "next pass/restart",
+    "recovery_ms": null,
+    "observed": {
+      "first_pass": {
+        "status": "INTERRUPTED",
+        "reason": "injected link interruption after durable ACK",
+        "receipts": [],
+        "metrics": {
+          "attempted_wire_bytes": 11302,
+          "lost_packets": 0,
+          "retransmissions": 0,
+          "resumed_bytes": 0,
+          "payload_delivered_bytes": 8192,
+          "wall_seconds": 1.8262100769998142
+        }
+      },
+      "resumed_pass": {
+        "status": "COMPLETED",
+        "receipts": [
+          {
+            "type": "RECEIPT",
+            "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          }
+        ],
+        "metrics": {
+          "attempted_wire_bytes": 35273,
+          "lost_packets": 1,
+          "retransmissions": 2,
+          "resumed_bytes": 8192,
+          "payload_delivered_bytes": 17495,
+          "wall_seconds": 0.5979955429997972
+        }
+      },
+      "safe_during_downlink_ms": 11.965117999807262,
+      "verified": "ground SIGKILL/restart resumes; CRC corruption retried; wrong receipt and premature deletion rejected; deletion after ground confirmation succeeds"
+    },
+    "result": "PASS",
+    "duration_ms": 2751.556126000196
+  },
+  {
+    "test_id": "P5-02",
+    "initial_state": "live services",
+    "injected_fault": "bad link setting types/keys and malformed UUID",
+    "expected": "bounded error without daemon exit",
+    "recovery_action": "valid next session",
+    "recovery_ms": null,
+    "observed": "malformed operator link settings return ERROR; malformed ground manifest closes session; bus and ground stay alive",
+    "result": "PASS",
+    "duration_ms": 6.095470000218484
+  }
+]

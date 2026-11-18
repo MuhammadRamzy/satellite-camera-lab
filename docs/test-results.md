@@ -2,6 +2,12 @@
 
 PASS: Phases 1–3, including the synthetic pipeline and payload control.
 
+Phase 5 passes live transfer and malformed-session cases. Ground SIGKILL/resume
+preserves an 8192-byte offset; the resumed pass retried one lost chunk and one
+CRC failure. SHA-256 matched independently; wrong confirmation and deletion
+before delivery were rejected. SAFE completed in 11.97 ms during a paced pass.
+See `evidence/mission/phase5-result.json`. There are now 22 host tests.
+
 Phase 4: three live gateway/bus cases passed; see
 `evidence/mission/phase4-result.json` and its per-run commands/cases/logs.
 The current host suite has 21 tests, including real socket-pair transfer faults
@@ -49,9 +55,9 @@ space-ros-pull-network-reset*.log. The installed/tested official July image is
 fully pinned with source provenance. Initial Docker/DNS session restrictions
 were resolved when the user enabled access.
 
-NOT RUN: live file/radio
-transport, ground mission, full fault campaign, benchmark matrix, ARM hardware.
-No downlinked or ground-received images exist yet. No real cFS or CFDP claim.
+NOT RUN: five-image ground mission, remaining fault campaign, benchmark matrix,
+ARM hardware. One fault-test image reached ground; this is not the five-image
+mission gate. No real cFS or CFDP claim.
 
 Cross-review attempted with the shared agent-review tool in an isolated snapshot.
 Claude quota was exhausted; Antigravity returned no review after more than three

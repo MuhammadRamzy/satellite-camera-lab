@@ -12,5 +12,9 @@ project's cross-review instructions. Initial verdict: fix first.
 | Benchmark decode failure could remain PASS | Explicit FAIL in exception paths | Benchmark CSV validation |
 | Trickle bytes defeated socket timeout | Absolute frame deadline across header/body | Host timed socket test |
 
-Follow-up review requested after repairs. This report is a review record, not
+Follow-up review found the six repairs sound and no new critical regression.
+It also identified benchmark cleanup ordering, unbounded queue status, and slow
+shutdown during a pass; these were repaired. Runtime Phase 5 verifies concurrent
+SAFE and malformed-session survival. Benchmark execution remains pending.
+This report is a review record, not
 independent approval of the full mission or flight qualification.

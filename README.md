@@ -1,6 +1,6 @@
 # Satellite Camera Lab
 
-Phases 1–4 are working in a genuine, pinned Space ROS Jazzy environment.
+Phases 1–5 are working in a genuine, pinned Space ROS Jazzy environment.
 This is an engineering prototype in progress, not the complete satellite mission.
 
 Implemented: C++17 synthetic camera and image processing nodes; typed ROS
@@ -36,9 +36,11 @@ It needs working Docker and registry/Ubuntu mirror access for uncached builds;
 no camera hardware or privileged container is required.
 
 For interactive capture see [the operator guide](docs/START-HERE.md). Next gate is
-Phase 5: live experimental file transfer and simulated radio acceptance.
+Phase 6: five-image mission from the ground CLI through the bus to ground receipt.
 The live SPP gateway and independent behavioral bus now pass duplicate/reconnect
 and process-restart tests. This bus is a cFS behavioral simulator, not real cFS.
+The experimental file/radio path passes live resume, corruption/loss retry,
+rate/window and receipt/deletion tests. It is not CFDP.
 Directory/V4L2 camera sources, original-image preservation, CCSDS gateway runtime,
 bus, file transport, radio, ground CLI, full faults and benchmarks remain open.
 The host-testable packet codec is implemented; it is not a live gateway.

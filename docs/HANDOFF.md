@@ -1,5 +1,17 @@
 # Handoff
 
+## 2026-11-18 — Codex — Phase 5 passed
+
+Phase 4 pushed as 0c2f324. Phase 5 live acceptance passes: interrupted transfer,
+ground SIGKILL/restart at byte 8192, actual injected CRC error and one lost frame,
+retransmission, final independent SHA-256, wrong-receipt and deletion guards,
+pass deadline/rate check, malformed-session survival. Concurrent SAFE ACK was
+11.97 ms during a slow active pass. See mission/phase5-result.json; all owned
+processes stopped cleanly. 22 host tests and nine C++ cases pass. Follow-up review
+found no new critical regression; repaired queue status bounds and cancellation
+of paced transfers during bus shutdown. Next: Phase 6 five-image mission, push,
+then runtime fault campaign and full 27-camera/432-radio benchmark matrix.
+
 ## 2026-11-18 — Codex — Phase 4 passed
 
 Phase 3 pushed as 111fa28. Live Phase 4 acceptance passed three cases: TCP

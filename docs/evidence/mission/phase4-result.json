@@ -1,9 +1,9 @@
 {
   "result": "PASS",
   "phase": 4,
-  "run_id": "20261118T090226273305Z",
-  "directory": "data/mission_20261118T090226273305Z",
-  "logs": "docs/evidence/mission/runs/20261118T090226273305Z",
+  "run_id": "20261118T090456037121Z",
+  "directory": "data/mission_20261118T090456037121Z",
+  "logs": "docs/evidence/mission/runs/20261118T090456037121Z",
   "cases": [
     {
       "test_id": "P4-01",
@@ -14,7 +14,7 @@
       "recovery_ms": null,
       "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified",
       "result": "PASS",
-      "duration_ms": 79.67468800006827
+      "duration_ms": 73.22977600006197
     },
     {
       "test_id": "P4-02",
@@ -23,9 +23,9 @@
       "expected": "one exposure; durable replay; SAFE and explicit recovery",
       "recovery_action": "restart/recover",
       "recovery_ms": null,
-      "observed": "capture c11a44b7-2925-4911-a851-224419cef4df ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs",
+      "observed": "capture 52ea604f-5da4-4557-a8ae-f49db730fe59 ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs",
       "result": "PASS",
-      "duration_ms": 1017.448370999773
+      "duration_ms": 1007.1947290002754
     },
     {
       "test_id": "P4-03",
@@ -36,7 +36,7 @@
       "recovery_ms": null,
       "observed": "source selectors 1 and 2 explicitly rejected; no hardware adapter is claimed",
       "result": "PASS",
-      "duration_ms": 26.022251000085816
+      "duration_ms": 19.32871199960573
     }
   ],
   "base_image": {

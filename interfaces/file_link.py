@@ -62,14 +62,21 @@ class Link:
         self.started = self.next_send = time.monotonic()
         self.wire_bytes = self.lost_packets = self.retransmissions = self.chunks = 0
         self.resumed_bytes = self.payload_bytes = 0
+        self.cancelled = None
 
     def charge(self, size):
+        if self.cancelled is not None and self.cancelled.is_set():
+            raise ConnectionAbortedError('transfer cancelled during shutdown')
         now = time.monotonic()
         due = max(now, self.next_send) + size / self.rate
         if due > self.started + self.window:
             raise TimeoutError('pass window closed; resume next pass')
         self.next_send = due
-        time.sleep(max(0, due - now))
+        delay = max(0, due - now)
+        if self.cancelled is None:
+            time.sleep(delay)
+        elif self.cancelled.wait(delay):
+            raise ConnectionAbortedError('transfer cancelled during shutdown')
         self.wire_bytes += size
 
     def send(self, sock, message):

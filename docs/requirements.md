@@ -18,8 +18,8 @@ PASS=verified phase acceptance; P=passing partial/foundation check; N=not implem
 | ICD-02 | Sequence validation | test_space_packet roundtrip_sequence_wrap | P |
 | ICD-03 | Duplicate journal, ACKs, reconnect dispatch | Phase 4 real capture replay across SIGKILL + uncertainty library test | PASS |
 | BUS-01 | Independent cFS behavioral simulator | Separate process, scheduler, persistent IDs, spacecraft authority; full watchdog campaign next | P |
-| FIL-01 | Reliable experimental file transport | Resume, CRC, retransmit, final digest tests | N |
-| RF-01 | Enforced data rates/windows/loss | Timed wire-byte tests and pass restart | N |
+| FIL-01 | Reliable experimental file transport | Phase 5 live resume, CRC, retransmit, final digest | PASS |
+| RF-01 | Enforced data rates/windows/loss | Phase 5 timed application-wire cap and interrupted pass | PASS for simulated scope |
 | GND-01 | CLI and five-image ground receipt | Complete mission with five independent SHA-256 checks | N |
 | VER-01 | Full fault campaign | fault-injection.md | N |
 | BEN-01 | Measured factorial benchmark exports | benchmarks.md | N |
