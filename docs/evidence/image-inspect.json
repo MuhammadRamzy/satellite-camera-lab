@@ -1,0 +1,94 @@
+[
+    {
+        "Id": "sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e",
+        "RepoTags": [
+            "osrf/space-ros:jazzy-2026.07.0-dev"
+        ],
+        "RepoDigests": [
+            "osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e"
+        ],
+        "Comment": "buildkit.exporter.image.v0",
+        "Created": "2026-07-31T22:50:54.055300169Z",
+        "Config": {
+            "User": "spaceros-user",
+            "Env": [
+                "PATH=/opt/ikos/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive",
+                "ROS_DISTRO=jazzy",
+                "HOME=/home/spaceros-user",
+                "SPACEROS_DIR=/opt/ros/spaceros",
+                "LANG=en_US.UTF-8",
+                "IKOS_SCAN_NOTIFIER_FILES="
+            ],
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "WorkingDir": "/home/spaceros-user",
+            "Labels": {
+                "dev.earthly.built-by": "",
+                "dev.earthly.git-sha": "c48905267920d5599e849e8e043f801c6baab94a",
+                "dev.earthly.version": "v0.8.16",
+                "org.label-schema.description": "Dev version of the Space ROS platform",
+                "org.label-schema.name": "Space ROS - Dev",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.url": "https://github.com/space-ros",
+                "org.label-schema.vcs-ref": "749aabd8820dceee6fad7347e014002774906d89",
+                "org.label-schema.vcs-url": "https://github.com/space-ros/space-ros",
+                "org.label-schema.vendor": "Open Robotics",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 5076381842,
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:f103cd120fdd6cbc7f3d0e1d5bfb3e16290c32ead7b822d15c34460ecdf64b29",
+                "sha256:50d8c6b4d115f219b919252224853f27571c2598339787a97b9de98886a0e802",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:0e5592f024816b776a133a2ba923ec57ee7883d8372ca4461d8a5376efefa8a8",
+                "sha256:9c8f37db22ff12046ad6cbc586e8667812654be1430f8261b36428dfe00ed268",
+                "sha256:d33aeca0cb418be65a9c29aa4b7863ea1e5f809ec74003539c399333accb8b37",
+                "sha256:cce10101b5a6d17f50ad5af119dbbad201e216aba59515b1853621a460483ab6",
+                "sha256:3b87105d616cdcd2b0a478e96cad84eef6d45a2807cbe9e4f1625e6580b7e4ef",
+                "sha256:7d416bb5a304459abbd35742550e5cc411644ff55a50f43263da11c7b3f04c9f",
+                "sha256:f895680d9ee6b1d90c79ee58109c8dd479319618ed7965c6bfb433382f334339",
+                "sha256:22f0a556139a4974d179e05c4b951b5a91e4a05b45871b30559b5d6b16080226",
+                "sha256:d8d7317657671152caeba2a9d3a602b1f4f838a12d28e2fa5c668c661fd792e1",
+                "sha256:fd2d02653c892fcad025f8455073ec68c625bfe8edf4b9cc7a38e59b942ad106",
+                "sha256:f87df3dc8d064bf238a160f5b8cfdbf50979f276a22b0e331d2b24ef1e42c725",
+                "sha256:62e8a67f73b828623d28dbbf284f271ff5b3b513b90e1f84ff66ab0e1031b498",
+                "sha256:73217dd6d541b1c0d3eb7b0528ab461792e5a3e82841b8bfae241e3d7b95421e",
+                "sha256:9766a37570145304dbb5149d28eb91819b67ca0c48ef048cfa3732319e5c9f2e",
+                "sha256:254598d9ea87a101f275f6562009a12ca75ee68c8f4101ab0d6b936349ebe043",
+                "sha256:450c6d7fe855e58ab7d239988cd6e4a3dbcce310a5e34113d7d3738c71447495",
+                "sha256:f46b95b6115cc1d8978cbd0f5a21b2a3e963d8396f144825fa25cfd72e4c1768",
+                "sha256:6efebfbe2e1d750062caed06756abc908a70d27d011152a5feb1ef0894a5c5c6",
+                "sha256:850c387638716c913e5a97ec098212bd51e1adeaa9fc057ec2ed8aecbd221421",
+                "sha256:1ff1f9a15177ba11c35d78eff4db716362c8535fcfbd5cd4d192547e1440c963",
+                "sha256:75a2305bf705e8f6fda5f7d8458ac00bd0d7adad44f9a8a6f1fa563a96685928",
+                "sha256:397c24fd89564b7672b5dace35fe1d7e9e2ce1f5097c40a7c803a805e777f437",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:be5a99900a476b3c721b26aa1dab7362ce98a9b23f7f55b73f8b00d18e41e3b1",
+                "sha256:a01d89a42c333c83215efee20bedae903d8fbc74427ac011f49fa0c5342e3251"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-11-18T07:15:04.638032505Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e",
+            "size": 6384
+        },
+        "Identity": {
+            "Pull": [
+                {
+                    "Repository": "docker.io/osrf/space-ros"
+                }
+            ]
+        }
+    }
+]

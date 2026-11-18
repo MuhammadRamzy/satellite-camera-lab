@@ -1,0 +1,7 @@
+ARG SPACE_ROS_BASE=osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e
+FROM ${SPACE_ROS_BASE}
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends libjpeg-dev=8c-2ubuntu11 \
+    && rm -rf /var/lib/apt/lists/*
+USER spaceros-user
+WORKDIR /workspace

@@ -1,0 +1,10 @@
+uint8 STANDBY=0
+uint8 OPERATIONAL=1
+uint8 SAFE=2
+uint8 COMMUNICATIONS=3
+uint8 spacecraft_mode
+bool imaging_permitted
+---
+bool accepted
+CameraStatus status
+string<=256 reason

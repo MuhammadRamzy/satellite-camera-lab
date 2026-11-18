@@ -1,0 +1,4 @@
+docker.io/osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e: Pulling from osrf/space-ros
+Digest: sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e
+Status: Image is up to date for osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e
+docker.io/osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e

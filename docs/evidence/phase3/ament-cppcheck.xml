@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="phase3.ament-cppcheck"
+  tests="4"
+  errors="0"
+  failures="0"
+  time="0.145"
+  skipped="0"
+>
+  <testcase
+    name="src/payload_camera/include/payload_camera/mode_policy.hpp"
+    classname="phase3.ament-cppcheck"/>
+  <testcase
+    name="src/payload_camera/src/camera_node.cpp"
+    classname="phase3.ament-cppcheck"/>
+  <testcase
+    name="src/payload_processing/src/process.cpp"
+    classname="phase3.ament-cppcheck"/>
+  <testcase
+    name="src/payload_processing/src/processing_node.cpp"
+    classname="phase3.ament-cppcheck"/>
+  <system-out>Checked files:
+* src/payload_camera/include/payload_camera/mode_policy.hpp
+* src/payload_camera/src/camera_node.cpp
+* src/payload_processing/src/process.cpp
+* src/payload_processing/src/processing_node.cpp</system-out>
+</testsuite>

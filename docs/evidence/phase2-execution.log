@@ -1,0 +1,484 @@
+Starting >>> payload_interfaces
+Starting >>> payload_smoke
+[  1%] Built target payload_interfaces__rs
+[  3%] Built target payload_interfaces__rosidl_generator_type_description
+[100%] Built target smoke
+[  3%] Built target ament_cmake_python_copy_payload_interfaces
+[  5%] Built target payload_interfaces__cpp
+[ 33%] Built target payload_interfaces__rosidl_generator_c
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_smoke/lib/payload_smoke/smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/package_run_dependencies/payload_smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/parent_prefix_path/payload_smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/path.sh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.bash
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.sh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.dsv
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/package.dsv
+-- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/packages/payload_smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig.cmake
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/package.xml
+Finished <<< payload_smoke [0.11s]
+[ 45%] Built target payload_interfaces__rosidl_typesupport_introspection_cpp
+[ 57%] Built target payload_interfaces__rosidl_typesupport_introspection_c
+[ 69%] Built target payload_interfaces__rosidl_typesupport_c
+[ 81%] Built target payload_interfaces__rosidl_typesupport_cpp
+[ 81%] Built target payload_interfaces
+[ 83%] Built target payload_interfaces__py
+[ 93%] Built target payload_interfaces__rosidl_generator_py
+[ 96%] Built target payload_interfaces_s__rosidl_typesupport_c
+[100%] Built target payload_interfaces_s__rosidl_typesupport_introspection_c
+running egg_info
+writing payload_interfaces.egg-info/PKG-INFO
+writing dependency_links to payload_interfaces.egg-info/dependency_links.txt
+writing top-level names to payload_interfaces.egg-info/top_level.txt
+reading manifest file 'payload_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_payload_interfaces_egg
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/rosidl_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/ImageMetadata.json
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Capture.json
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CompressedCapture.json
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/FileReady.json
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/Capture.json
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__description.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__functions.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__struct.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/capture.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/file_ready.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__description.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__functions.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__functions.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__functions.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__functions.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__struct.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__description.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__functions.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__struct.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__struct.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__description.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__struct.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/capture.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/compressed_capture.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/image_metadata.h
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/library_path.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/library_path.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_generator_c.so
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__traits.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__struct.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__builder.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/capture.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__traits.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__struct.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__struct.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__builder.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__struct.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__traits.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__struct.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__traits.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__builder.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__traits.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__builder.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__builder.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/file_ready.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/image_metadata.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/capture.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/compressed_capture.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.cpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.cpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.cpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.cpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.cpp
+-- Up-to-date: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_cpp.so
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/pythonpath.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/__init__.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_capture_s.c
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_capture.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_c.so
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/__init__.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/_payload_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_image_metadata_s.c
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_compressed_capture.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_file_ready_s.c
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_image_metadata.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/__init__.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_capture_s.c
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_compressed_capture_s.c
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_capture.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_file_ready.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/_payload_interfaces_s.ep.rosidl_typesupport_c.c
+Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces'...
+Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg'...
+Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv'...
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_c.so
+-- Up-to-date: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_generator_py.so
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/rust_packages/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/build.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/Cargo.toml
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/srv
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/srv/rmw.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/lib.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/msg.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/srv.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/msg/rmw.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/ImageMetadata.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Capture.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CompressedCapture.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/FileReady.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/Capture.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/ImageMetadata.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Capture.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CompressedCapture.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/FileReady.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/Capture.srv
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/package_run_dependencies/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/parent_prefix_path/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/path.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.bash
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.dsv
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/package.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/packages/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_pyExport-relwithdebinfo.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/package.xml
+Finished <<< payload_interfaces [0.41s]
+Starting >>> payload_processing
+Starting >>> payload_storage
+[ 30%] Built target process
+[ 40%] Built target gtest_main
+[ 60%] Built target gtest
+Built target ament_cmake_python_copy_foundations
+[ 80%] Built target test_process
+[100%] Built target processing_node
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_processing/lib/libprocess.a
+-- Up-to-date: /workspace/install/payload_processing/lib/payload_processing/processing_node
+-- Up-to-date: /workspace/install/payload_processing/share/ament_index/resource_index/package_run_dependencies/payload_processing
+-- Up-to-date: /workspace/install/payload_processing/share/ament_index/resource_index/parent_prefix_path/payload_processing
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/environment/path.sh
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/local_setup.bash
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/local_setup.sh
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/local_setup.dsv
+-- Installing: /workspace/install/payload_processing/share/payload_processing/package.dsv
+-- Up-to-date: /workspace/install/payload_processing/share/ament_index/resource_index/packages/payload_processing
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/cmake/payload_processingConfig.cmake
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/cmake/payload_processingConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_processing/share/payload_processing/package.xml
+Finished <<< payload_processing [0.12s]
+running egg_info
+writing foundations.egg-info/PKG-INFO
+writing dependency_links to foundations.egg-info/dependency_links.txt
+writing top-level names to foundations.egg-info/top_level.txt
+reading manifest file 'foundations.egg-info/SOURCES.txt'
+writing manifest file 'foundations.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_foundations_egg
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/pythonpath.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/pythonpath.dsv
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/catalogue.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/__init__.py
+Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations'...
+-- Up-to-date: /workspace/install/payload_storage/lib/payload_storage/storage_node
+-- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/package_run_dependencies/payload_storage
+-- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/parent_prefix_path/payload_storage
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/path.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.bash
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.dsv
+-- Installing: /workspace/install/payload_storage/share/payload_storage/package.dsv
+-- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/packages/payload_storage
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig.cmake
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/package.xml
+Finished <<< payload_storage [0.32s]
+Starting >>> payload_camera
+[100%] Built target camera_node
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_camera/lib/payload_camera/camera_node
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/launch
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/launch/__pycache__
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/launch/__pycache__/pipeline.launch.cpython-314.pyc
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/launch/pipeline.launch.py
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/config/pipeline.yaml
+-- Up-to-date: /workspace/install/payload_camera/share/ament_index/resource_index/package_run_dependencies/payload_camera
+-- Up-to-date: /workspace/install/payload_camera/share/ament_index/resource_index/parent_prefix_path/payload_camera
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/environment/path.sh
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/local_setup.bash
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/local_setup.sh
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/local_setup.dsv
+-- Installing: /workspace/install/payload_camera/share/payload_camera/package.dsv
+-- Up-to-date: /workspace/install/payload_camera/share/ament_index/resource_index/packages/payload_camera
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/cmake/payload_cameraConfig.cmake
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/cmake/payload_cameraConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_camera/share/payload_camera/package.xml
+Finished <<< payload_camera [0.13s]
+
+Summary: 5 packages finished [0.95s]
+Starting >>> payload_processing
+UpdateCTestConfiguration  from :/workspace/build/payload_processing/CTestConfiguration.ini
+Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
+   Site: 43db24d155d3
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261118-0730 - Experimental
+UpdateCTestConfiguration  from :/workspace/build/payload_processing/CTestConfiguration.ini
+Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
+Test project /workspace/build/payload_processing
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_process
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/spaceros/share/ament_cmake_test/cmake/run_test.py" "/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml" "--package-name" "payload_processing" "--output-file" "/workspace/build/payload_processing/ament_cmake_gtest/test_process.txt" "--command" "/workspace/build/payload_processing/test_process" "--gtest_output=xml:/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml"
+1: Working Directory: /workspace/build/payload_processing
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/workspace/build/payload_processing':
+1:  - /workspace/build/payload_processing/test_process --gtest_output=xml:/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml
+1: Running main() from /opt/ros/spaceros/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 5 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 5 tests from Processing
+1: [ RUN      ] Processing.ValidColorAndStatistics
+1: [       OK ] Processing.ValidColorAndStatistics (0 ms)
+1: [ RUN      ] Processing.CropResizeGrayscale
+1: [       OK ] Processing.CropResizeGrayscale (0 ms)
+1: [ RUN      ] Processing.PaddedStrideAccepted
+1: [       OK ] Processing.PaddedStrideAccepted (0 ms)
+1: [ RUN      ] Processing.InvalidEncodingAndBufferRejected
+1: [       OK ] Processing.InvalidEncodingAndBufferRejected (0 ms)
+1: [ RUN      ] Processing.BoundsAndQualityRejected
+1: [       OK ] Processing.BoundsAndQualityRejected (0 ms)
+1: [----------] 5 tests from Processing (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 5 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 5 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml'
+1: -- run_test.py: verify result file '/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml'
+1/1 Test #1: test_process .....................   Passed    0.06 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+gtest    =   0.06 sec*proc (1 test)
+
+Total Test time (real) =   0.06 sec
+Finished <<< payload_processing [0.12s]
+
+Summary: 1 package finished [0.28s]
+Summary: 6 tests, 0 errors, 0 failures, 0 skipped
+{
+  "result": "PASS",
+  "run_id": "20261118T073027229802Z",
+  "directory": "data/phase2_20261118T073027229802Z",
+  "five_image_capture": true,
+  "transformed_capture": true,
+  "invalid_capture_rejected": true,
+  "restart_preserved": true,
+  "restart_ready_ms": 505.5752299999767,
+  "raw_messages_observed": 6,
+  "camera_info_observed": 6,
+  "images": [
+    {
+      "id": "0c8c0279-9b3b-40b5-9e07-2a308aa60857",
+      "path": "data/phase2_20261118T073027229802Z/0c8c0279-9b3b-40b5-9e07-2a308aa60857.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 26.402487,
+      "processing_ms": 2.204597,
+      "storage_ms": 7.397651999781374
+    },
+    {
+      "id": "25823004-b950-4e8c-a01b-9e7888bc1cbf",
+      "path": "data/phase2_20261118T073027229802Z/25823004-b950-4e8c-a01b-9e7888bc1cbf.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 24.330105,
+      "processing_ms": 2.14597,
+      "storage_ms": 8.069024000178615
+    },
+    {
+      "id": "292ab960-3aca-49fb-bcf8-54ca9dc0447b",
+      "path": "data/phase2_20261118T073027229802Z/292ab960-3aca-49fb-bcf8-54ca9dc0447b.jpg",
+      "sha256": "fb8b823d983e5f63d4084b4e739a24db6ce7c6d28912ddc84723048db0868f61",
+      "bytes": 2321,
+      "width": 160,
+      "height": 120,
+      "mode": "L",
+      "capture_ms": 38.617545,
+      "processing_ms": 0.170419,
+      "storage_ms": 7.566055000097549
+    },
+    {
+      "id": "6edc6cb0-e7c6-457e-9634-f6f45ab415b3",
+      "path": "data/phase2_20261118T073027229802Z/6edc6cb0-e7c6-457e-9634-f6f45ab415b3.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 25.083636,
+      "processing_ms": 6.413669,
+      "storage_ms": 6.029001000115386
+    },
+    {
+      "id": "75b0e753-ceb2-497a-8032-1ccc78ce6bfe",
+      "path": "data/phase2_20261118T073027229802Z/75b0e753-ceb2-497a-8032-1ccc78ce6bfe.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 27.681203,
+      "processing_ms": 2.189298,
+      "storage_ms": 7.943371999772353
+    },
+    {
+      "id": "de03607b-6380-4fb9-b29a-b8846300aadc",
+      "path": "data/phase2_20261118T073027229802Z/de03607b-6380-4fb9-b29a-b8846300aadc.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 25.143609,
+      "processing_ms": 3.908137,
+      "storage_ms": 7.349865999913163
+    }
+  ]
+}

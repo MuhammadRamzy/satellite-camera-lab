@@ -1,0 +1,257 @@
+repositories:
+  ament_cmake:
+    type: git
+    url: https://github.com/ament/ament_cmake.git
+    version: 5741cff5b9f83253bf3521bd8f44108fde3504ad
+  ament_cmake_ros:
+    type: git
+    url: https://github.com/ros2/ament_cmake_ros.git
+    version: 8f51937fc9a802d11e8b3df2a65aa28cdd888fde
+  ament_cobra:
+    type: git
+    url: https://github.com/ament/ament_cobra.git
+    version: 101aa17b1f4e04d09533bb35271d808a13d1fee1
+  ament_ikos:
+    type: git
+    url: https://github.com/ament/ament_ikos.git
+    version: 1ad561acdf1dd9c22009388c2d395d19aadddab4
+  ament_index:
+    type: git
+    url: https://github.com/ament/ament_index.git
+    version: 2ccdcb8fd19a364fc793273b5793459207a440b9
+  ament_lint:
+    type: git
+    url: https://github.com/ament/ament_lint.git
+    version: 9fe34febc580eb943a2f64d19aec2d74ef70021e
+  ament_package:
+    type: git
+    url: https://github.com/ament/ament_package.git
+    version: ee3c5eda4fbc4df2c7a135d0ac1385e4a53fa0ee
+  class_loader:
+    type: git
+    url: https://github.com/ros/class_loader.git
+    version: c404b82f04e6b0cce5c6205626b2d35fdf4dc882
+  common_interfaces:
+    type: git
+    url: https://github.com/ros2/common_interfaces.git
+    version: a941f14bb318d8d904505ed935ccbb97f24a70a4
+  console_bridge_vendor:
+    type: git
+    url: https://github.com/ros2/console_bridge_vendor.git
+    version: f25fd1103fcd839e796822892e267559f5e336a7
+  cyclonedds:
+    type: git
+    url: https://github.com/eclipse-cyclonedds/cyclonedds.git
+    version: 2cdd114cbd18340c606573b4cc8dc20cc161ec5a
+  eigen3_cmake_module:
+    type: git
+    url: https://github.com/ros2/eigen3_cmake_module.git
+    version: 0c41e7d02cf61e066e9cb886e19652ab39a94042
+  geometry2:
+    type: git
+    url: https://github.com/ros2/geometry2.git
+    version: 62335b1e1506785a283ba121f451bb962e9b6db3
+  google_benchmark_vendor:
+    type: git
+    url: https://github.com/ament/google_benchmark_vendor.git
+    version: 8d70898e23f1e8ddf32de7aa39909359c5d2d701
+  googletest:
+    type: git
+    url: https://github.com/ament/googletest.git
+    version: 449327bfc17e58db5ce53955b8e250427909a1c8
+  iceoryx:
+    type: git
+    url: https://github.com/eclipse-iceoryx/iceoryx.git
+    version: f756b7c99ddf714d05929374492b34c5c69355bb
+  kdl_parser:
+    type: git
+    url: https://github.com/ros/kdl_parser.git
+    version: c6f0299344afd1afbeb442fe37e073be69dd5e47
+  launch:
+    type: git
+    url: https://github.com/ros2/launch.git
+    version: e74fa72f5c64bedd9ce252bf3846e7442b45c791
+  launch_ros:
+    type: git
+    url: https://github.com/ros2/launch_ros.git
+    version: aaa8dfda24ad0163058d496589e77105b1e8f5ef
+  libstatistics_collector:
+    type: git
+    url: https://github.com/ros-tooling/libstatistics_collector.git
+    version: 150e1b0e1fbf920a97e4319f98eaf02be27fa892
+  libyaml_vendor:
+    type: git
+    url: https://github.com/ros2/libyaml_vendor.git
+    version: 57b7deca1fa34ea95a6456c0cc08070c4ab389c2
+  message_filters:
+    type: git
+    url: https://github.com/ros2/message_filters.git
+    version: 360e0ec6601ec7ae7ac394aec723f08d31ed43b6
+  mimick_vendor:
+    type: git
+    url: https://github.com/ros2/mimick_vendor.git
+    version: 66370f6f64928bedb31884661399eb27d496b31b
+  orocos_kdl_vendor:
+    type: git
+    url: https://github.com/ros2/orocos_kdl_vendor.git
+    version: 54d67325699a06bf9d2e7ba66161526f09138d63
+  osrf_pycommon:
+    type: git
+    url: https://github.com/osrf/osrf_pycommon.git
+    version: 5fcd6fa0c71693a6b625ca973b3b2ff9fbd2c648
+  osrf_testing_tools_cpp:
+    type: git
+    url: https://github.com/osrf/osrf_testing_tools_cpp.git
+    version: ab362a640ef30ca207c04d2c033392bbc6fcdf31
+  performance_test_fixture:
+    type: git
+    url: https://github.com/ros2/performance_test_fixture.git
+    version: bc4d5b6b30fa75b6b0d37fc66612d6be9af6815d
+  pluginlib:
+    type: git
+    url: https://github.com/ros/pluginlib.git
+    version: ddb1163d79932739ddf184328352e2a8e973ee29
+  process_sarif:
+    type: git
+    url: https://github.com/space-ros/process_sarif.git
+    version: 81a2004c80ad2d09d55bd5a30d3e545c31be3b28
+  pybind11_vendor:
+    type: git
+    url: https://github.com/ros2/pybind11_vendor.git
+    version: f67c58969e6033c737f1bbd0edd1fe018fd1d9ad
+  python_cmake_module:
+    type: git
+    url: https://github.com/ros2/python_cmake_module.git
+    version: 25a28a647061476c78dd6d46eeac87a9bc5db888
+  rcl:
+    type: git
+    url: https://github.com/ros2/rcl.git
+    version: 22c0b957140035c675f0a061daaab5fd6b2080e7
+  rcl_interfaces:
+    type: git
+    url: https://github.com/ros2/rcl_interfaces.git
+    version: 7aa3caf43377ea6ad615bc1040832e2c7566bfbe
+  rcl_logging:
+    type: git
+    url: https://github.com/ros2/rcl_logging.git
+    version: 727920c2592be6deb6983f0fe1b57cbc929cbb70
+  rclcpp:
+    type: git
+    url: https://github.com/ros2/rclcpp.git
+    version: 53cf81e42e6530c2ed7a23489d6640966dccd083
+  rclpy:
+    type: git
+    url: https://github.com/ros2/rclpy.git
+    version: baf9d72cfa127e391a89b4ab51ba9e55c37041fd
+  rcpputils:
+    type: git
+    url: https://github.com/ros2/rcpputils.git
+    version: 67590324311ce4c60fef774205d55c93fe3cf1b6
+  rcutils:
+    type: git
+    url: https://github.com/ros2/rcutils.git
+    version: 4cff430e271981b2e634c7c0c905f803beafb01d
+  rmw:
+    type: git
+    url: https://github.com/ros2/rmw.git
+    version: 9f42ff0f18c8c4fd2a84a7c27d11ec8371e968ea
+  rmw_cyclonedds:
+    type: git
+    url: https://github.com/ros2/rmw_cyclonedds.git
+    version: 54fbce952a58ca73cdce40abc399b1bf48534de5
+  rmw_dds_common:
+    type: git
+    url: https://github.com/ros2/rmw_dds_common.git
+    version: 2e3ebf31850a8b05430fb44230ead2d566b8ff1d
+  rmw_implementation:
+    type: git
+    url: https://github.com/ros2/rmw_implementation.git
+    version: 23fe893a860545da06ec98d0a22fdc8554d5c0ac
+  robot_state_publisher:
+    type: git
+    url: https://github.com/ros/robot_state_publisher.git
+    version: d1b994d2d2eb19e4d2886be57211114134f25b50
+  ros2_tracing:
+    type: git
+    url: https://github.com/ros2/ros2_tracing.git
+    version: 615d3dc1ea9ce39784f36ab8bce3b362cd530a07
+  ros2cli:
+    type: git
+    url: https://github.com/ros2/ros2cli.git
+    version: a34701d9eaeb74eaaf6479e45f1ea1fbeecc660d
+  ros_environment:
+    type: git
+    url: https://github.com/ros/ros_environment.git
+    version: 700bc3fe477cbe64cf50863968a4fbee2833ecff
+  ros_testing:
+    type: git
+    url: https://github.com/ros2/ros_testing.git
+    version: 8e69ee4cb14357ce72d99ac146b1dbd1867593f1
+  rosidl:
+    type: git
+    url: https://github.com/ros2/rosidl.git
+    version: 85fa592b698b0f665e3120f48fac0d35e2f7d8a4
+  rosidl_core:
+    type: git
+    url: https://github.com/ros2/rosidl_core.git
+    version: c6eb22b0e77cf57b19e9c6ffd114a00749404215
+  rosidl_defaults:
+    type: git
+    url: https://github.com/ros2/rosidl_defaults.git
+    version: 9749b5919add7e5960cd931ec547d45f06bd0025
+  rosidl_dynamic_typesupport:
+    type: git
+    url: https://github.com/ros2/rosidl_dynamic_typesupport.git
+    version: cb8c54d12c678daa70410bb0626ed8626f561e45
+  rosidl_python:
+    type: git
+    url: https://github.com/ros2/rosidl_python.git
+    version: fe4e01f2007d3451bf73c0cb334b96a7de759ef2
+  rosidl_runtime_py:
+    type: git
+    url: https://github.com/ros2/rosidl_runtime_py.git
+    version: 2db2ae52325e0104b5c70ac7f6ff5cf3e77471e2
+  rosidl_rust:
+    type: git
+    url: https://github.com/ros2-rust/rosidl_rust.git
+    version: 4cf85d82f5b3ec234abfc60bcac80e7f1cfa24d0
+  rosidl_typesupport:
+    type: git
+    url: https://github.com/ros2/rosidl_typesupport.git
+    version: 9fcbb58b797b35a69dcc8ba111049a08eaa4aba1
+  rpyutils:
+    type: git
+    url: https://github.com/ros2/rpyutils.git
+    version: 973dbcc0a0a18299d840d089e47372d569264c31
+  spdlog_vendor:
+    type: git
+    url: https://github.com/ros2/spdlog_vendor.git
+    version: cd399009a655b88a16b2a2c3a9cd0c9f64140d38
+  test_interface_files:
+    type: git
+    url: https://github.com/ros2/test_interface_files.git
+    version: 1c92e082fe14f90b772d308d113e510ad2c79fb9
+  tinyxml2_vendor:
+    type: git
+    url: https://github.com/ros2/tinyxml2_vendor.git
+    version: 576ca46707b6e183911daac625910ee6d6be2f45
+  uncrustify_vendor:
+    type: git
+    url: https://github.com/ament/uncrustify_vendor.git
+    version: e3492bf8846c36e8686a11f2af45f361be8a790b
+  unique_identifier_msgs:
+    type: git
+    url: https://github.com/ros2/unique_identifier_msgs.git
+    version: 901599ee92c2ee949f42a5c5d821c92b3e515d69
+  urdf:
+    type: git
+    url: https://github.com/ros2/urdf.git
+    version: 2c6f1d0ed42890a0e30ef182c9055972cb8b883c
+  urdfdom:
+    type: git
+    url: https://github.com/ros/urdfdom.git
+    version: 79f079d1fd403f8102a4053b818719b966b5f49d
+  urdfdom_headers:
+    type: git
+    url: https://github.com/ros/urdfdom_headers.git
+    version: af0f9306bcb6b88dcc79d75f28f6c5257c883bfd

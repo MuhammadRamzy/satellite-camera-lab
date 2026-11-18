@@ -1,0 +1,21 @@
+Type: std_msgs/msg/UInt32
+
+Publisher count: 1
+
+Node name: smoke_sender
+Node namespace: /
+Topic type: std_msgs/msg/UInt32
+Topic type hash: RIHS01_a5c874829b752bc5fa190024b0ad76f578cc278271e855c7d02a818b3516fb4a
+Endpoint type: PUBLISHER
+GID: 01.10.15.d5.47.83.d3.75.78.25.f0.60.00.00.17.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+

@@ -1,0 +1,12 @@
+services:
+  smoke:
+    image: ${SPACE_ROS_IMAGE:?Use python3 scripts/bootstrap-spaceros.py to resolve official digest}
+    network_mode: none
+    mem_limit: 4g
+    cpus: 2
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: [bash, scripts/smoke-container.sh]

@@ -1,0 +1,6 @@
+uint8 mode
+bool recover
+---
+bool accepted
+CameraStatus status
+string<=256 reason

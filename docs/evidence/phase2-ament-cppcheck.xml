@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="evidence.phase2-ament-cppcheck"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.033"
+  skipped="0"
+>
+  <testcase
+    name="src/payload_processing/src/process.cpp"
+    classname="evidence.phase2-ament-cppcheck"/>
+  <system-out>Checked files:
+* src/payload_processing/src/process.cpp</system-out>
+</testsuite>

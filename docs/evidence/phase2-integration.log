@@ -1,0 +1,86 @@
+{
+  "result": "PASS",
+  "run_id": "20261118T073027229802Z",
+  "directory": "data/phase2_20261118T073027229802Z",
+  "five_image_capture": true,
+  "transformed_capture": true,
+  "invalid_capture_rejected": true,
+  "restart_preserved": true,
+  "restart_ready_ms": 505.5752299999767,
+  "raw_messages_observed": 6,
+  "camera_info_observed": 6,
+  "images": [
+    {
+      "id": "0c8c0279-9b3b-40b5-9e07-2a308aa60857",
+      "path": "data/phase2_20261118T073027229802Z/0c8c0279-9b3b-40b5-9e07-2a308aa60857.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 26.402487,
+      "processing_ms": 2.204597,
+      "storage_ms": 7.397651999781374
+    },
+    {
+      "id": "25823004-b950-4e8c-a01b-9e7888bc1cbf",
+      "path": "data/phase2_20261118T073027229802Z/25823004-b950-4e8c-a01b-9e7888bc1cbf.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 24.330105,
+      "processing_ms": 2.14597,
+      "storage_ms": 8.069024000178615
+    },
+    {
+      "id": "292ab960-3aca-49fb-bcf8-54ca9dc0447b",
+      "path": "data/phase2_20261118T073027229802Z/292ab960-3aca-49fb-bcf8-54ca9dc0447b.jpg",
+      "sha256": "fb8b823d983e5f63d4084b4e739a24db6ce7c6d28912ddc84723048db0868f61",
+      "bytes": 2321,
+      "width": 160,
+      "height": 120,
+      "mode": "L",
+      "capture_ms": 38.617545,
+      "processing_ms": 0.170419,
+      "storage_ms": 7.566055000097549
+    },
+    {
+      "id": "6edc6cb0-e7c6-457e-9634-f6f45ab415b3",
+      "path": "data/phase2_20261118T073027229802Z/6edc6cb0-e7c6-457e-9634-f6f45ab415b3.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 25.083636,
+      "processing_ms": 6.413669,
+      "storage_ms": 6.029001000115386
+    },
+    {
+      "id": "75b0e753-ceb2-497a-8032-1ccc78ce6bfe",
+      "path": "data/phase2_20261118T073027229802Z/75b0e753-ceb2-497a-8032-1ccc78ce6bfe.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 27.681203,
+      "processing_ms": 2.189298,
+      "storage_ms": 7.943371999772353
+    },
+    {
+      "id": "de03607b-6380-4fb9-b29a-b8846300aadc",
+      "path": "data/phase2_20261118T073027229802Z/de03607b-6380-4fb9-b29a-b8846300aadc.jpg",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c",
+      "bytes": 25687,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "capture_ms": 25.143609,
+      "processing_ms": 3.908137,
+      "storage_ms": 7.349865999913163
+    }
+  ]
+}

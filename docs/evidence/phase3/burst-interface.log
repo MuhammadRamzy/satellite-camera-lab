@@ -1,0 +1,10 @@
+uint16 count
+uint32 interval_ms
+---
+bool success
+uint32 completed
+string<=256 reason
+---
+uint32 completed
+uint32 requested
+string<=36 last_capture_id

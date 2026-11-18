@@ -1,0 +1,82 @@
+49:  is_canceling() const;
+83:  _abort();
+88:  _succeed();
+98:  _canceled();
+168:  abort(typename ActionT::Result::SharedPtr result_msg)
+170:    _abort();
+188:  succeed(typename ActionT::Result::SharedPtr result_msg)
+190:    _succeed();
+208:  canceled(typename ActionT::Result::SharedPtr result_msg)
+210:    _canceled();
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeGraphInterface::SharedPtr
+  get_node_graph_interface();
+
+  /// Return the Node's internal NodeLoggingInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_logging_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr
+  get_node_logging_interface();
+
+  /// Return the Node's internal NodeTimersInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_timers_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeTimersInterface::SharedPtr
+  get_node_timers_interface();
+
+  /// Return the Node's internal NodeTopicsInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_topics_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeTopicsInterface::SharedPtr
+  get_node_topics_interface();
+
+  /// Return the Node's internal NodeServicesInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_services_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeServicesInterface::SharedPtr
+  get_node_services_interface();
+
+  /// Return the Node's internal NodeParametersInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_parameters_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeParametersInterface::SharedPtr
+  get_node_parameters_interface();
+
+  /// Return the Node's internal NodeParametersInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_time_source_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeTimeSourceInterface::SharedPtr
+  get_node_time_source_interface();
+
+  /// Return the Node's internal NodeTypeDescriptionsInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_type_descriptions_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeTypeDescriptionsInterface::SharedPtr
+  get_node_type_descriptions_interface();
+
+  /// Return the Node's internal NodeWaitablesInterface implementation.
+  /**
+   * \sa rclcpp::Node::get_node_waitables_interface
+   */
+  RCLCPP_LIFECYCLE_PUBLIC
+  rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr
+  get_node_waitables_interface();
+
+  /// Return the NodeOptions used when creating this node.
+  /**
+(self, timer_period_sec: float, callback: Callable, callback_group: Optional[rclpy.callback_groups.CallbackGroup] = None, clock: Optional[rclpy.clock.Clock] = None, autostart: bool = True) -> rclpy.timer.Timer

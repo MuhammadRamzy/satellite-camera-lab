@@ -1,0 +1,745 @@
+Starting >>> payload_interfaces
+Starting >>> payload_smoke
+-- Found ament_cmake: 2.5.6 (/opt/ros/spaceros/share/ament_cmake/cmake)
+[100%] Built target smoke
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_smoke/lib/payload_smoke/smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/package_run_dependencies/payload_smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/parent_prefix_path/payload_smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/path.sh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.bash
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.sh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/local_setup.dsv
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/package.dsv
+-- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/packages/payload_smoke
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig.cmake
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/package.xml
+Finished <<< payload_smoke [0.16s]
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/spaceros/share/rosidl_default_generators/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/spaceros/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 5.3.8 (/opt/ros/spaceros/share/sensor_msgs/cmake)
+-- Found action_msgs: 2.0.4 (/opt/ros/spaceros/share/action_msgs/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/spaceros/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/build/payload_interfaces
+[  1%] Generating Rust code for ROS interfaces
+[  1%] Generating type hashes for ROS interfaces
+[  1%] Built target ament_cmake_python_copy_payload_interfaces
+running egg_info
+writing payload_interfaces.egg-info/PKG-INFO
+writing dependency_links to payload_interfaces.egg-info/dependency_links.txt
+writing top-level names to payload_interfaces.egg-info/top_level.txt
+reading manifest file 'payload_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_payload_interfaces_egg
+[  1%] Built target payload_interfaces__rosidl_generator_type_description
+[  2%] Generating C code for ROS interfaces
+[  2%] Generating C++ code for ROS interfaces
+[  2%] Built target payload_interfaces__rs
+[  2%] Built target payload_interfaces__cpp
+[  3%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/compressed_capture__functions.c.o
+[  2%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/capture__type_support.c.o
+[  4%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/compressed_capture__description.c.o
+[  5%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/capture__description.c.o
+[  6%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/capture__functions.c.o
+[  7%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/image_metadata__type_support.c.o
+[  8%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/compressed_capture__type_support.c.o
+[  8%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/image_metadata__functions.c.o
+[  9%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/image_metadata__description.c.o
+[  9%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/file_ready__description.c.o
+[ 12%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/file_ready__functions.c.o
+[ 13%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/file_ready__type_support.c.o
+[ 11%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/capture__type_support.c.o
+[ 13%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/capture__description.c.o
+[ 14%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/authority__description.c.o
+[ 15%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/stage_event__description.c.o
+[ 15%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/capture__functions.c.o
+[ 16%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/authority__functions.c.o
+[ 17%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/camera_status__functions.c.o
+[ 18%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/authority__type_support.c.o
+[ 18%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/camera_status__description.c.o
+[ 19%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/stage_event__functions.c.o
+[ 19%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/stage_event__type_support.c.o
+[ 20%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/camera_status__type_support.c.o
+[ 21%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/node_health__functions.c.o
+[ 22%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/node_health__description.c.o
+[ 22%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/node_health__type_support.c.o
+[ 23%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/housekeeping__description.c.o
+[ 24%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/housekeeping__type_support.c.o
+[ 24%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/apply_control__description.c.o
+[ 25%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/msg/detail/housekeeping__functions.c.o
+[ 26%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/apply_control__functions.c.o
+[ 27%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/apply_control__type_support.c.o
+[ 28%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/set_mode__functions.c.o
+[ 29%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/set_mode__description.c.o
+[ 29%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/set_mode__type_support.c.o
+[ 30%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/spacecraft_control__functions.c.o
+[ 31%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/spacecraft_control__description.c.o
+[ 32%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/action/detail/capture_burst__functions.c.o
+[ 32%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/action/detail/capture_burst__description.c.o
+[ 33%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/srv/detail/spacecraft_control__type_support.c.o
+[ 34%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_c.dir/rosidl_generator_c/payload_interfaces/action/detail/capture_burst__type_support.c.o
+[ 35%] Linking C shared library libpayload_interfaces__rosidl_generator_c.so
+[ 35%] Built target payload_interfaces__rosidl_generator_c
+[ 36%] Generating C introspection for ROS interfaces
+[ 37%] Generating C++ introspection for ROS interfaces
+[ 38%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/srv/detail/capture__type_support.cpp.o
+[ 40%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/capture__type_support.cpp.o
+[ 40%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/image_metadata__type_support.cpp.o
+[ 41%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/authority__type_support.cpp.o
+[ 41%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/stage_event__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/camera_status__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/housekeeping__type_support.cpp.o
+[ 44%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/srv/detail/apply_control__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/node_health__type_support.cpp.o
+[ 46%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/compressed_capture__type_support.cpp.o
+[ 46%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/msg/detail/file_ready__type_support.cpp.o
+[ 47%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/action/detail/capture_burst__type_support.cpp.o
+[ 48%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/srv/detail/spacecraft_control__type_support.cpp.o
+[ 48%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/payload_interfaces/srv/detail/set_mode__type_support.cpp.o
+[ 49%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/image_metadata__type_support.c.o
+[ 49%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/compressed_capture__type_support.c.o
+[ 50%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/capture__type_support.c.o
+[ 51%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/file_ready__type_support.c.o
+[ 53%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/housekeeping__type_support.c.o
+[ 53%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/node_health__type_support.c.o
+[ 53%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/camera_status__type_support.c.o
+[ 54%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/stage_event__type_support.c.o
+[ 55%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/msg/detail/authority__type_support.c.o
+[ 56%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/srv/detail/capture__type_support.c.o
+[ 57%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/srv/detail/spacecraft_control__type_support.c.o
+[ 57%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/srv/detail/apply_control__type_support.c.o
+[ 58%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/srv/detail/set_mode__type_support.c.o
+[ 59%] Building C object CMakeFiles/payload_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/payload_interfaces/action/detail/capture_burst__type_support.c.o
+[ 59%] Linking C shared library libpayload_interfaces__rosidl_typesupport_introspection_c.so
+[ 59%] Built target payload_interfaces__rosidl_typesupport_introspection_c
+[ 60%] Generating C type support dispatch for ROS interfaces
+[ 62%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/authority__type_support.cpp.o
+[ 62%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/compressed_capture__type_support.cpp.o
+[ 63%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/camera_status__type_support.cpp.o
+[ 64%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/stage_event__type_support.cpp.o
+[ 64%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/node_health__type_support.cpp.o
+[ 65%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/capture__type_support.cpp.o
+[ 65%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/image_metadata__type_support.cpp.o
+[ 66%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/srv/apply_control__type_support.cpp.o
+[ 67%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/file_ready__type_support.cpp.o
+[ 68%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/srv/set_mode__type_support.cpp.o
+[ 68%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/srv/capture__type_support.cpp.o
+[ 68%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/action/capture_burst__type_support.cpp.o
+[ 69%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/msg/housekeeping__type_support.cpp.o
+[ 70%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/payload_interfaces/srv/spacecraft_control__type_support.cpp.o
+[ 71%] Linking CXX shared library libpayload_interfaces__rosidl_typesupport_c.so
+[ 71%] Built target payload_interfaces__rosidl_typesupport_c
+[ 72%] Linking CXX shared library libpayload_interfaces__rosidl_typesupport_introspection_cpp.so
+[ 72%] Built target payload_interfaces__rosidl_typesupport_introspection_cpp
+[ 73%] Generating C++ type support dispatch for ROS interfaces
+[ 74%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/file_ready__type_support.cpp.o
+[ 75%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/srv/capture__type_support.cpp.o
+[ 76%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/stage_event__type_support.cpp.o
+[ 78%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/node_health__type_support.cpp.o
+[ 77%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/camera_status__type_support.cpp.o
+[ 79%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/image_metadata__type_support.cpp.o
+[ 79%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/capture__type_support.cpp.o
+[ 79%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/authority__type_support.cpp.o
+[ 80%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/compressed_capture__type_support.cpp.o
+[ 80%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/msg/housekeeping__type_support.cpp.o
+[ 81%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/srv/set_mode__type_support.cpp.o
+[ 82%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/srv/spacecraft_control__type_support.cpp.o
+[ 83%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/action/capture_burst__type_support.cpp.o
+[ 83%] Building CXX object CMakeFiles/payload_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/payload_interfaces/srv/apply_control__type_support.cpp.o
+[ 84%] Linking CXX shared library libpayload_interfaces__rosidl_typesupport_cpp.so
+[ 84%] Built target payload_interfaces__rosidl_typesupport_cpp
+[ 84%] Built target payload_interfaces
+[ 85%] Generating Python code for ROS interfaces
+[ 85%] Built target payload_interfaces__py
+[ 85%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_image_metadata_s.c.o
+[ 86%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_capture_s.c.o
+[ 86%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/srv/_capture_s.c.o
+[ 87%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_camera_status_s.c.o
+[ 88%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_stage_event_s.c.o
+[ 89%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/srv/_apply_control_s.c.o
+[ 90%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/srv/_set_mode_s.c.o
+[ 91%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/srv/_spacecraft_control_s.c.o
+[ 92%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_file_ready_s.c.o
+[ 92%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_node_health_s.c.o
+[ 93%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_compressed_capture_s.c.o
+[ 95%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_housekeeping_s.c.o
+[ 95%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/action/_capture_burst_s.c.o
+[ 95%] Building C object CMakeFiles/payload_interfaces__rosidl_generator_py.dir/rosidl_generator_py/payload_interfaces/msg/_authority_s.c.o
+[ 96%] Linking C shared library libpayload_interfaces__rosidl_generator_py.so
+[ 96%] Built target payload_interfaces__rosidl_generator_py
+[ 97%] Building C object CMakeFiles/payload_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/payload_interfaces/_payload_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 98%] Building C object CMakeFiles/payload_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/payload_interfaces/_payload_interfaces_s.ep.rosidl_typesupport_c.c.o
+[ 99%] Linking C shared module rosidl_generator_py/payload_interfaces/payload_interfaces_s__rosidl_typesupport_c.so
+[100%] Linking C shared module rosidl_generator_py/payload_interfaces/payload_interfaces_s__rosidl_typesupport_introspection_c.so
+[100%] Built target payload_interfaces_s__rosidl_typesupport_c
+[100%] Built target payload_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /workspace/install/payload_interfaces/share/ament_index/resource_index/rosidl_interfaces/payload_interfaces
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/ImageMetadata.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Capture.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CompressedCapture.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/FileReady.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/Capture.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Authority.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CameraStatus.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/StageEvent.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/NodeHealth.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Housekeeping.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/ApplyControl.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SetMode.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SpacecraftControl.json
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/action/CaptureBurst.json
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/capture.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/apply_control.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/spacecraft_control.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/set_mode.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/capture_burst.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/stage_event.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/camera_status.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/file_ready.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__functions.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__description.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__functions.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/housekeeping.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/capture.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/compressed_capture.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/authority.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/image_metadata.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/node_health.h
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/library_path.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/library_path.dsv
+-- Installing: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.c
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/set_mode.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/spacecraft_control.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/capture.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/apply_control.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/capture_burst.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/authority.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/camera_status.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__traits.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__builder.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__struct.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/stage_event.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/file_ready.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/image_metadata.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/capture.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/housekeeping.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/node_health.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/compressed_capture.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__type_support.cpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/stage_event__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/image_metadata__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/authority__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/capture__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/housekeeping__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/compressed_capture__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/camera_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/file_ready__type_support.cpp
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/msg/detail/node_health__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/pythonpath.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_spacecraft_control_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_set_mode_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/__init__.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_spacecraft_control.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_capture_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_apply_control_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_set_mode.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_capture.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_apply_control.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/action
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/action/_capture_burst.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/action/__init__.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/action/_capture_burst_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/__init__.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/_payload_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_stage_event_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_image_metadata_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_stage_event.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_compressed_capture.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_file_ready_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_image_metadata.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_authority_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/__init__.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_housekeeping.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_capture_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_camera_status.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_camera_status_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_node_health.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_node_health_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_compressed_capture_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_capture.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_file_ready.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_housekeeping_s.c
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_authority.py
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/_payload_interfaces_s.ep.rosidl_typesupport_c.c
+Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/__init__.py'...
+Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/action'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/action/__init__.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/action/_capture_burst.py'...
+Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/__init__.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_authority.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_camera_status.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_capture.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_compressed_capture.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_file_ready.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_housekeeping.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_image_metadata.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_node_health.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/msg/_stage_event.py'...
+Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/__init__.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_apply_control.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_capture.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_set_mode.py'...
+Compiling '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_spacecraft_control.py'...
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/payload_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_interfaces/lib/libpayload_interfaces__rosidl_generator_py.so" to ""
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/rust_packages/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/build.rs
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/Cargo.toml
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/srv
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/srv/rmw.rs
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/action
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/action/rmw.rs
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/lib.rs
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/action.rs
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/msg.rs
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/srv.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/msg
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/rust/src/msg/rmw.rs
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/ImageMetadata.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Capture.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CompressedCapture.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/FileReady.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/Capture.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Authority.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CameraStatus.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/StageEvent.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/NodeHealth.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Housekeeping.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/ApplyControl.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SetMode.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SpacecraftControl.idl
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/action/CaptureBurst.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/ImageMetadata.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Capture.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CompressedCapture.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/FileReady.msg
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/Capture.srv
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Authority.msg
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/CameraStatus.msg
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/StageEvent.msg
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/NodeHealth.msg
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Housekeeping.msg
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/ApplyControl.srv
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SetMode.srv
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SpacecraftControl.srv
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/action/CaptureBurst.action
+-- Installing: /workspace/install/payload_interfaces/share/ament_index/resource_index/package_run_dependencies/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/parent_prefix_path/payload_interfaces
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/path.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.bash
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.sh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/local_setup.dsv
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/package.dsv
+-- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/packages/payload_interfaces
+-- Old export file "/workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake].
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+-- Old export file "/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake].
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+-- Old export file "/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake].
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_cppExport.cmake
+-- Old export file "/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake].
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+-- Old export file "/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake].
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/export_payload_interfaces__rosidl_generator_pyExport-relwithdebinfo.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig.cmake
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig-version.cmake
+-- Installing: /workspace/install/payload_interfaces/share/payload_interfaces/package.xml
+Finished <<< payload_interfaces [24.2s]
+Starting >>> payload_storage
+Starting >>> payload_processing
+-- Found ament_cmake: 2.5.6 (/opt/ros/spaceros/share/ament_cmake/cmake)
+Built target ament_cmake_python_copy_foundations
+running egg_info
+writing foundations.egg-info/PKG-INFO
+writing dependency_links to foundations.egg-info/dependency_links.txt
+writing top-level names to foundations.egg-info/top_level.txt
+-- Found rclcpp: 28.1.21 (/opt/ros/spaceros/share/rclcpp/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+reading manifest file 'foundations.egg-info/SOURCES.txt'
+writing manifest file 'foundations.egg-info/SOURCES.txt'
+-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+Built target ament_cmake_python_build_foundations_egg
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/pythonpath.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/pythonpath.dsv
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/control.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/catalogue.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/__init__.py
+Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations'...
+Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations/control.py'...
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/spaceros/share/rmw_implementation_cmake/cmake)
+-- Installing: /workspace/install/payload_storage/lib/payload_storage/storage_node
+-- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/package_run_dependencies/payload_storage
+-- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/parent_prefix_path/payload_storage
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/path.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.bash
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.sh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/local_setup.dsv
+-- Installing: /workspace/install/payload_storage/share/payload_storage/package.dsv
+-- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/packages/payload_storage
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig.cmake
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_storage/share/payload_storage/package.xml
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/spaceros/share/rmw_cyclonedds_cpp/cmake)
+Finished <<< payload_storage [0.33s]
+Starting >>> payload_health
+-- Using RMW implementation 'rmw_cyclonedds_cpp'
+-- Found sensor_msgs: 5.3.8 (/opt/ros/spaceros/share/sensor_msgs/cmake)
+-- The C compiler identification is GNU 13.3.0
+-- Found payload_interfaces: 0.1.0 (/workspace/install/payload_interfaces/share/payload_interfaces/cmake)
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/spaceros/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/spaceros/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/build/payload_processing
+[ 20%] Built target process
+[ 40%] Built target gtest_main
+[ 60%] Built target gtest
+[ 70%] Building CXX object CMakeFiles/processing_node.dir/src/processing_node.cpp.o
+[ 90%] Built target test_process
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/spaceros/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_COMPILE_COMMANDS
+
+
+-- Build files have been written to: /workspace/build/payload_health
+CMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/workspace/src/payload_health/scripts/health_node.py": No such file or
+  directory.
+
+
+-- Install configuration: "RelWithDebInfo"
+--- stderr: payload_health
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_COMPILE_COMMANDS
+
+
+CMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/workspace/src/payload_health/scripts/health_node.py": No such file or
+  directory.
+
+
+---
+Failed   <<< payload_health [0.66s, exited with code 1]
+[100%] Linking CXX executable processing_node
+[100%] Built target processing_node
+Aborted  <<< payload_processing [15.0s]
+
+Summary: 3 packages finished [39.3s]
+  1 package failed: payload_health
+  1 package aborted: payload_processing
+  1 package had stderr output: payload_health
+  2 packages not processed

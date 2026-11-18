@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(payload_modes)
+find_package(ament_cmake REQUIRED)
+install(PROGRAMS scripts/modes_node.py DESTINATION lib/${PROJECT_NAME} RENAME modes_node)
+ament_package()

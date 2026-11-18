@@ -1,0 +1,59 @@
+[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-08-19-10-411988-0cd9eb7a5342-338
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [storage_node-1]: process started with pid [341]
+[INFO] [processing_node-2]: process started with pid [342]
+[INFO] [camera_node-3]: process started with pid [343]
+[INFO] [modes_node-4]: process started with pid [344]
+[INFO] [health_node-5]: process started with pid [345]
+[storage_node-1] [INFO] [1794989950.969894104] [payload_storage]: {"event": "storage_recovered", "entries": 0}
+[camera_node-3] [ERROR] [1794989952.138467028] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[camera_node-3] [ERROR] [1794989956.249955412] [payload_camera]: event=capture_rejected reason=burst active
+[processing_node-2] [INFO] [1794989956.289904260] [payload_processing]: event=image_processed id=29f46826-cb46-4a54-9d43-bdb3700c17ca bytes=25687 processing_ms=2.505
+[storage_node-1] [INFO] [1794989956.295363690] [payload_storage]: {"event": "file_ready", "id": "29f46826-cb46-4a54-9d43-bdb3700c17ca", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 4.6113270000205375}
+[processing_node-2] [INFO] [1794989957.335061156] [payload_processing]: event=image_processed id=e1e7c807-8f34-460c-aa7c-16b61fd6ae21 bytes=25687 processing_ms=2.968
+[storage_node-1] [INFO] [1794989957.342987969] [payload_storage]: {"event": "file_ready", "id": "e1e7c807-8f34-460c-aa7c-16b61fd6ae21", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 6.901060999950914}
+[processing_node-2] [INFO] [1794989958.375014948] [payload_processing]: event=image_processed id=64a48de6-7de4-4036-89d9-2ab69bcf490a bytes=25687 processing_ms=2.368
+[storage_node-1] [INFO] [1794989958.384260491] [payload_storage]: {"event": "file_ready", "id": "64a48de6-7de4-4036-89d9-2ab69bcf490a", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.044984999969529}
+[processing_node-2] [INFO] [1794989959.406326677] [payload_processing]: event=image_processed id=5cc344ec-2d05-444c-a4b2-de952b41df47 bytes=25687 processing_ms=2.589
+[storage_node-1] [INFO] [1794989959.415395934] [payload_storage]: {"event": "file_ready", "id": "5cc344ec-2d05-444c-a4b2-de952b41df47", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 7.85076800002571}
+[processing_node-2] [INFO] [1794989960.450502911] [payload_processing]: event=image_processed id=b384562e-ab9e-444c-9ebb-6d205a526a3a bytes=25687 processing_ms=2.321
+[storage_node-1] [INFO] [1794989960.460706037] [payload_storage]: {"event": "file_ready", "id": "b384562e-ab9e-444c-9ebb-6d205a526a3a", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 9.022283000035713}
+[processing_node-2] [INFO] [1794989960.532321580] [payload_processing]: event=image_processed id=df10a591-fe95-4338-bac7-2b66680bdd56 bytes=25687 processing_ms=2.258
+[storage_node-1] [INFO] [1794989960.843234048] [payload_storage]: {"event": "file_ready", "id": "df10a591-fe95-4338-bac7-2b66680bdd56", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 309.13350499997705}
+[processing_node-2] [INFO] [1794989961.310870858] [payload_processing]: event=image_processed id=7ec3559d-96d6-4af9-a994-bdae8293c803 bytes=25687 processing_ms=2.740
+[storage_node-1] [INFO] [1794989961.622374004] [payload_storage]: {"event": "file_ready", "id": "7ec3559d-96d6-4af9-a994-bdae8293c803", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 309.9163979999844}
+[camera_node-3] [ERROR] [1794989962.061695546] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[processing_node-2] [INFO] [1794989962.105827192] [payload_processing]: event=image_processed id=1c8e4d99-45a2-48ec-91a9-81d75ea2a607 bytes=25687 processing_ms=2.573
+[storage_node-1] [INFO] [1794989962.112492369] [payload_storage]: {"event": "file_ready", "id": "1c8e4d99-45a2-48ec-91a9-81d75ea2a607", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 5.822696999985055}
+[processing_node-2] [INFO] [1794989962.354284459] [payload_processing]: event=image_processed id=dcea130e-6b85-4e30-aeae-a48f808338a7 bytes=25687 processing_ms=2.772
+[storage_node-1] [INFO] [1794989962.363421216] [payload_storage]: {"event": "file_ready", "id": "dcea130e-6b85-4e30-aeae-a48f808338a7", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.129428000017924}
+[processing_node-2] [INFO] [1794989962.594144850] [payload_processing]: event=image_processed id=af1aacb1-abe1-4845-a328-664c81fbe561 bytes=25687 processing_ms=2.919
+[storage_node-1] [INFO] [1794989962.603394015] [payload_storage]: {"event": "file_ready", "id": "af1aacb1-abe1-4845-a328-664c81fbe561", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.278345000007903}
+[processing_node-2] [INFO] [1794989962.826641839] [payload_processing]: event=image_processed id=050ec3dc-5db7-4f89-902d-bfc7c6b91e18 bytes=25687 processing_ms=2.196
+[storage_node-1] [INFO] [1794989962.834912406] [payload_storage]: {"event": "file_ready", "id": "050ec3dc-5db7-4f89-902d-bfc7c6b91e18", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 7.098455999994258}
+[processing_node-2] [INFO] [1794989963.066680394] [payload_processing]: event=image_processed id=146cd733-fdc4-452a-8d77-29d6b664ee1c bytes=25687 processing_ms=2.250
+[storage_node-1] [INFO] [1794989963.076204364] [payload_storage]: {"event": "file_ready", "id": "146cd733-fdc4-452a-8d77-29d6b664ee1c", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.709173999989162}
+[processing_node-2] [INFO] [1794989963.310640213] [payload_processing]: event=image_processed id=5686f540-6352-4056-9fc6-84790c132029 bytes=25687 processing_ms=2.423
+[storage_node-1] [INFO] [1794989963.318625700] [payload_storage]: {"event": "file_ready", "id": "5686f540-6352-4056-9fc6-84790c132029", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 7.2307209999848965}
+[processing_node-2] [INFO] [1794989963.547819776] [payload_processing]: event=image_processed id=e00347a0-3aea-4ee3-938f-f43597813333 bytes=25687 processing_ms=2.555
+[storage_node-1] [INFO] [1794989963.554026702] [payload_storage]: {"event": "file_ready", "id": "e00347a0-3aea-4ee3-938f-f43597813333", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 5.366967999975714}
+[modes_node-4] [ERROR] [1794989965.331328665] [payload_modes]: {"event": "supervisor_fault", "reason": "camera heartbeat missed"}
+[processing_node-2] [INFO] [1794989965.362961371] [payload_processing]: event=image_processed id=9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f bytes=25687 processing_ms=2.317
+[storage_node-1] [INFO] [1794989965.369370637] [payload_storage]: {"event": "file_ready", "id": "9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 5.459755000003952}
+[modes_node-4] [ERROR] [1794989967.887640480] [payload_modes]: {"event": "supervisor_fault", "reason": "processing/storage heartbeat missed or unhealthy"}
+[processing_node-2] [INFO] [1794989968.319187949] [payload_processing]: event=image_processed id=fe80f584-ee92-4d8d-b596-19c6b4e96068 bytes=25687 processing_ms=5.169
+[storage_node-1] [INFO] [1794989968.365785739] [payload_storage]: {"event": "file_ready", "id": "fe80f584-ee92-4d8d-b596-19c6b4e96068", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 45.18792400000393}
+[camera_node-3] [ERROR] [1794989968.393177882] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [health_node-5]: sending signal 'SIGINT' to process[health_node-5]
+[INFO] [modes_node-4]: sending signal 'SIGINT' to process[modes_node-4]
+[INFO] [camera_node-3]: sending signal 'SIGINT' to process[camera_node-3]
+[INFO] [processing_node-2]: sending signal 'SIGINT' to process[processing_node-2]
+[INFO] [storage_node-1]: sending signal 'SIGINT' to process[storage_node-1]
+[camera_node-3] [INFO] [1794989975.903255899] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[processing_node-2] [INFO] [1794989975.903470569] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [processing_node-2]: process has finished cleanly [pid 342]
+[INFO] [camera_node-3]: process has finished cleanly [pid 343]
+[INFO] [health_node-5]: process has finished cleanly [pid 345]
+[INFO] [storage_node-1]: process has finished cleanly [pid 341]
+[INFO] [modes_node-4]: process has finished cleanly [pid 344]

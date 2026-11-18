@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>payload_storage</name><version>0.1.0</version>
+  <description>Single-owner durable SQLite storage and file-ready results.</description>
+  <maintainer email="maintainer@example.invalid">Satellite Camera Lab</maintainer>
+  <license>Apache-2.0</license><buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend><exec_depend>payload_interfaces</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

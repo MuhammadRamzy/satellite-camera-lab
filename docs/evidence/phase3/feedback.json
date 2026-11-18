@@ -1,0 +1,98 @@
+[
+  {
+    "completed": 1,
+    "requested": 5,
+    "last_capture_id": "29f46826-cb46-4a54-9d43-bdb3700c17ca",
+    "received_mono": 288.170434618
+  },
+  {
+    "completed": 2,
+    "requested": 5,
+    "last_capture_id": "e1e7c807-8f34-460c-aa7c-16b61fd6ae21",
+    "received_mono": 289.218101849
+  },
+  {
+    "completed": 3,
+    "requested": 5,
+    "last_capture_id": "64a48de6-7de4-4036-89d9-2ab69bcf490a",
+    "received_mono": 290.259420405
+  },
+  {
+    "completed": 4,
+    "requested": 5,
+    "last_capture_id": "5cc344ec-2d05-444c-a4b2-de952b41df47",
+    "received_mono": 291.290495907
+  },
+  {
+    "completed": 5,
+    "requested": 5,
+    "last_capture_id": "b384562e-ab9e-444c-9ebb-6d205a526a3a",
+    "received_mono": 292.335690901
+  },
+  {
+    "completed": 1,
+    "requested": 20,
+    "last_capture_id": "df10a591-fe95-4338-bac7-2b66680bdd56",
+    "received_mono": 292.719959968
+  },
+  {
+    "completed": 1,
+    "requested": 20,
+    "last_capture_id": "7ec3559d-96d6-4af9-a994-bdae8293c803",
+    "received_mono": 293.498465688
+  },
+  {
+    "completed": 1,
+    "requested": 30,
+    "last_capture_id": "1c8e4d99-45a2-48ec-91a9-81d75ea2a607",
+    "received_mono": 293.987590048
+  },
+  {
+    "completed": 2,
+    "requested": 30,
+    "last_capture_id": "dcea130e-6b85-4e30-aeae-a48f808338a7",
+    "received_mono": 294.238589715
+  },
+  {
+    "completed": 3,
+    "requested": 30,
+    "last_capture_id": "af1aacb1-abe1-4845-a328-664c81fbe561",
+    "received_mono": 294.478699557
+  },
+  {
+    "completed": 4,
+    "requested": 30,
+    "last_capture_id": "050ec3dc-5db7-4f89-902d-bfc7c6b91e18",
+    "received_mono": 294.70993076
+  },
+  {
+    "completed": 5,
+    "requested": 30,
+    "last_capture_id": "146cd733-fdc4-452a-8d77-29d6b664ee1c",
+    "received_mono": 294.951528778
+  },
+  {
+    "completed": 6,
+    "requested": 30,
+    "last_capture_id": "5686f540-6352-4056-9fc6-84790c132029",
+    "received_mono": 295.1939105
+  },
+  {
+    "completed": 7,
+    "requested": 30,
+    "last_capture_id": "e00347a0-3aea-4ee3-938f-f43597813333",
+    "received_mono": 295.428950911
+  },
+  {
+    "completed": 1,
+    "requested": 30,
+    "last_capture_id": "9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f",
+    "received_mono": 297.244571934
+  },
+  {
+    "completed": 2,
+    "requested": 30,
+    "last_capture_id": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "received_mono": 300.241649266
+  }
+]

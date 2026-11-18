@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(payload_health)
+find_package(ament_cmake REQUIRED)
+install(PROGRAMS scripts/health_node.py DESTINATION lib/${PROJECT_NAME} RENAME health_node)
+ament_package()

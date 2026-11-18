@@ -1,0 +1,10 @@
+/opt/ros/spaceros
+/opt/ros/spaceros
+/opt/ros/spaceros
+/opt/ros/spaceros
+dpkg-query: no packages found matching libopencv-dev
+dpkg-query: no packages found matching libjpeg-dev
+libsqlite3-dev:amd64	3.45.1-1ubuntu2.7
+libssl-dev:amd64	3.0.13-0ubuntu3.12
+/opt/ikos/bin/ikos
+/usr/bin/cppcheck

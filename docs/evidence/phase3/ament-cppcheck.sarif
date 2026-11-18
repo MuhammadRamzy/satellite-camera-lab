@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "http://json.schemastore.org/sarif-2.1.0-rtm.5",
+  "properties": {
+    "comment": "cppcheck output converted to SARIF by ament_cppcheck",
+    "test_name": "phase3.ament-cppcheck.sarif",
+    "test_count": 4,
+    "error_count": 0,
+    "execution_time": "0.145",
+    "tests_skipped": 0
+  },
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "cppcheck",
+          "version": "2.13.0",
+          "informationUri": "https://cppcheck.sourceforge.io/",
+          "rules": []
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "src/payload_camera/include/payload_camera/mode_policy.hpp",
+            "uriBaseId": "/workspace"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/payload_camera/src/camera_node.cpp",
+            "uriBaseId": "/workspace"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/payload_processing/src/process.cpp",
+            "uriBaseId": "/workspace"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/payload_processing/src/processing_node.cpp",
+            "uriBaseId": "/workspace"
+          }
+        }
+      ],
+      "results": []
+    }
+  ]
+}

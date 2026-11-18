@@ -1,0 +1,34 @@
+[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-07-56-50-179895-f6d57e9b9643-31
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [storage_node-1]: process started with pid [34]
+[INFO] [processing_node-2]: process started with pid [35]
+[INFO] [camera_node-3]: process started with pid [36]
+[INFO] [modes_node-4]: process started with pid [37]
+[INFO] [health_node-5]: process started with pid [38]
+[storage_node-1] [INFO] [1794988610.677733071] [payload_storage]: {"event": "storage_recovered", "entries": 0}
+[processing_node-2] [INFO] [1794988614.519037524] [payload_processing]: event=image_processed id=0a1e598b-7f36-4510-9183-87eec76a1e5c bytes=25687 processing_ms=2.385
+[storage_node-1] [INFO] [1794988614.525700062] [payload_storage]: {"event": "file_ready", "id": "0a1e598b-7f36-4510-9183-87eec76a1e5c", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 5.750262999754341}
+[processing_node-2] [INFO] [1794988615.559715895] [payload_processing]: event=image_processed id=309cf296-464a-41b3-9ea2-900202906cc8 bytes=25687 processing_ms=5.667
+[storage_node-1] [INFO] [1794988615.568979481] [payload_storage]: {"event": "file_ready", "id": "309cf296-464a-41b3-9ea2-900202906cc8", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.29885000075592}
+[processing_node-2] [INFO] [1794988616.554576977] [payload_processing]: event=image_processed id=3b4cd927-237a-4ce9-a92c-2645b00096f2 bytes=25687 processing_ms=5.314
+[storage_node-1] [INFO] [1794988616.563662185] [payload_storage]: {"event": "file_ready", "id": "3b4cd927-237a-4ce9-a92c-2645b00096f2", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.077899000454636}
+[processing_node-2] [INFO] [1794988617.604467795] [payload_processing]: event=image_processed id=9a8037ac-b81f-4aa9-b031-5c2551e3e23b bytes=25687 processing_ms=3.528
+[storage_node-1] [INFO] [1794988617.613182496] [payload_storage]: {"event": "file_ready", "id": "9a8037ac-b81f-4aa9-b031-5c2551e3e23b", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 7.9537629999322235}
+[processing_node-2] [INFO] [1794988618.603280677] [payload_processing]: event=image_processed id=cc6cf006-a6f8-407e-b957-9eb83dd81cdc bytes=25687 processing_ms=2.194
+[storage_node-1] [INFO] [1794988618.611196797] [payload_storage]: {"event": "file_ready", "id": "cc6cf006-a6f8-407e-b957-9eb83dd81cdc", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 7.052446000670898}
+[camera_node-3] [ERROR] [1794988619.571471428] [payload_camera]: event=capture_rejected reason=camera configuration outside experiment bounds
+[processing_node-2] [INFO] [1794988619.609593154] [payload_processing]: event=image_processed id=8b88bdc3-dfd1-4750-8022-4826f74877d1 bytes=2321 processing_ms=0.199
+[storage_node-1] [INFO] [1794988619.618793930] [payload_storage]: {"event": "file_ready", "id": "8b88bdc3-dfd1-4750-8022-4826f74877d1", "bytes": 2321, "sha256": "fb8b823d983e5f63d4084b4e739a24db6ce7c6d28912ddc84723048db0868f61", "storage_ms": 8.137494999573391}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [health_node-5]: sending signal 'SIGINT' to process[health_node-5]
+[INFO] [modes_node-4]: sending signal 'SIGINT' to process[modes_node-4]
+[INFO] [camera_node-3]: sending signal 'SIGINT' to process[camera_node-3]
+[INFO] [processing_node-2]: sending signal 'SIGINT' to process[processing_node-2]
+[INFO] [storage_node-1]: sending signal 'SIGINT' to process[storage_node-1]
+[camera_node-3] [INFO] [1794988619.656294742] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[processing_node-2] [INFO] [1794988619.656780517] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [health_node-5]: process has finished cleanly [pid 38]
+[INFO] [storage_node-1]: process has finished cleanly [pid 34]
+[INFO] [processing_node-2]: process has finished cleanly [pid 35]
+[INFO] [camera_node-3]: process has finished cleanly [pid 36]
+[INFO] [modes_node-4]: process has finished cleanly [pid 37]

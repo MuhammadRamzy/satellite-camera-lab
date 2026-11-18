@@ -1,0 +1,8 @@
+string<=36 authority_id
+uint64 authority_sequence
+uint8 mode
+bool recover
+---
+bool accepted
+CameraStatus status
+string<=256 reason

@@ -1,0 +1,17 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+data/
+vendor/
+.bootstrap.lock
+*.db
+*.db-shm
+*.db-wal

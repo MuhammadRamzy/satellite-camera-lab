@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>payload_smoke</name><version>0.1.0</version>
+  <description>Bounded publisher/subscriber acceptance probe for Space ROS.</description>
+  <maintainer email="maintainer@example.invalid">Satellite Camera Lab</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend><depend>std_msgs</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

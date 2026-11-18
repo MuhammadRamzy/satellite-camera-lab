@@ -1,0 +1,293 @@
+0960a499aae39c5141ce8b3604e0ca318533f20a4f43d61e29a143636fa30a0d
+
+COMMAND: ros2 lifecycle get /payload_camera
+unconfigured [1]
+
+COMMAND: ros2 lifecycle get /payload_camera
+inactive [2]
+
+COMMAND: ros2 node list
+/payload_camera
+/payload_health
+/payload_modes
+/payload_processing
+/payload_storage
+
+COMMAND: ros2 topic list -t
+/parameter_events [rcl_interfaces/msg/ParameterEvent]
+/payload/authority [payload_interfaces/msg/Authority]
+/payload/camera_info [sensor_msgs/msg/CameraInfo]
+/payload/camera_status [payload_interfaces/msg/CameraStatus]
+/payload/capture [payload_interfaces/msg/Capture]
+/payload/compressed [payload_interfaces/msg/CompressedCapture]
+/payload/file_ready [payload_interfaces/msg/FileReady]
+/payload/housekeeping [payload_interfaces/msg/Housekeeping]
+/payload/image_raw [sensor_msgs/msg/Image]
+/payload/node_health [payload_interfaces/msg/NodeHealth]
+/payload/stage [payload_interfaces/msg/StageEvent]
+/payload/state [payload_interfaces/msg/CameraStatus]
+/payload_camera/transition_event [lifecycle_msgs/msg/TransitionEvent]
+/rosout [rcl_interfaces/msg/Log]
+
+COMMAND: ros2 service list -t
+/payload/apply_control [payload_interfaces/srv/ApplyControl]
+/payload/capture_single [payload_interfaces/srv/Capture]
+/payload/set_mode [payload_interfaces/srv/SetMode]
+/payload/spacecraft_control [payload_interfaces/srv/SpacecraftControl]
+/payload_camera/change_state [lifecycle_msgs/srv/ChangeState]
+/payload_camera/describe_parameters [rcl_interfaces/srv/DescribeParameters]
+/payload_camera/get_available_states [lifecycle_msgs/srv/GetAvailableStates]
+/payload_camera/get_available_transitions [lifecycle_msgs/srv/GetAvailableTransitions]
+/payload_camera/get_parameter_types [rcl_interfaces/srv/GetParameterTypes]
+/payload_camera/get_parameters [rcl_interfaces/srv/GetParameters]
+/payload_camera/get_state [lifecycle_msgs/srv/GetState]
+/payload_camera/get_transition_graph [lifecycle_msgs/srv/GetAvailableTransitions]
+/payload_camera/get_type_description [type_description_interfaces/srv/GetTypeDescription]
+/payload_camera/list_parameters [rcl_interfaces/srv/ListParameters]
+/payload_camera/set_parameters [rcl_interfaces/srv/SetParameters]
+/payload_camera/set_parameters_atomically [rcl_interfaces/srv/SetParametersAtomically]
+/payload_health/describe_parameters [rcl_interfaces/srv/DescribeParameters]
+/payload_health/get_parameter_types [rcl_interfaces/srv/GetParameterTypes]
+/payload_health/get_parameters [rcl_interfaces/srv/GetParameters]
+/payload_health/get_type_description [type_description_interfaces/srv/GetTypeDescription]
+/payload_health/list_parameters [rcl_interfaces/srv/ListParameters]
+/payload_health/set_parameters [rcl_interfaces/srv/SetParameters]
+/payload_health/set_parameters_atomically [rcl_interfaces/srv/SetParametersAtomically]
+/payload_modes/describe_parameters [rcl_interfaces/srv/DescribeParameters]
+/payload_modes/get_parameter_types [rcl_interfaces/srv/GetParameterTypes]
+/payload_modes/get_parameters [rcl_interfaces/srv/GetParameters]
+/payload_modes/get_type_description [type_description_interfaces/srv/GetTypeDescription]
+/payload_modes/list_parameters [rcl_interfaces/srv/ListParameters]
+/payload_modes/set_parameters [rcl_interfaces/srv/SetParameters]
+/payload_modes/set_parameters_atomically [rcl_interfaces/srv/SetParametersAtomically]
+/payload_processing/describe_parameters [rcl_interfaces/srv/DescribeParameters]
+/payload_processing/get_parameter_types [rcl_interfaces/srv/GetParameterTypes]
+/payload_processing/get_parameters [rcl_interfaces/srv/GetParameters]
+/payload_processing/get_type_description [type_description_interfaces/srv/GetTypeDescription]
+/payload_processing/list_parameters [rcl_interfaces/srv/ListParameters]
+/payload_processing/set_parameters [rcl_interfaces/srv/SetParameters]
+/payload_processing/set_parameters_atomically [rcl_interfaces/srv/SetParametersAtomically]
+/payload_storage/describe_parameters [rcl_interfaces/srv/DescribeParameters]
+/payload_storage/get_parameter_types [rcl_interfaces/srv/GetParameterTypes]
+/payload_storage/get_parameters [rcl_interfaces/srv/GetParameters]
+/payload_storage/get_type_description [type_description_interfaces/srv/GetTypeDescription]
+/payload_storage/list_parameters [rcl_interfaces/srv/ListParameters]
+/payload_storage/set_parameters [rcl_interfaces/srv/SetParameters]
+/payload_storage/set_parameters_atomically [rcl_interfaces/srv/SetParametersAtomically]
+
+COMMAND: ros2 action list -t
+/payload/capture_burst [payload_interfaces/action/CaptureBurst]
+
+COMMAND: ros2 service call /payload/spacecraft_control payload_interfaces/srv/SpacecraftControl {spacecraft_mode: 1, imaging_permitted: true}
+requester: making request: payload_interfaces.srv.SpacecraftControl_Request(spacecraft_mode=1, imaging_permitted=True)
+
+response:
+payload_interfaces.srv.SpacecraftControl_Response(accepted=True, status=payload_interfaces.msg.CameraStatus(boot_id='fc2e5770-fae5-42de-9561-7c82c04255ec', mode=1, operational_state='STANDBY', lifecycle_state=2, in_flight='', burst_active=False, burst_completed=0, imaging_enabled=False, reason='', sequence=34), reason='')
+
+
+COMMAND: ros2 service call /payload/set_mode payload_interfaces/srv/SetMode {mode: 2, recover: false}
+requester: making request: payload_interfaces.srv.SetMode_Request(mode=2, recover=False)
+
+response:
+payload_interfaces.srv.SetMode_Response(accepted=True, status=payload_interfaces.msg.CameraStatus(boot_id='fc2e5770-fae5-42de-9561-7c82c04255ec', mode=2, operational_state='READY', lifecycle_state=3, in_flight='', burst_active=False, burst_completed=0, imaging_enabled=True, reason='', sequence=42), reason='')
+
+
+COMMAND: ros2 lifecycle get /payload_camera
+active [3]
+
+COMMAND: ros2 service call /payload/capture_single payload_interfaces/srv/Capture {}
+requester: making request: payload_interfaces.srv.Capture_Request()
+
+response:
+payload_interfaces.srv.Capture_Response(accepted=True, capture_id='8e77f069-721a-4512-a632-30a3c18406c9', error='')
+
+
+COMMAND: ros2 action send_goal /payload/capture_burst payload_interfaces/action/CaptureBurst {count: 5, interval_ms: 1000} --feedback
+Waiting for an action server to become available...
+Sending goal:
+     count: 5
+interval_ms: 1000
+
+Goal accepted with ID: bda39c0e89f24eb59ff599c3462390c3
+
+Feedback:
+    completed: 1
+requested: 5
+last_capture_id: 562ca3a6-aa21-4d28-a038-7f45d7831f05
+
+Feedback:
+    completed: 2
+requested: 5
+last_capture_id: 533f2918-0db3-4eb6-9932-dd938fa8d4b4
+
+Feedback:
+    completed: 3
+requested: 5
+last_capture_id: 5f19fcdc-10fe-4f70-a8e1-c2cc7f595f48
+
+Feedback:
+    completed: 4
+requested: 5
+last_capture_id: a1916912-6e19-4931-b7e1-8106cbfc28cf
+
+Feedback:
+    completed: 5
+requested: 5
+last_capture_id: 3c567361-3f40-4f92-8926-e21fa526e2df
+
+Result:
+    success: true
+completed: 5
+reason: all images durably stored
+
+Goal finished with status: SUCCEEDED
+
+COMMAND: ros2 service call /payload/spacecraft_control payload_interfaces/srv/SpacecraftControl {spacecraft_mode: 2, imaging_permitted: false}
+requester: making request: payload_interfaces.srv.SpacecraftControl_Request(spacecraft_mode=2, imaging_permitted=False)
+
+response:
+payload_interfaces.srv.SpacecraftControl_Response(accepted=True, status=payload_interfaces.msg.CameraStatus(boot_id='fc2e5770-fae5-42de-9561-7c82c04255ec', mode=4, operational_state='SAFE', lifecycle_state=2, in_flight='', burst_active=False, burst_completed=5, imaging_enabled=False, reason='', sequence=120), reason='')
+
+
+COMMAND: ros2 service call /payload/capture_single payload_interfaces/srv/Capture {}
+requester: making request: payload_interfaces.srv.Capture_Request()
+
+response:
+payload_interfaces.srv.Capture_Response(accepted=False, capture_id='', error='camera inhibited or pipeline busy')
+
+
+COMMAND: ros2 service call /payload/spacecraft_control payload_interfaces/srv/SpacecraftControl {spacecraft_mode: 1, imaging_permitted: true}
+requester: making request: payload_interfaces.srv.SpacecraftControl_Request(spacecraft_mode=1, imaging_permitted=True)
+
+response:
+payload_interfaces.srv.SpacecraftControl_Response(accepted=True, status=payload_interfaces.msg.CameraStatus(boot_id='fc2e5770-fae5-42de-9561-7c82c04255ec', mode=4, operational_state='SAFE', lifecycle_state=2, in_flight='', burst_active=False, burst_completed=5, imaging_enabled=False, reason='spacecraft SAFE or imaging inhibited', sequence=137), reason='')
+
+
+COMMAND: ros2 service call /payload/set_mode payload_interfaces/srv/SetMode {mode: 1, recover: true}
+requester: making request: payload_interfaces.srv.SetMode_Request(mode=1, recover=True)
+
+response:
+payload_interfaces.srv.SetMode_Response(accepted=True, status=payload_interfaces.msg.CameraStatus(boot_id='fc2e5770-fae5-42de-9561-7c82c04255ec', mode=1, operational_state='STANDBY', lifecycle_state=2, in_flight='', burst_active=False, burst_completed=5, imaging_enabled=False, reason='', sequence=144), reason='')
+
+
+COMMAND: ros2 service call /payload/set_mode payload_interfaces/srv/SetMode {mode: 2, recover: false}
+requester: making request: payload_interfaces.srv.SetMode_Request(mode=2, recover=False)
+
+response:
+payload_interfaces.srv.SetMode_Response(accepted=True, status=payload_interfaces.msg.CameraStatus(boot_id='fc2e5770-fae5-42de-9561-7c82c04255ec', mode=2, operational_state='READY', lifecycle_state=3, in_flight='', burst_active=False, burst_completed=5, imaging_enabled=True, reason='', sequence=151), reason='')
+
+
+COMMAND: ros2 topic echo --help
+usage: ros2 topic echo [-h] [--spin-time SPIN_TIME] [-s] [--no-daemon]
+                       [--qos-profile {unknown,default,system_default,sensor_data,services_default,parameters,parameter_events,action_status_default,best_available}]
+                       [--qos-depth N]
+                       [--qos-history {system_default,keep_last,keep_all,unknown}]
+                       [--qos-reliability {system_default,reliable,best_effort,unknown,best_available}]
+                       [--qos-durability {system_default,transient_local,volatile,unknown,best_available}]
+                       [--qos-liveliness {system_default,automatic,manual_by_topic,unknown,best_available}]
+                       [--qos-liveliness-lease-duration-seconds QOS_LIVELINESS_LEASE_DURATION_SECONDS]
+                       [--csv] [--field FIELD] [--full-length]
+                       [--truncate-length TRUNCATE_LENGTH] [--no-arr]
+                       [--no-str] [--flow-style] [--no-lost-messages] [--raw]
+                       [--filter FILTER_EXPR] [--once] [--timeout N]
+                       [--include-message-info]
+                       topic_name [message_type]
+
+Output messages from a topic
+
+positional arguments:
+  topic_name            Name of the ROS topic to listen to (e.g. '/chatter')
+  message_type          Type of the ROS message (e.g. 'std_msgs/msg/String')
+
+options:
+  -h, --help            show this help message and exit
+  --spin-time SPIN_TIME
+                        Spin time in seconds to wait for discovery (only
+                        applies when not using an already running daemon)
+  -s, --use-sim-time    Enable ROS simulation time
+  --no-daemon           Do not spawn nor use an already running daemon
+  --qos-profile {unknown,default,system_default,sensor_data,services_default,parameters,parameter_events,action_status_default,best_available}
+                        Quality of service preset profile to subscribe with
+                        (default: sensor_data)
+  --qos-depth N         Queue size setting to subscribe with (overrides depth
+                        value of --qos-profile option)
+  --qos-history {system_default,keep_last,keep_all,unknown}
+                        History of samples setting to subscribe with
+                        (overrides history value of --qos-profile option,
+                        default: keep_last)
+  --qos-reliability {system_default,reliable,best_effort,unknown,best_available}
+                        Quality of service reliability setting to subscribe
+                        with (overrides reliability value of --qos-profile
+                        option, default: Compatible profile with running
+                        endpoints )
+  --qos-durability {system_default,transient_local,volatile,unknown,best_available}
+                        Quality of service durability setting to subscribe
+                        with (overrides durability value of --qos-profile
+                        option, default: Compatible profile with running
+                        endpoints )
+  --qos-liveliness {system_default,automatic,manual_by_topic,unknown,best_available}
+                        Quality of service liveliness setting to subscribe
+                        with (overrides liveliness value of --qos-profile
+                        option
+  --qos-liveliness-lease-duration-seconds QOS_LIVELINESS_LEASE_DURATION_SECONDS
+                        Quality of service liveliness lease duration setting
+                        to subscribe with (overrides liveliness lease duration
+                        value of --qos-profile option
+  --csv                 Output all recursive fields separated by commas (e.g.
+                        for plotting). If --include-message-info is also
+                        passed, the following fields are prepended:
+                        source_timestamp, received_timestamp,
+                        publication_sequence_number,
+                        reception_sequence_number.
+  --field FIELD         Echo a selected field of a message. Use '.' to select
+                        sub-fields. For example, to echo the position field of
+                        a nav_msgs/msg/Odometry message: 'ros2 topic echo
+                        /odom --field pose.pose.position'
+  --full-length, -f     Output all elements for arrays, bytes, and string with
+                        a length > '--truncate-length', by default they are
+                        truncated after '--truncate-length' elements with
+                        '...''
+  --truncate-length TRUNCATE_LENGTH, -l TRUNCATE_LENGTH
+                        The length to truncate arrays, bytes, and string to
+                        (default: 128)
+  --no-arr              Don't print array fields of messages
+  --no-str              Don't print string fields of messages
+  --flow-style          Print collections in the block style (not available
+                        with csv format)
+  --no-lost-messages    Don't report when a message is lost
+  --raw                 Echo the raw binary representation
+  --filter FILTER_EXPR  Python expression to filter messages that are printed.
+                        Expression can use Python builtins as well as m (the
+                        message).
+  --once                Print the first message received and then exit.
+  --timeout N           Set a timeout in seconds for waiting
+  --include-message-info, -i
+                        Shows the associated message info.
+
+COMMAND: ros2 topic echo /payload/housekeeping --once
+utc:
+  sec: 1794989528
+  nanosec: 211989523
+boot_id: 2ddb027a-8fc3-4345-8563-ff1a4dff3f65
+heartbeat_sequence: 22
+cpu_percent: 20.394957650977332
+memory_used_bytes: 261844992
+memory_total_bytes: 4294967296
+disk_used_bytes: 214899105792
+disk_total_bytes: 267213017088
+resource_scope: cgroup
+payload_mode: 2
+payload_state: READY
+camera_lifecycle_state: 3
+camera_healthy: true
+stored_images: 6
+pending_files: 6
+gateway_connected: false
+nodes_healthy: true
+stale_nodes: []
+detail: ''
+---
+
+GUIDE_COMMANDS_PASS
+Flag --time has been deprecated, use --timeout instead
+satellite-camera-guide-check

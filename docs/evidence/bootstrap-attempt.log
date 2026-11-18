@@ -1,0 +1,69 @@
+Running docker info; log: docs/evidence/docker-info.log
+Running docker pull osrf/space-ros:jazzy-2026.07.0-dev; log: docs/evidence/space-ros-pull.log
+Running docker image inspect osrf/space-ros:jazzy-2026.07.0-dev; log: docs/evidence/image-inspect.json
+Running docker pull osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e; log: docs/evidence/space-ros-digest-pull.log
+Running docker run --rm --network none osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e cat /opt/ros/spaceros/scripts/spaceros.repos; log: docs/evidence/spaceros-exact.repos
+ Container satellite-camera-lab-smoke-run-df17fd6665b2 Creating 
+ Container satellite-camera-lab-smoke-run-df17fd6665b2 Created 
+Starting >>> payload_smoke
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/spaceros/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.21 (/opt/ros/spaceros/share/rclcpp/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/spaceros/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/spaceros/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp'
+-- Found std_msgs: 5.3.8 (/opt/ros/spaceros/share/std_msgs/cmake)
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/build/payload_smoke
+[ 50%] Building CXX object CMakeFiles/smoke.dir/src/smoke.cpp.o
+[100%] Linking CXX executable smoke
+[100%] Built target smoke
+-- Install configuration: ""
+-- Installing: /workspace/install/payload_smoke/lib/payload_smoke/smoke
+-- Set non-toolchain portion of runtime path of "/workspace/install/payload_smoke/lib/payload_smoke/smoke" to ""
+-- Installing: /workspace/install/payload_smoke/share/ament_index/resource_index/package_run_dependencies/payload_smoke
+-- Installing: /workspace/install/payload_smoke/share/ament_index/resource_index/parent_prefix_path/payload_smoke
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.sh
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.dsv
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/environment/path.sh
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/environment/path.dsv
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/local_setup.bash
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/local_setup.sh
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/local_setup.zsh
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/local_setup.dsv
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/package.dsv
+-- Installing: /workspace/install/payload_smoke/share/ament_index/resource_index/packages/payload_smoke
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig.cmake
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig-version.cmake
+-- Installing: /workspace/install/payload_smoke/share/payload_smoke/package.xml
+Finished <<< payload_smoke [6.40s]
+
+Summary: 1 package finished [6.51s]
+[WARN] [1794986116.669148316] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1794986116.669160408] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+[INFO] [1794986117.180740139] [smoke_receiver]: SMOKE_PASS received=5 last=5
+[WARN] [1794986117.728195980] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1794986117.728208025] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+[WARN] [1794986118.795668774] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1794986118.795677653] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+Starting >>> payload_smoke
+Finished <<< payload_smoke [0.04s]
+
+Summary: 1 package finished [0.18s]
+Summary: 0 tests, 0 errors, 0 failures, 0 skipped
+Phase 1 DDS probe passed; this smoke package has no unit tests.

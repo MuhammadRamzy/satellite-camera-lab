@@ -1,0 +1,30 @@
+payload_camera:
+  ros__parameters:
+    width: 640
+    height: 480
+    quality: 75
+    exposure_us: 10000
+    noise_sigma: 2.0
+    noise_seed: 42
+    authority_timeout_s: 1.5
+    pipeline_timeout_s: 30.0
+payload_processing:
+  ros__parameters:
+    grayscale: false
+    crop_x: 0
+    crop_y: 0
+    crop_width: 0
+    crop_height: 0
+    resize_width: 0
+    resize_height: 0
+payload_storage:
+  ros__parameters:
+    quota_bytes: 268435456
+    simulated_write_delay_s: 0.0
+payload_modes:
+  ros__parameters:
+    node_timeout_s: 2.5
+    camera_timeout_s: 1.2
+payload_health:
+  ros__parameters:
+    node_timeout_s: 2.5

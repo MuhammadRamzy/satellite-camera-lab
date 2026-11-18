@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>payload_camera</name><version>0.1.0</version>
+  <description>Command-triggered hardware-free synthetic optical camera.</description>
+  <maintainer email="maintainer@example.invalid">Satellite Camera Lab</maintainer>
+  <license>Apache-2.0</license><buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend><depend>sensor_msgs</depend><depend>payload_interfaces</depend>
+  <depend>rclcpp_lifecycle</depend><depend>rclcpp_action</depend><depend>lifecycle_msgs</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <exec_depend>payload_modes</exec_depend><exec_depend>payload_health</exec_depend>
+  <exec_depend>launch_ros</exec_depend><exec_depend>payload_processing</exec_depend>
+  <exec_depend>payload_storage</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

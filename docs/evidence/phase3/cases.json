@@ -1,0 +1,101 @@
+[
+  {
+    "test_id": "P3-01",
+    "initial_state": "BOOT -> STANDBY",
+    "injected_fault": "invalid requests and premature imaging",
+    "expected": "no imaging before spacecraft permission and READY",
+    "recovery_action": "enable permission, command READY",
+    "recovery_ms": null,
+    "observed": "STANDBY/inactive boot; inhibited/invalid requests rejected; explicit permission and READY activate camera",
+    "result": "PASS",
+    "duration_ms": 8.010246999958781
+  },
+  {
+    "test_id": "P3-02",
+    "initial_state": "READY",
+    "injected_fault": "concurrent capture/downlink during five-image burst",
+    "expected": "five stored images with progress; conflicting operations rejected",
+    "recovery_action": "burst succeeds to READY",
+    "recovery_ms": null,
+    "observed": "5/5 durable completions, ordered feedback 1..5, all operational stages and busy guards observed",
+    "result": "PASS",
+    "duration_ms": 4235.65041300003
+  },
+  {
+    "test_id": "P3-03",
+    "initial_state": "burst STORING",
+    "injected_fault": "operator cancellation during simulated 0.3 s write",
+    "expected": "stop new exposures, finish existing write, terminal CANCELED",
+    "recovery_action": "cancel action; remain READY",
+    "recovery_ms": null,
+    "observed": "cancelled with 1 durable image(s); in-flight write drained; no post-ACK exposures",
+    "result": "PASS",
+    "duration_ms": 776.4455419999763
+  },
+  {
+    "test_id": "P3-04",
+    "initial_state": "burst STORING",
+    "injected_fault": "spacecraft SAFE command",
+    "expected": "immediate exposure inhibit, action ABORTED, explicit recovery required",
+    "recovery_action": "spacecraft OPERATIONAL then recover STANDBY then READY",
+    "recovery_ms": 6.862491999982012,
+    "observed": "SAFE/inactive ACK, burst aborted after 1 durable image(s), local override rejected",
+    "result": "PASS",
+    "duration_ms": 810.0374760000477
+  },
+  {
+    "test_id": "P3-05",
+    "initial_state": "READY/burst",
+    "injected_fault": "SIGSTOP mode manager",
+    "expected": "camera lease expires independently; FAULT and no new imaging",
+    "recovery_action": "SIGCONT then explicit recovery",
+    "recovery_ms": 25.845174000039606,
+    "observed": "modes_node paused; FAULT in 1466.4 ms, payload_modes stale, burst aborted at 7/30; no exposures after fault",
+    "result": "PASS",
+    "duration_ms": 3263.1353660000286
+  },
+  {
+    "test_id": "P3-06",
+    "initial_state": "READY/burst",
+    "injected_fault": "SIGSTOP processing node",
+    "expected": "supervisor detects missing heartbeat, inhibits camera and drains after resume",
+    "recovery_action": "SIGCONT then explicit recovery",
+    "recovery_ms": 76.48870700000998,
+    "observed": "processing_node paused; FAULT in 2518.9 ms, payload_processing stale, burst aborted at 2/30; no exposures after fault",
+    "result": "PASS",
+    "duration_ms": 3051.2256579999644
+  },
+  {
+    "test_id": "P3-07",
+    "initial_state": "READY",
+    "injected_fault": "downlink, cleanup and external lifecycle deactivation",
+    "expected": "lifecycle guards hold and imaging never bypasses READY",
+    "recovery_action": "configure and recover READY",
+    "recovery_ms": null,
+    "observed": "DOWNLINK inhibited; cleanup->unconfigured; configure->inactive; activate->active; direct deactivation->SAFE; recovered",
+    "result": "PASS",
+    "duration_ms": 377.8534990000253
+  },
+  {
+    "test_id": "P3-08",
+    "initial_state": "healthy READY",
+    "injected_fault": "none; timed telemetry validation",
+    "expected": "1 Hz finite resources, contiguous sequence, accurate counts and node/gateway status",
+    "recovery_action": "none",
+    "recovery_ms": null,
+    "observed": "6 consecutive healthy 1 Hz samples; interval range 0.999..1.001 s; 16 stored/pending; gateway correctly disconnected",
+    "result": "PASS",
+    "duration_ms": 7109.171328999992
+  },
+  {
+    "test_id": "P3-09",
+    "initial_state": "STANDBY with completed files",
+    "injected_fault": "restart all five payload processes",
+    "expected": "preserve files and restart inhibited, not READY",
+    "recovery_action": "relaunch same storage",
+    "recovery_ms": 1870.5721799999537,
+    "observed": "16 verified JPEGs/catalogue entries persisted; restart STANDBY/inactive and imaging inhibited",
+    "result": "PASS",
+    "duration_ms": 2337.2825100000227
+  }
+]

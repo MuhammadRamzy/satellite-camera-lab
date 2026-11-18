@@ -1,0 +1,39 @@
+/opt/ros/spaceros/bin/ament_cppcheck
+usage: ament_cppcheck [-h] [--include_dirs [INCLUDE_DIRS ...]]
+                      [--exclude [EXCLUDE ...]] [--language LANGUAGE]
+                      [--xunit-file XUNIT_FILE] [--sarif-file SARIF_FILE]
+                      [--cppcheck-version] [--enable-misra-checks]
+                      [paths ...]
+
+Perform static code analysis using cppcheck.
+
+positional arguments:
+  paths                 Files and/or directories to be checked. Directories
+                        are searched recursively for files ending in one of
+                        '.c', '.cc', '.cpp', '.cxx', '.h', '.hh', '.hpp',
+                        '.hxx'. (default: ['.'])
+
+options:
+  -h, --help            show this help message and exit
+  --include_dirs [INCLUDE_DIRS ...]
+                        Include directories for C/C++ files being checked.Each
+                        directory is passed to cppcheck as '-I <include_dir>'
+                        (default: None)
+  --exclude [EXCLUDE ...]
+                        Exclude C/C++ files from being checked.Each file is
+                        passed to cppcheck as '--suppress=*:<file>' (default:
+                        None)
+  --language LANGUAGE   Passed to cppcheck as '--language=<language>', and it
+                        forces cppcheck to consider as the given language ('c'
+                        or 'c++'). (default: None)
+  --xunit-file XUNIT_FILE
+                        Generate a xunit compliant XML file (default: None)
+  --sarif-file SARIF_FILE
+                        Generate a SARIF file (default: None)
+  --cppcheck-version    Get the cppcheck version, print it, and then exit.
+                        (default: False)
+  --enable-misra-checks
+                        Enable the MISRA C 2012 compliance checking addon.
+                        (default: False)
+Checking src/payload_processing/src/process.cpp ...
+Checking src/payload_processing/src/process.cpp: RCUTILS_ENABLE_FAULT_INJECTION=1;NDEBUG=1...

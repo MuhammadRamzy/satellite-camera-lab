@@ -1,0 +1,23 @@
+test_capture_identity_and_timestamp_preserved (test_catalogue.CatalogueTests.test_capture_identity_and_timestamp_preserved) ... ok
+test_corrupted_image_retained_and_flagged (test_catalogue.CatalogueTests.test_corrupted_image_retained_and_flagged) ... ok
+test_crash_windows (test_catalogue.CatalogueTests.test_crash_windows) ... ok
+test_invalid_input_does_not_create_rows (test_catalogue.CatalogueTests.test_invalid_input_does_not_create_rows) ... ok
+test_missing_file_flagged (test_catalogue.CatalogueTests.test_missing_file_flagged) ... ok
+test_persist_restart_and_ground_confirmation (test_catalogue.CatalogueTests.test_persist_restart_and_ground_confirmation) ... ok
+test_quota_exhaustion (test_catalogue.CatalogueTests.test_quota_exhaustion) ... ok
+test_boot_inhibited_and_validated_update (test_control.AuthorityTests.test_boot_inhibited_and_validated_update) ... ok
+test_permission_revocation_and_internal_modes (test_control.AuthorityTests.test_permission_revocation_and_internal_modes) ... ok
+test_safe_cannot_be_overridden_by_local_recovery (test_control.AuthorityTests.test_safe_cannot_be_overridden_by_local_recovery) ... ok
+test_bad_command_values (test_space_packet.PacketTests.test_bad_command_values) ... ok
+test_bad_primary_and_mission_headers (test_space_packet.PacketTests.test_bad_primary_and_mission_headers) ... ok
+test_encoder_limits (test_space_packet.PacketTests.test_encoder_limits) ... ok
+test_every_command_has_exact_length (test_space_packet.PacketTests.test_every_command_has_exact_length) ... ok
+test_known_wire_vector (test_space_packet.PacketTests.test_known_wire_vector) ... ok
+test_roundtrip_sequence_wrap (test_space_packet.PacketTests.test_roundtrip_sequence_wrap) ... ok
+test_stream_fragmentation_and_coalescence (test_space_packet.PacketTests.test_stream_fragmentation_and_coalescence) ... ok
+test_stream_size_rejected_at_header (test_space_packet.PacketTests.test_stream_size_rejected_at_header) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.007s
+
+OK

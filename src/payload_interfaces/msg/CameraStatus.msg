@@ -1,0 +1,16 @@
+uint8 BOOT=0
+uint8 STANDBY=1
+uint8 READY=2
+uint8 DOWNLINK=3
+uint8 SAFE=4
+uint8 FAULT=5
+string<=36 boot_id
+uint8 mode
+string<=16 operational_state
+uint8 lifecycle_state
+string<=36 in_flight
+bool burst_active
+uint32 burst_completed
+bool imaging_enabled
+string<=256 reason
+uint64 sequence
