@@ -1,0 +1,36 @@
+[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-09-06-10-854967-7322125f02f1-355
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [storage_node-1]: process started with pid [375]
+[INFO] [processing_node-2]: process started with pid [376]
+[INFO] [camera_node-3]: process started with pid [377]
+[INFO] [modes_node-4]: process started with pid [378]
+[INFO] [health_node-5]: process started with pid [379]
+[storage_node-1] [INFO] [1794992771.339960056] [payload_storage]: {"event": "storage_recovered", "entries": 0}
+[camera_node-3] [ERROR] [1794992772.287272880] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[processing_node-2] [INFO] [1794992772.375877384] [payload_processing]: event=image_processed id=62fbcace-a368-427b-b7f9-0e72c5434b70 bytes=25687 processing_ms=3.284
+[storage_node-1] [INFO] [1794992772.380749140] [payload_storage]: {"event": "file_ready", "id": "62fbcace-a368-427b-b7f9-0e72c5434b70", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 4.122939999888331}
+[camera_node-3] [ERROR] [1794992772.496188187] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[camera_node-3] [ERROR] [1794992773.549704545] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[processing_node-2] [INFO] [1794992776.325570920] [payload_processing]: event=image_processed id=a347a08a-24c1-48ea-ae3e-f954e23ff33f bytes=25687 processing_ms=2.460
+[storage_node-1] [INFO] [1794992776.333010785] [payload_storage]: {"event": "file_ready", "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 6.153691000235995}
+[processing_node-2] [INFO] [1794992777.367230456] [payload_processing]: event=image_processed id=0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0 bytes=25687 processing_ms=2.227
+[storage_node-1] [INFO] [1794992777.374468612] [payload_storage]: {"event": "file_ready", "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 5.925329000092461}
+[processing_node-2] [INFO] [1794992778.398445350] [payload_processing]: event=image_processed id=1a0741cb-a176-4a80-a55c-cface8f5fcc8 bytes=25687 processing_ms=2.281
+[storage_node-1] [INFO] [1794992778.408027379] [payload_storage]: {"event": "file_ready", "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.702865000032034}
+[processing_node-2] [INFO] [1794992779.442469345] [payload_processing]: event=image_processed id=e2a9eb1f-d143-4fc2-bc48-68db84819ee6 bytes=25687 processing_ms=2.306
+[storage_node-1] [INFO] [1794992779.449260892] [payload_storage]: {"event": "file_ready", "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 5.929916999775742}
+[processing_node-2] [INFO] [1794992780.488156662] [payload_processing]: event=image_processed id=0f7d736e-205a-43ea-b0f4-cb1b53d853e0 bytes=25687 processing_ms=2.557
+[storage_node-1] [INFO] [1794992780.495853433] [payload_storage]: {"event": "file_ready", "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 6.521457999951963}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [health_node-5]: sending signal 'SIGINT' to process[health_node-5]
+[INFO] [modes_node-4]: sending signal 'SIGINT' to process[modes_node-4]
+[INFO] [camera_node-3]: sending signal 'SIGINT' to process[camera_node-3]
+[INFO] [processing_node-2]: sending signal 'SIGINT' to process[processing_node-2]
+[INFO] [storage_node-1]: sending signal 'SIGINT' to process[storage_node-1]
+[camera_node-3] [INFO] [1794992785.035745745] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[processing_node-2] [INFO] [1794992785.036423802] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [processing_node-2]: process has finished cleanly [pid 376]
+[INFO] [camera_node-3]: process has finished cleanly [pid 377]
+[INFO] [health_node-5]: process has finished cleanly [pid 379]
+[INFO] [storage_node-1]: process has finished cleanly [pid 375]
+[INFO] [modes_node-4]: process has finished cleanly [pid 378]

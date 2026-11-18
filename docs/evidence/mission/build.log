@@ -1,7 +1,7 @@
 Starting >>> payload_interfaces
 Starting >>> payload_smoke
-[  1%] Built target payload_interfaces__rs
-[  2%] Built target payload_interfaces__rosidl_generator_type_description
+[  1%] Built target payload_interfaces__rosidl_generator_type_description
+[  2%] Built target payload_interfaces__rs
 [100%] Built target smoke
 [  2%] Built target ament_cmake_python_copy_payload_interfaces
 [  2%] Built target payload_interfaces__cpp
@@ -9,7 +9,6 @@ Starting >>> payload_smoke
 -- Up-to-date: /workspace/install/payload_smoke/lib/payload_smoke/smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/package_run_dependencies/payload_smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/parent_prefix_path/payload_smoke
-[ 36%] Built target payload_interfaces__rosidl_generator_c
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.sh
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/ament_prefix_path.dsv
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/environment/path.sh
@@ -23,7 +22,8 @@ Starting >>> payload_smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig.cmake
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/package.xml
-Finished <<< payload_smoke [0.10s]
+Finished <<< payload_smoke [0.15s]
+[ 36%] Built target payload_interfaces__rosidl_generator_c
 [ 49%] Built target payload_interfaces__rosidl_typesupport_introspection_c
 [ 61%] Built target payload_interfaces__rosidl_typesupport_introspection_cpp
 [ 73%] Built target payload_interfaces__rosidl_typesupport_c
@@ -31,11 +31,11 @@ Finished <<< payload_smoke [0.10s]
 [ 85%] Built target payload_interfaces
 [ 86%] Built target payload_interfaces__py
 running egg_info
-[ 97%] Built target payload_interfaces__rosidl_generator_py
 writing payload_interfaces.egg-info/PKG-INFO
 writing dependency_links to payload_interfaces.egg-info/dependency_links.txt
 writing top-level names to payload_interfaces.egg-info/top_level.txt
-[ 98%] Built target payload_interfaces_s__rosidl_typesupport_c
+[ 97%] Built target payload_interfaces__rosidl_generator_py
+[ 99%] Built target payload_interfaces_s__rosidl_typesupport_c
 [100%] Built target payload_interfaces_s__rosidl_typesupport_introspection_c
 reading manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
@@ -471,14 +471,14 @@ Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig.cmake
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/package.xml
-Finished <<< payload_interfaces [0.43s]
+Finished <<< payload_interfaces [0.48s]
 Starting >>> payload_storage
 Starting >>> payload_processing
+Built target ament_cmake_python_copy_foundations
 [ 20%] Built target process
 [ 40%] Built target gtest
-[ 60%] Built target gtest_main
 Built target ament_cmake_python_copy_interfaces
-Built target ament_cmake_python_copy_foundations
+[ 60%] Built target gtest_main
 [ 80%] Built target test_process
 [100%] Built target processing_node
 -- Install configuration: "RelWithDebInfo"
@@ -501,10 +501,10 @@ Built target ament_cmake_python_copy_foundations
 -- Up-to-date: /workspace/install/payload_processing/share/payload_processing/package.xml
 Finished <<< payload_processing [0.16s]
 running egg_info
+running egg_info
 writing interfaces.egg-info/PKG-INFO
 writing dependency_links to interfaces.egg-info/dependency_links.txt
 writing top-level names to interfaces.egg-info/top_level.txt
-running egg_info
 writing foundations.egg-info/PKG-INFO
 writing dependency_links to foundations.egg-info/dependency_links.txt
 writing top-level names to foundations.egg-info/top_level.txt
@@ -524,25 +524,23 @@ Built target ament_cmake_python_build_foundations_egg
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/PKG-INFO
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/control.py
--- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/catalogue.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/__init__.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/ground.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/command_journal.py
 Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations'...
-Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py'...
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/top_level.txt
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/PKG-INFO
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces
--- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/space_packet.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/framing.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/__init__.py
 Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/interfaces'...
-Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py'...
 -- Up-to-date: /workspace/install/payload_storage/lib/payload_storage/storage_node
 -- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/package_run_dependencies/payload_storage
 -- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/parent_prefix_path/payload_storage
@@ -559,7 +557,7 @@ Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/inter
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig.cmake
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/package.xml
-Finished <<< payload_storage [0.45s]
+Finished <<< payload_storage [0.44s]
 Starting >>> payload_health
 Starting >>> payload_modes
 -- Install configuration: "RelWithDebInfo"
@@ -579,7 +577,7 @@ Starting >>> payload_modes
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig.cmake
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_health/share/payload_health/package.xml
-Finished <<< payload_health [0.05s]
+Finished <<< payload_health [0.08s]
 Starting >>> payload_gateway
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_modes/lib/payload_modes/modes_node
@@ -598,7 +596,7 @@ Starting >>> payload_gateway
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/cmake/payload_modesConfig.cmake
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/cmake/payload_modesConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/package.xml
-Finished <<< payload_modes [0.07s]
+Finished <<< payload_modes [0.09s]
 Starting >>> payload_camera
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_gateway/lib/payload_gateway/gateway_node
@@ -617,7 +615,7 @@ Starting >>> payload_camera
 -- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/cmake/payload_gatewayConfig.cmake
 -- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/cmake/payload_gatewayConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/package.xml
-Finished <<< payload_gateway [0.08s]
+Finished <<< payload_gateway [0.07s]
 [ 25%] Built target gtest
 [ 50%] Built target gtest_main
 [ 75%] Built target camera_node
@@ -644,6 +642,6 @@ Finished <<< payload_gateway [0.08s]
 -- Up-to-date: /workspace/install/payload_camera/share/payload_camera/cmake/payload_cameraConfig.cmake
 -- Up-to-date: /workspace/install/payload_camera/share/payload_camera/cmake/payload_cameraConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_camera/share/payload_camera/package.xml
-Finished <<< payload_camera [0.12s]
+Finished <<< payload_camera [0.10s]
 
-Summary: 8 packages finished [1.17s]
+Summary: 8 packages finished [1.23s]

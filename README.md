@@ -1,7 +1,7 @@
 # Satellite Camera Lab
 
-Phases 1–5 are working in a genuine, pinned Space ROS Jazzy environment.
-This is an engineering prototype in progress, not the complete satellite mission.
+The full five-image simulated mission works in genuine, pinned Space ROS Jazzy.
+Phases 1–6 pass; the extended fault and benchmark campaign is in progress.
 
 Implemented: C++17 synthetic camera and image processing nodes; typed ROS
 messages/service; real JPEG files; grayscale/crop/resize/statistics; Python ROS
@@ -12,7 +12,7 @@ watchdogs and 1 Hz housekeeping pass nine runtime acceptance cases.
 
 Verified: five 640×480 RGB images plus a 160×120 grayscale transformation,
 independent Pillow decoding, six SHA-256 matches, preserved catalogue/files
-through process restart, 15 host tests and five C++ processing tests. Bundled
+through process restart, 22 host tests and nine C++ cases. Bundled
 ament_cppcheck passes for the processing core. See [evidence](docs/test-results.md).
 
 The installed base is official `osrf/space-ros:jazzy-2026.07.0-dev`, pinned in
@@ -27,6 +27,7 @@ bash scripts/test-host.sh
 python3 scripts/bootstrap-spaceros.py
 bash scripts/run-phase2.sh
 bash scripts/run-phase3.sh
+bash scripts/run-mission.sh
 ```
 
 The bootstrap reuses the locked official image and tests DDS. The Phase 2 runner
@@ -35,15 +36,16 @@ capture/restart acceptance, and saves new images under `data/phase2_<UTC>/`.
 It needs working Docker and registry/Ubuntu mirror access for uncached builds;
 no camera hardware or privileged container is required.
 
-For interactive capture see [the operator guide](docs/START-HERE.md). Next gate is
-Phase 6: five-image mission from the ground CLI through the bus to ground receipt.
+For interactive capture see [the operator guide](docs/START-HERE.md).
+Five-image ground delivery passes independent JPEG decode and SHA-256 checks,
+with final STANDBY and zero pending files. The next gate is extended verification.
 The live SPP gateway and independent behavioral bus now pass duplicate/reconnect
 and process-restart tests. This bus is a cFS behavioral simulator, not real cFS.
 The experimental file/radio path passes live resume, corruption/loss retry,
 rate/window and receipt/deletion tests. It is not CFDP.
-Directory/V4L2 camera sources, original-image preservation, CCSDS gateway runtime,
-bus, file transport, radio, ground CLI, full faults and benchmarks remain open.
-The host-testable packet codec is implemented; it is not a live gateway.
+Directory/V4L2 camera sources, raw sensor-image preservation, remaining faults,
+benchmarks and ARM hardware execution remain open. Captured JPEG originals are
+retained after confirmed delivery unless deletion is explicitly commanded.
 
 Start with [status](docs/STATUS.md), [report](docs/engineering-report.md), and
 [handoff](docs/HANDOFF.md). No real cFS or CFDP is installed.

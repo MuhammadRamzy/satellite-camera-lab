@@ -20,9 +20,9 @@ PASS=verified phase acceptance; P=passing partial/foundation check; N=not implem
 | BUS-01 | Independent cFS behavioral simulator | Separate process, scheduler, persistent IDs, spacecraft authority; full watchdog campaign next | P |
 | FIL-01 | Reliable experimental file transport | Phase 5 live resume, CRC, retransmit, final digest | PASS |
 | RF-01 | Enforced data rates/windows/loss | Phase 5 timed application-wire cap and interrupted pass | PASS for simulated scope |
-| GND-01 | CLI and five-image ground receipt | Complete mission with five independent SHA-256 checks | N |
+| GND-01 | CLI and five-image ground receipt | Phase 6 five independent ground JPEG decodes and SHA-256 checks | PASS |
 | VER-01 | Full fault campaign | fault-injection.md | N |
 | BEN-01 | Measured factorial benchmark exports | benchmarks.md | N |
 | PORT-01 | Pi 5 ARM64 plan/build/runtime | raspberry-pi-migration.md; hardware validation pending | N |
 
-Mission acceptance now has actual Space ROS/payload node execution, synthetic images, processing/compression, mode/lifecycle control, health and process-restart persistence evidence. Transfer, ground delivery, full faults and benchmark measurements remain open.
+The synthetic five-image mission passes through ground receipt and propagated catalogue confirmation. Extended faults, benchmark measurements and hardware execution remain separate gates.

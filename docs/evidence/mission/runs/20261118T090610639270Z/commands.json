@@ -1,0 +1,4488 @@
+[
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 102,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.80475199983266
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 103,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 4.7919509997882415
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 104,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 6.2283190000016475
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 105,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 4.055369000070641
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 106,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.343159999891213
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 107,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 4.698019999977987
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 108,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.4589259997992485
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 109,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.439628999738488
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214900736,
+      "jobs": {},
+      "command_id": 110,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.232180000049993
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214900736,
+      "jobs": {},
+      "command_id": 111,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.995929999699001
+  },
+  {
+    "request": {
+      "op": "ping",
+      "command_id": 100
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214900736,
+      "jobs": {},
+      "command_id": 100
+    },
+    "duration_ms": 4.210587000216037
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "capture_id": "",
+      "reason": "camera inhibited or pipeline busy",
+      "command_id": 112
+    },
+    "duration_ms": 7.122710000203369
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 113
+    },
+    "duration_ms": 5.91649000034522
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 114
+    },
+    "duration_ms": 7.04929199991966
+  },
+  {
+    "request": {
+      "op": "configure",
+      "width": 640,
+      "height": 480,
+      "quality": 75
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "requested_fps": 1,
+      "acquisition": "commanded burst interval",
+      "command_id": 115
+    },
+    "duration_ms": 6.572514999788837
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214900736,
+      "jobs": {},
+      "command_id": 116,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 4.546266000033938
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 117
+    },
+    "duration_ms": 6.646352999723604
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 118
+    },
+    "duration_ms": 9.066336000159936
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 119
+    },
+    "duration_ms": 6.3668749999123975
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214900736,
+      "jobs": {},
+      "command_id": 120,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 3.5638869999274903
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 34.22664400022768
+  },
+  {
+    "request": {
+      "op": "capture",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 2.1838650000063353
+  },
+  {
+    "request": {
+      "op": "safe",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "COMMAND_ID_CONFLICT",
+      "command_id": 121
+    },
+    "duration_ms": 1.800936000108777
+  },
+  {
+    "request": {
+      "op": "reconnect"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "session closed; explicit permission/recovery required"
+    },
+    "duration_ms": 0.933837000047788
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 214900736,
+      "jobs": {},
+      "command_id": 122,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 10.529088999646774
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "capture_id": "",
+      "reason": "camera inhibited or pipeline busy",
+      "command_id": 123
+    },
+    "duration_ms": 7.416701999773068
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "peer disconnected"
+    },
+    "duration_ms": 3.4422059998178156
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "[Errno 111] Connection refused"
+    },
+    "duration_ms": 3.1560930001433007
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "[Errno 111] Connection refused"
+    },
+    "duration_ms": 2.5356380001539947
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 128,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.603360999884899
+  },
+  {
+    "request": {
+      "op": "capture",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 0.8146999998643878
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 130,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.085682000000816
+  },
+  {
+    "request": {
+      "op": "ping"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 131
+    },
+    "duration_ms": 5.262449999918317
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 132,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 4.573168000206351
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 133,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.08417499981806
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 134,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.921493999674567
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 2,
+      "gateway_connected": true,
+      "cpu_percent": 28.15043177125693,
+      "memory_used_bytes": 217550848,
+      "jobs": {},
+      "command_id": 135,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.427492999795504
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 136
+    },
+    "duration_ms": 7.751087000087864
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 137
+    },
+    "duration_ms": 7.064908000302239
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 138
+    },
+    "duration_ms": 6.358902000101807
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 2,
+      "gateway_connected": true,
+      "cpu_percent": 28.15043177125693,
+      "memory_used_bytes": 217550848,
+      "jobs": {},
+      "command_id": 139,
+      "queue": [],
+      "queue_count": 0,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 3.808881000168185
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 1
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 140
+    },
+    "duration_ms": 6.05314799986445
+  },
+  {
+    "request": {
+      "op": "configure",
+      "source": 1
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "only synthetic camera source is supported",
+      "command_id": 141
+    },
+    "duration_ms": 3.3156610002151865
+  },
+  {
+    "request": {
+      "op": "configure",
+      "source": 2
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "only synthetic camera source is supported",
+      "command_id": 142
+    },
+    "duration_ms": 3.968935999637324
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 143
+    },
+    "duration_ms": 8.325668999987101
+  },
+  {
+    "request": {
+      "op": "delete",
+      "id": "62fbcace-a368-427b-b7f9-0e72c5434b70"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "cannot delete without confirmed ground delivery",
+      "command_id": 144
+    },
+    "duration_ms": 8.67742399987037
+  },
+  {
+    "request": {
+      "op": "confirm",
+      "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "ground confirmation does not match complete capture",
+      "command_id": 145
+    },
+    "duration_ms": 4.351114000201051
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 3
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 146
+    },
+    "duration_ms": 5.547930999910022
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "capture_id": "",
+      "reason": "camera inhibited or pipeline busy",
+      "command_id": 147
+    },
+    "duration_ms": 4.148129999975936
+  },
+  {
+    "request": {
+      "op": "fetch",
+      "id": "62fbcace-a368-427b-b7f9-0e72c5434b70"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "spooled": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+    },
+    "duration_ms": 19.329336999817315
+  },
+  {
+    "request": {
+      "op": "safe"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 150
+    },
+    "duration_ms": 14.161953999973775
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": 0.05,
+        "window": 60,
+        "interrupt_after": 2
+      }
+    },
+    "response": {
+      "status": "INTERRUPTED",
+      "reason": "injected link interruption after durable ACK",
+      "receipts": [],
+      "metrics": {
+        "attempted_wire_bytes": 11302,
+        "lost_packets": 0,
+        "retransmissions": 0,
+        "resumed_bytes": 0,
+        "payload_delivered_bytes": 8192,
+        "wall_seconds": 1.825424085999657
+      }
+    },
+    "duration_ms": 1826.6586650001955
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": 0.5,
+        "window": 0.001
+      }
+    },
+    "response": {
+      "status": "INTERRUPTED",
+      "reason": "pass window closed; resume next pass",
+      "receipts": [],
+      "metrics": {
+        "attempted_wire_bytes": 0,
+        "lost_packets": 0,
+        "retransmissions": 0,
+        "resumed_bytes": 0,
+        "payload_delivered_bytes": 0,
+        "wall_seconds": 0.000780159999976604
+      }
+    },
+    "duration_ms": 1.6051389998210652
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 4,
+      "gateway_connected": true,
+      "cpu_percent": 4.584805305997388,
+      "memory_used_bytes": 227532800,
+      "jobs": {},
+      "command_id": 152,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "PENDING"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": false
+    },
+    "duration_ms": 10.48943399973723
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 153
+    },
+    "duration_ms": 7.946816000185208
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 154
+    },
+    "duration_ms": 8.2399009997971
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 155
+    },
+    "duration_ms": 8.869379000316258
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 4,
+      "gateway_connected": true,
+      "cpu_percent": 4.584805305997388,
+      "memory_used_bytes": 227532800,
+      "jobs": {},
+      "command_id": 156,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "PENDING"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 4.909197000415588
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 3
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 157
+    },
+    "duration_ms": 7.2647609999876295
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": 0.5,
+        "window": 60,
+        "loss": 0.1,
+        "seed": 31,
+        "corrupt_once": true
+      }
+    },
+    "response": {
+      "status": "COMPLETED",
+      "receipts": [
+        {
+          "type": "RECEIPT",
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "size": 25687,
+          "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+        }
+      ],
+      "metrics": {
+        "attempted_wire_bytes": 35273,
+        "lost_packets": 1,
+        "retransmissions": 2,
+        "resumed_bytes": 8192,
+        "payload_delivered_bytes": 17495,
+        "wall_seconds": 0.5972844989996702
+      }
+    },
+    "duration_ms": 598.0101770001056
+  },
+  {
+    "request": {
+      "op": "delete",
+      "id": "62fbcace-a368-427b-b7f9-0e72c5434b70"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "deleted": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+      "command_id": 160
+    },
+    "duration_ms": 9.494146000179171
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "unknown_setting": 1
+      }
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "Link.__init__() got an unexpected keyword argument 'unknown_setting'"
+    },
+    "duration_ms": 0.6188749998727872
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": "fast"
+      }
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "must be real number, not str"
+    },
+    "duration_ms": 0.785838999945554
+  },
+  {
+    "request": {
+      "op": "ping"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 3,
+      "state": "DOWNLINK",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {},
+      "command_id": 161
+    },
+    "duration_ms": 3.6160899999231333
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 1
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 162
+    },
+    "duration_ms": 6.212201000380446
+  },
+  {
+    "request": {
+      "op": "configure",
+      "width": 640,
+      "height": 480,
+      "fps": 1,
+      "quality": 75
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "requested_fps": 1,
+      "acquisition": "commanded burst interval",
+      "command_id": 163
+    },
+    "duration_ms": 4.97190199985198
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 164
+    },
+    "duration_ms": 5.798042000151327
+  },
+  {
+    "request": {
+      "op": "burst",
+      "count": 5,
+      "interval_ms": 1000
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "job": "165",
+      "command_id": 165
+    },
+    "duration_ms": 5.907177999688429
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "CAPTURING",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 0,
+          "requested": 5,
+          "status": "ACCEPTED"
+        }
+      },
+      "command_id": 166,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 4.5047089997751755
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 167,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.188097000129346
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 168,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.720915999925637
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 169,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.847127000331966
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 170,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.628166999893438
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 171,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.24469200006206
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 173,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 9.527727000204322
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 174,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.031227999756084
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 5,
+      "gateway_connected": true,
+      "cpu_percent": 9.045612683138131,
+      "memory_used_bytes": 228274176,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 175,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.607580999978381
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 176,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.207251999920118
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "STORING",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 1,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+        }
+      },
+      "command_id": 177,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 4.543568999906711
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 178,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.398893999881693
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 179,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.989949000148044
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 180,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.911984999940614
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 181,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.91807399996469
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 183,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.862482000040472
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 184,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.760153000162973
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 185,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.958824000117602
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 6,
+      "gateway_connected": true,
+      "cpu_percent": 8.814486279326356,
+      "memory_used_bytes": 232067072,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 186,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.56369200012341
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 2,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+        }
+      },
+      "command_id": 187,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.209461999787891
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 188,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.7218430001266825
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 189,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 9.265295999739465
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 190,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.244015999982366
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 191,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.62204799977917
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 192,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 9.454606999952375
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 194,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.78169399993567
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 195,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.893260999935592
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 1,
+      "pending": 1,
+      "heartbeat": 7,
+      "gateway_connected": true,
+      "cpu_percent": 6.985643892273866,
+      "memory_used_bytes": 233480192,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 196,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.339127999988705
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 197,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.320599000195216
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "CAPTURING",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 3,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+        }
+      },
+      "command_id": 198,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.297639999957028
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 199,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.916770999850996
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 200,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.876498999896285
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 201,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.21496800017485
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 202,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.980583999848022
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 204,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.226203000300302
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 205,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.672396999874763
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 2,
+      "pending": 2,
+      "heartbeat": 8,
+      "gateway_connected": true,
+      "cpu_percent": 6.989399024642321,
+      "memory_used_bytes": 234119168,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 206,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.855704000121477
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 3,
+      "pending": 3,
+      "heartbeat": 9,
+      "gateway_connected": true,
+      "cpu_percent": 7.533130305674621,
+      "memory_used_bytes": 234524672,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 207,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.910038000365603
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 3,
+      "pending": 3,
+      "heartbeat": 9,
+      "gateway_connected": true,
+      "cpu_percent": 7.533130305674621,
+      "memory_used_bytes": 234524672,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 208,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.88401299976249
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "STORING",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 3,
+      "pending": 3,
+      "heartbeat": 9,
+      "gateway_connected": true,
+      "cpu_percent": 7.533130305674621,
+      "memory_used_bytes": 234524672,
+      "jobs": {
+        "165": {
+          "completed": 4,
+          "requested": 5,
+          "status": "ACCEPTED",
+          "last_capture_id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+        }
+      },
+      "command_id": 209,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.019888000286301
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 3,
+      "pending": 3,
+      "heartbeat": 9,
+      "gateway_connected": true,
+      "cpu_percent": 7.533130305674621,
+      "memory_used_bytes": 234524672,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 210,
+      "queue": [
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 1,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.838303999960772
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 3
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 211
+    },
+    "duration_ms": 11.313896000046952
+  },
+  {
+    "request": {
+      "op": "fetch",
+      "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "spooled": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+    },
+    "duration_ms": 26.995081000222854
+  },
+  {
+    "request": {
+      "op": "fetch",
+      "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "spooled": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+    },
+    "duration_ms": 26.39175800004523
+  },
+  {
+    "request": {
+      "op": "fetch",
+      "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "spooled": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+    },
+    "duration_ms": 28.894010999920283
+  },
+  {
+    "request": {
+      "op": "fetch",
+      "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "spooled": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+    },
+    "duration_ms": 24.319053999988682
+  },
+  {
+    "request": {
+      "op": "fetch",
+      "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "spooled": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+      "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+    },
+    "duration_ms": 26.407574000131717
+  },
+  {
+    "request": {
+      "op": "downlink",
+      "link": {
+        "rate_mbps": 1,
+        "window": 60,
+        "loss": 0,
+        "latency_ms": 5
+      }
+    },
+    "response": {
+      "status": "COMPLETED",
+      "receipts": [
+        {
+          "type": "RECEIPT",
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "size": 25687,
+          "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+        },
+        {
+          "type": "RECEIPT",
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "size": 25687,
+          "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+        },
+        {
+          "type": "RECEIPT",
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "size": 25687,
+          "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+        },
+        {
+          "type": "RECEIPT",
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "size": 25687,
+          "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+        },
+        {
+          "type": "RECEIPT",
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "size": 25687,
+          "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+        }
+      ],
+      "metrics": {
+        "attempted_wire_bytes": 176505,
+        "lost_packets": 0,
+        "retransmissions": 0,
+        "resumed_bytes": 0,
+        "payload_delivered_bytes": 128435,
+        "wall_seconds": 1.85827594400007
+      }
+    },
+    "duration_ms": 1859.1662150001866
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 1
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 224
+    },
+    "duration_ms": 8.371747999717627
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 4,
+      "heartbeat": 11,
+      "gateway_connected": true,
+      "cpu_percent": 6.1669166912978755,
+      "memory_used_bytes": 235491328,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 225,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 4.19119900016085
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 4,
+      "heartbeat": 11,
+      "gateway_connected": true,
+      "cpu_percent": 6.1669166912978755,
+      "memory_used_bytes": 235491328,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 226,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.222588000331598
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 4,
+      "heartbeat": 11,
+      "gateway_connected": true,
+      "cpu_percent": 6.1669166912978755,
+      "memory_used_bytes": 235491328,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 227,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.835522000026685
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 4,
+      "heartbeat": 11,
+      "gateway_connected": true,
+      "cpu_percent": 6.1669166912978755,
+      "memory_used_bytes": 235491328,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 229,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.989847999600897
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 4,
+      "heartbeat": 11,
+      "gateway_connected": true,
+      "cpu_percent": 6.1669166912978755,
+      "memory_used_bytes": 235491328,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 230,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.865455999966798
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 4,
+      "heartbeat": 11,
+      "gateway_connected": true,
+      "cpu_percent": 6.1669166912978755,
+      "memory_used_bytes": 235491328,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 231,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 9.374430000207212
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 232,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 7.829014999970241
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 233,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.12604900011138
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 234,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.174033999694075
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 235,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 6.154995000088093
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 236,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 9.441710999908537
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 237,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 9.82725699986986
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 239,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.699411000023247
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 240,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.78424599977734
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 1,
+      "heartbeat": 12,
+      "gateway_connected": true,
+      "cpu_percent": 6.441700273877114,
+      "memory_used_bytes": 237690880,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 241,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.301145000132237
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": true,
+      "stored": 5,
+      "pending": 0,
+      "heartbeat": 13,
+      "gateway_connected": true,
+      "cpu_percent": 4.646428687617849,
+      "memory_used_bytes": 237686784,
+      "jobs": {
+        "165": {
+          "completed": 5,
+          "requested": 5,
+          "status": "COMPLETED",
+          "last_capture_id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "action_status": 4,
+          "reason": "all images durably stored"
+        }
+      },
+      "command_id": 242,
+      "queue": [
+        {
+          "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+          "manifest": {
+            "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+          "manifest": {
+            "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+          "manifest": {
+            "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+          "manifest": {
+            "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+          "manifest": {
+            "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        },
+        {
+          "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+          "manifest": {
+            "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6",
+            "size": 25687,
+            "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
+          },
+          "state": "DELIVERED"
+        }
+      ],
+      "queue_count": 6,
+      "queue_truncated": false,
+      "spacecraft_operational": true
+    },
+    "duration_ms": 8.597073999681015
+  }
+]

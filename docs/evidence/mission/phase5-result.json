@@ -1,9 +1,9 @@
 {
   "result": "PASS",
   "phase": 5,
-  "run_id": "20261118T090456037121Z",
-  "directory": "data/mission_20261118T090456037121Z",
-  "logs": "docs/evidence/mission/runs/20261118T090456037121Z",
+  "run_id": "20261118T090610639270Z",
+  "directory": "data/mission_20261118T090610639270Z",
+  "logs": "docs/evidence/mission/runs/20261118T090610639270Z",
   "cases": [
     {
       "test_id": "P4-01",
@@ -14,7 +14,7 @@
       "recovery_ms": null,
       "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified",
       "result": "PASS",
-      "duration_ms": 73.22977600006197
+      "duration_ms": 74.2205980000108
     },
     {
       "test_id": "P4-02",
@@ -23,9 +23,9 @@
       "expected": "one exposure; durable replay; SAFE and explicit recovery",
       "recovery_action": "restart/recover",
       "recovery_ms": null,
-      "observed": "capture 52ea604f-5da4-4557-a8ae-f49db730fe59 ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs",
+      "observed": "capture 62fbcace-a368-427b-b7f9-0e72c5434b70 ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs",
       "result": "PASS",
-      "duration_ms": 1007.1947290002754
+      "duration_ms": 1024.4535829997403
     },
     {
       "test_id": "P4-03",
@@ -36,7 +36,7 @@
       "recovery_ms": null,
       "observed": "source selectors 1 and 2 explicitly rejected; no hardware adapter is claimed",
       "result": "PASS",
-      "duration_ms": 19.32871199960573
+      "duration_ms": 21.697087999655196
     },
     {
       "test_id": "P5-01",
@@ -56,7 +56,7 @@
             "retransmissions": 0,
             "resumed_bytes": 0,
             "payload_delivered_bytes": 8192,
-            "wall_seconds": 1.8262100769998142
+            "wall_seconds": 1.825424085999657
           }
         },
         "resumed_pass": {
@@ -64,7 +64,7 @@
           "receipts": [
             {
               "type": "RECEIPT",
-              "id": "52ea604f-5da4-4557-a8ae-f49db730fe59",
+              "id": "62fbcace-a368-427b-b7f9-0e72c5434b70",
               "size": 25687,
               "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"
             }
@@ -75,14 +75,14 @@
             "retransmissions": 2,
             "resumed_bytes": 8192,
             "payload_delivered_bytes": 17495,
-            "wall_seconds": 0.5979955429997972
+            "wall_seconds": 0.5972844989996702
           }
         },
-        "safe_during_downlink_ms": 11.965117999807262,
+        "safe_during_downlink_ms": 14.17448299980606,
         "verified": "ground SIGKILL/restart resumes; CRC corruption retried; wrong receipt and premature deletion rejected; deletion after ground confirmation succeeds"
       },
       "result": "PASS",
-      "duration_ms": 2751.556126000196
+      "duration_ms": 2733.069960999728
     },
     {
       "test_id": "P5-02",
@@ -93,7 +93,7 @@
       "recovery_ms": null,
       "observed": "malformed operator link settings return ERROR; malformed ground manifest closes session; bus and ground stay alive",
       "result": "PASS",
-      "duration_ms": 6.095470000218484
+      "duration_ms": 5.55229200017493
     }
   ],
   "base_image": {

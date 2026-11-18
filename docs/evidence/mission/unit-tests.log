@@ -4,7 +4,7 @@ Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
    Site: 43db24d155d3
    Build name: (empty)
  Add coverage exclude regular expressions.
-Create new tag: 20261118-0904 - Experimental
+Create new tag: 20261118-0906 - Experimental
 UpdateCTestConfiguration  from :/workspace/build/payload_processing/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
 Test project /workspace/build/payload_processing
@@ -52,14 +52,14 @@ Label Time Summary:
 gtest    =   0.05 sec*proc (1 test)
 
 Total Test time (real) =   0.05 sec
-Finished <<< payload_processing [0.08s]
+Finished <<< payload_processing [0.09s]
 Starting >>> payload_camera
 UpdateCTestConfiguration  from :/workspace/build/payload_camera/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_camera/CTestConfiguration.ini
    Site: 43db24d155d3
    Build name: (empty)
  Add coverage exclude regular expressions.
-Create new tag: 20261118-0904 - Experimental
+Create new tag: 20261118-0906 - Experimental
 UpdateCTestConfiguration  from :/workspace/build/payload_camera/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_camera/CTestConfiguration.ini
 Test project /workspace/build/payload_camera
@@ -97,14 +97,14 @@ test 1
 1: -- run_test.py: return code 0
 1: -- run_test.py: inject classname prefix into gtest result file '/workspace/build/payload_camera/test_results/payload_camera/test_modes.gtest.xml'
 1: -- run_test.py: verify result file '/workspace/build/payload_camera/test_results/payload_camera/test_modes.gtest.xml'
-1/1 Test #1: test_modes .......................   Passed    0.06 sec
+1/1 Test #1: test_modes .......................   Passed    0.05 sec
 
 100% tests passed, 0 tests failed out of 1
 
 Label Time Summary:
-gtest    =   0.06 sec*proc (1 test)
+gtest    =   0.05 sec*proc (1 test)
 
-Total Test time (real) =   0.06 sec
+Total Test time (real) =   0.05 sec
 Finished <<< payload_camera [0.10s]
 
-Summary: 2 packages finished [0.32s]
+Summary: 2 packages finished [0.33s]

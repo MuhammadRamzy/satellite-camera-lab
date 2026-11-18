@@ -2,6 +2,14 @@
 
 PASS: Phases 1–3, including the synthetic pipeline and payload control.
 
+Phase 6 passes the complete five-image synthetic mission. All five 640×480 RGB
+JPEGs decode independently at ground and match payload/catalogue SHA-256 values.
+128435 image bytes crossed the bus and paced experimental link (176505 counted
+application-wire bytes in 1.858 s at 1 Mbps, 5 ms ACK latency, 60 s pass budget).
+All five delivery confirmations reached the storage owner; final state is
+STANDBY with zero pending files and retained payload JPEGs. Clean process
+shutdown passed. See `evidence/mission/phase6-result.json` and its logs/transcript.
+
 Phase 5 passes live transfer and malformed-session cases. Ground SIGKILL/resume
 preserves an 8192-byte offset; the resumed pass retried one lost chunk and one
 CRC failure. SHA-256 matched independently; wrong confirmation and deletion
@@ -55,9 +63,8 @@ space-ros-pull-network-reset*.log. The installed/tested official July image is
 fully pinned with source provenance. Initial Docker/DNS session restrictions
 were resolved when the user enabled access.
 
-NOT RUN: five-image ground mission, remaining fault campaign, benchmark matrix,
-ARM hardware. One fault-test image reached ground; this is not the five-image
-mission gate. No real cFS or CFDP claim.
+NOT RUN: remaining fault campaign, benchmark matrix, ARM hardware.
+No real cFS or CFDP claim.
 
 Cross-review attempted with the shared agent-review tool in an isolated snapshot.
 Claude quota was exhausted; Antigravity returned no review after more than three

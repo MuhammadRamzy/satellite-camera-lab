@@ -1,0 +1,9 @@
+{"event": "transfer_interrupted", "reason": "peer disconnected"}
+{"event": "transfer_interrupted", "reason": "peer disconnected"}
+{"event": "ground_verified", "type": "RECEIPT", "id": "62fbcace-a368-427b-b7f9-0e72c5434b70", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}
+{"event": "transfer_interrupted", "reason": "canonical UUID required"}
+{"event": "ground_verified", "type": "RECEIPT", "id": "0ab8225c-8d6e-4f49-b12e-b98b6bbdb4b0", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}
+{"event": "ground_verified", "type": "RECEIPT", "id": "0f7d736e-205a-43ea-b0f4-cb1b53d853e0", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}
+{"event": "ground_verified", "type": "RECEIPT", "id": "1a0741cb-a176-4a80-a55c-cface8f5fcc8", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}
+{"event": "ground_verified", "type": "RECEIPT", "id": "a347a08a-24c1-48ea-ae3e-f954e23ff33f", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}
+{"event": "ground_verified", "type": "RECEIPT", "id": "e2a9eb1f-d143-4fc2-bc48-68db84819ee6", "size": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c"}

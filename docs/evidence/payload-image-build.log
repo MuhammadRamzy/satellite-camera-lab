@@ -5,7 +5,7 @@
 #1 DONE 0.0s
 
 #2 [internal] load metadata for docker.io/osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e
-#2 DONE 2.2s
+#2 DONE 0.0s
 
 #3 [internal] load .dockerignore
 #3 transferring context: 78B done
@@ -25,8 +25,8 @@
 #7 exporting layers done
 #7 exporting manifest sha256:7becc439ffeee6edf86bdba78dc09b41c15280996af26a70ba987cbfcc8d4f3b done
 #7 exporting config sha256:0f42f654e1c71a8f5729a27eb7e1b82877f5f753d8acce1c936cf02aebf4821c done
-#7 exporting attestation manifest sha256:35a936f5bfced7ff04a604f8dcaa826a1d7fdf1999fa9e42dcd812ef71e2f763 done
-#7 exporting manifest list sha256:90903747afc2c86b2c158deb646cab366d99501ce37f0f47bc24ae1c9a39b616 done
+#7 exporting attestation manifest sha256:54b46547aa9f7affe0fb8161f937cc931329f7cec2cc198c2fce9cb0f01263cf done
+#7 exporting manifest list sha256:dac66f7f59df06042dfa4826639701af77a2c78abed4cfede362516f879b6082 done
 #7 naming to docker.io/library/satellite-camera-lab:phase2 done
 #7 unpacking to docker.io/library/satellite-camera-lab:phase2 done
 #7 DONE 0.1s

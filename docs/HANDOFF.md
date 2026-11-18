@@ -1,5 +1,17 @@
 # Handoff
 
+## 2026-11-18 — Codex — Phase 6 mission passed
+
+Phase 5 pushed as a412cd9. The full five-image mission passed in genuine pinned
+Space ROS: five 640x480 JPEGs captured by the ROS burst action, fetched to bus
+spool, paced at 1 Mbps/60 s with 5 ms ACK latency, independently decoded/hashed
+at ground, and confirmed in payload SQLite. 128435 payload bytes / 176505
+application-wire bytes in 1.858 s. Ended STANDBY, zero pending; retained originals.
+See mission/phase6-result.json and per-run command transcript. Clean shutdown
+passed. Next: extended runtime faults, 27 camera settings / 432 radio runs,
+benchmark exports, final docs/review. Actual cFS/CFDP and ARM execution remain
+outside the simulated mission; directory/V4L2 sources are explicitly unsupported.
+
 ## 2026-11-18 — Codex — Phase 5 passed
 
 Phase 4 pushed as 0c2f324. Phase 5 live acceptance passes: interrupted transfer,
