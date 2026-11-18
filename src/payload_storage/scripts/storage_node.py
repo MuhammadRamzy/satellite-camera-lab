@@ -13,6 +13,7 @@ from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
 from payload_interfaces.msg import CompressedCapture, FileReady, NodeHealth, StageEvent
 from rclpy.clock import Clock, ClockType
 from foundations.catalogue import Catalogue
+from payload_interfaces.srv import CatalogueCommand
 
 
 class Storage(Node):
@@ -39,7 +40,43 @@ class Storage(Node):
         self.health_timer = self.create_timer(1.0, self.heartbeat,
                                               clock=Clock(clock_type=ClockType.STEADY_TIME))
         self.subscription = self.create_subscription(CompressedCapture, '/payload/compressed', self.store, qos)
+        self.commands = self.create_service(CatalogueCommand, '/payload/catalogue', self.command)
         self.get_logger().info(json.dumps({'event': 'storage_recovered', 'entries': len(self.catalogue.list())}))
+
+    def command(self, request, response):
+        try:
+            if request.operation == CatalogueCommand.Request.LIST:
+                if not 1 <= request.limit <= 32:
+                    raise ValueError('invalid page limit')
+                # Compact entries keep worst-case pages below SPP's 4096 bytes.
+                rows = self.catalogue.db.execute(
+                    'SELECT id,size,status,downlink_status FROM images ORDER BY id LIMIT ? OFFSET ?',
+                    (request.limit, request.offset)).fetchall()
+                value = {'files': [dict(row) for row in rows], 'next_offset': request.offset + len(rows)}
+                # Status strings and UUIDs bound a page to at most 3500 bytes.
+                while len(json.dumps(value, separators=(',', ':'))) > 3500:
+                    value['files'].pop()
+                    value['next_offset'] -= 1
+            elif request.operation == CatalogueCommand.Request.REQUEST:
+                path = self.catalogue._path(request.image_id)
+                row = self.catalogue.db.execute('SELECT * FROM images WHERE id=?', (request.image_id,)).fetchone()
+                from foundations.catalogue import sha256_file
+                if not row or row['status'] != 'COMPLETE' or sha256_file(path) != row['sha256']:
+                    raise ValueError('file unavailable or checksum invalid')
+                value = {'id': request.image_id, 'size': row['size'], 'sha256': row['sha256']}
+            elif request.operation == CatalogueCommand.Request.CONFIRM:
+                self.catalogue.mark_delivered(request.image_id, request.sha256)
+                value = {'delivered': request.image_id}
+            elif request.operation == CatalogueCommand.Request.DELETE:
+                self.catalogue.delete(request.image_id)
+                value = {'deleted': request.image_id}
+            else:
+                raise ValueError('unknown catalogue operation')
+            response.result_json = json.dumps(value, separators=(',', ':'))
+            response.accepted = True
+        except Exception as error:
+            response.reason = str(error)[:256]
+        return response
 
     def store(self, message):
         started = time.monotonic()

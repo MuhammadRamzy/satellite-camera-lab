@@ -1,0 +1,35 @@
+[
+  {
+    "test_id": "P4-01",
+    "initial_state": "payload booting",
+    "injected_fault": "fragmented/coalesced, replay/oversized frames",
+    "expected": "valid ACKs; invalid sessions close",
+    "recovery_action": "fresh session",
+    "recovery_ms": null,
+    "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified",
+    "result": "PASS",
+    "duration_ms": 79.67468800006827
+  },
+  {
+    "test_id": "P4-02",
+    "initial_state": "STANDBY/inhibited",
+    "injected_fault": "duplicate/conflicting IDs, reconnect, gateway/bus SIGKILL",
+    "expected": "one exposure; durable replay; SAFE and explicit recovery",
+    "recovery_action": "restart/recover",
+    "recovery_ms": null,
+    "observed": "capture c11a44b7-2925-4911-a851-224419cef4df ACK replayed before/after gateway SIGKILL; conflict rejected; bus SIGKILL preserved increasing IDs",
+    "result": "PASS",
+    "duration_ms": 1017.448370999773
+  },
+  {
+    "test_id": "P4-03",
+    "initial_state": "READY",
+    "injected_fault": "unsupported directory/V4L2 configuration",
+    "expected": "explicit rejection, no silent source fallback",
+    "recovery_action": "keep synthetic source",
+    "recovery_ms": null,
+    "observed": "source selectors 1 and 2 explicitly rejected; no hardware adapter is claimed",
+    "result": "PASS",
+    "duration_ms": 26.022251000085816
+  }
+]

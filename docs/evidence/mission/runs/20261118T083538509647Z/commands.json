@@ -1,0 +1,15 @@
+[
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "COMMAND_ID_CONFLICT",
+      "command_id": 2,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.118951999975252
+  }
+]

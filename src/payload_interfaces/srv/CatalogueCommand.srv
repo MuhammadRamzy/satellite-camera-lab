@@ -1,0 +1,13 @@
+uint8 LIST=1
+uint8 REQUEST=2
+uint8 CONFIRM=3
+uint8 DELETE=4
+uint8 operation
+string<=36 image_id
+string<=64 sha256
+uint32 offset
+uint16 limit
+---
+bool accepted
+string<=3500 result_json
+string<=256 reason

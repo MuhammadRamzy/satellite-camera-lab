@@ -1,0 +1,22 @@
+[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-08-35-38-690928-dadcbb251ea0-1857
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [storage_node-1]: process started with pid [1866]
+[INFO] [processing_node-2]: process started with pid [1867]
+[INFO] [camera_node-3]: process started with pid [1868]
+[INFO] [modes_node-4]: process started with pid [1869]
+[INFO] [health_node-5]: process started with pid [1870]
+[storage_node-1] [INFO] [1794990939.324415031] [payload_storage]: {"event": "storage_recovered", "entries": 0}
+[modes_node-4] [ERROR] [1794990940.493469394] [payload_modes]: {"event": "supervisor_fault", "reason": "explicit recovery to STANDBY required"}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [health_node-5]: sending signal 'SIGINT' to process[health_node-5]
+[INFO] [modes_node-4]: sending signal 'SIGINT' to process[modes_node-4]
+[INFO] [camera_node-3]: sending signal 'SIGINT' to process[camera_node-3]
+[INFO] [processing_node-2]: sending signal 'SIGINT' to process[processing_node-2]
+[INFO] [storage_node-1]: sending signal 'SIGINT' to process[storage_node-1]
+[camera_node-3] [INFO] [1794990951.737235567] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[processing_node-2] [INFO] [1794990951.737915422] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [processing_node-2]: process has finished cleanly [pid 1867]
+[INFO] [camera_node-3]: process has finished cleanly [pid 1868]
+[INFO] [health_node-5]: process has finished cleanly [pid 1870]
+[INFO] [storage_node-1]: process has finished cleanly [pid 1866]
+[INFO] [modes_node-4]: process has finished cleanly [pid 1869]

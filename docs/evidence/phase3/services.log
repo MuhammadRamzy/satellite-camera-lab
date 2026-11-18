@@ -1,5 +1,6 @@
 /payload/apply_control [payload_interfaces/srv/ApplyControl]
 /payload/capture_single [payload_interfaces/srv/Capture]
+/payload/catalogue [payload_interfaces/srv/CatalogueCommand]
 /payload/set_mode [payload_interfaces/srv/SetMode]
 /payload/spacecraft_control [payload_interfaces/srv/SpacecraftControl]
 /payload_camera/change_state [lifecycle_msgs/srv/ChangeState]

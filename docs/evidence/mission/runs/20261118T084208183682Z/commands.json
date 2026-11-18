@@ -1,0 +1,542 @@
+[
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 102,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 6.3468609998835746
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 103,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 3.6286519998611766
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 104,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.177495999916573
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 105,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.856904999973267
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 106,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.613881999986916
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 107,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.1745139999184175
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 108,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 7.137066000041159
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 109,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 4.572639000116396
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 110,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 9.345905000145649
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 213504000,
+      "jobs": {},
+      "command_id": 111,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 5.293090000122902
+  },
+  {
+    "request": {
+      "op": "ping",
+      "command_id": 100
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 213504000,
+      "jobs": {},
+      "command_id": 100
+    },
+    "duration_ms": 3.654787000186843
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "capture_id": "",
+      "reason": "camera inhibited or pipeline busy",
+      "command_id": 112
+    },
+    "duration_ms": 4.901056000107928
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 113
+    },
+    "duration_ms": 15.212654999913866
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 114
+    },
+    "duration_ms": 7.442043999844827
+  },
+  {
+    "request": {
+      "op": "configure",
+      "width": 640,
+      "height": 480,
+      "quality": 75
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "requested_fps": 1,
+      "acquisition": "commanded burst interval",
+      "command_id": 115
+    },
+    "duration_ms": 7.1691600001031475
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 1,
+      "state": "STANDBY",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 213504000,
+      "jobs": {},
+      "command_id": 116,
+      "queue": [],
+      "spacecraft_operational": true
+    },
+    "duration_ms": 4.466956999976901
+  },
+  {
+    "request": {
+      "op": "spacecraft",
+      "mode": 1,
+      "imaging_permitted": true
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 117
+    },
+    "duration_ms": 7.659301000103369
+  },
+  {
+    "request": {
+      "op": "recover"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 118
+    },
+    "duration_ms": 7.375186999979633
+  },
+  {
+    "request": {
+      "op": "mode",
+      "mode": 2
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "",
+      "command_id": 119
+    },
+    "duration_ms": 8.139165000102366
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 2,
+      "state": "READY",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 213504000,
+      "jobs": {},
+      "command_id": 120,
+      "queue": [],
+      "spacecraft_operational": true
+    },
+    "duration_ms": 5.1575499999216845
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "bf7b0e50-13ff-4b8b-8884-6421c1eeb1d9",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 36.2583139999515
+  },
+  {
+    "request": {
+      "op": "capture",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ACCEPTED",
+      "capture_id": "bf7b0e50-13ff-4b8b-8884-6421c1eeb1d9",
+      "reason": "",
+      "command_id": 121
+    },
+    "duration_ms": 1.9649389998903644
+  },
+  {
+    "request": {
+      "op": "safe",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "COMMAND_ID_CONFLICT",
+      "command_id": 121
+    },
+    "duration_ms": 1.4169420001053368
+  },
+  {
+    "request": {
+      "op": "reconnect"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "reason": "session closed; explicit permission/recovery required"
+    },
+    "duration_ms": 0.7111200000053941
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 1,
+      "gateway_connected": true,
+      "cpu_percent": 0.0,
+      "memory_used_bytes": 213504000,
+      "jobs": {},
+      "command_id": 122,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 8.159399999840389
+  },
+  {
+    "request": {
+      "op": "capture"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "peer disconnected"
+    },
+    "duration_ms": 4.812667000123838
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "[Errno 111] Connection refused"
+    },
+    "duration_ms": 2.802901999984897
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "[Errno 111] Connection refused"
+    },
+    "duration_ms": 2.68263099997057
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "[Errno 111] Connection refused"
+    },
+    "duration_ms": 2.932677999979205
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "peer disconnected"
+    },
+    "duration_ms": 19.791097000052105
+  },
+  {
+    "request": {
+      "op": "status"
+    },
+    "response": {
+      "status": "COMPLETED",
+      "mode": 4,
+      "state": "SAFE",
+      "state_fresh": true,
+      "healthy": false,
+      "stored": 0,
+      "pending": 0,
+      "heartbeat": 0,
+      "gateway_connected": false,
+      "cpu_percent": 0,
+      "memory_used_bytes": 0,
+      "jobs": {},
+      "command_id": 129,
+      "queue": [],
+      "spacecraft_operational": false
+    },
+    "duration_ms": 10.982242999943992
+  },
+  {
+    "request": {
+      "op": "capture",
+      "command_id": 121
+    },
+    "response": {
+      "status": "ERROR",
+      "reason": "peer disconnected"
+    },
+    "duration_ms": 6.058316000007835
+  }
+]

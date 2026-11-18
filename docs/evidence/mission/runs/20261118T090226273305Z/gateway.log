@@ -1,0 +1,5 @@
+[INFO] [1794992547.350166688] [payload_gateway]: {"event": "command_session_closed", "reason": "sequence gap, replay or out of order packet"}
+[INFO] [1794992547.352769903] [payload_gateway]: {"event": "command_session_closed", "reason": "invalid declared packet length"}
+[INFO] [1794992548.117462525] [payload_gateway]: {"event": "command_session_closed", "reason": "peer disconnected"}
+[INFO] [1794992548.476850690] [payload_gateway]: {"event": "command_session_closed", "reason": "peer disconnected"}
+[INFO] [1794992548.966030542] [payload_gateway]: {"event": "command_session_closed", "reason": "peer disconnected"}

@@ -34,6 +34,7 @@ class Modes(Node):
         self.bootstrapped = self.bootstrap_pending = self.fault_latched = self.recovering = False
         self.fault_reason = ''
         self.node_timeout = self.declare_parameter('node_timeout_s', 2.5).value
+        self.bus_required = self.declare_parameter('bus_required', False).value
         self.camera_timeout = self.declare_parameter('camera_timeout_s', 1.2).value
         if self.node_timeout < 1.5 or self.camera_timeout < 0.5:
             raise ValueError('supervisor timeout too short')
@@ -64,13 +65,15 @@ class Modes(Node):
         self.publish_state()
 
     def node_health(self, message):
-        if message.node_name in PIPELINE_NODES:
+        if message.node_name in PIPELINE_NODES or message.node_name == 'payload_gateway':
             self.health[message.node_name] = (time.monotonic(), message)
 
     def pipeline_healthy(self):
         now = time.monotonic()
-        return all(name in self.health and now - self.health[name][0] < self.node_timeout
-                   and self.health[name][1].healthy for name in PIPELINE_NODES)
+        nodes = PIPELINE_NODES + (('payload_gateway',) if self.bus_required else ())
+        return (all(name in self.health and now - self.health[name][0] < self.node_timeout
+                    and self.health[name][1].healthy for name in nodes)
+                and (not self.bus_required or self.health['payload_gateway'][1].gateway_connected))
 
     def latch_fault(self, reason):
         if not self.fault_latched:

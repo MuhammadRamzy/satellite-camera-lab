@@ -2,6 +2,12 @@
 
 PASS: Phases 1–3, including the synthetic pipeline and payload control.
 
+Phase 4: three live gateway/bus cases passed; see
+`evidence/mission/phase4-result.json` and its per-run commands/cases/logs.
+The current host suite has 21 tests, including real socket-pair transfer faults
+and persistent journal uncertainty/replay tests. Phase 2 and Phase 3 regressions
+passed after adding the storage catalogue service. Failed attempts are retained.
+
 Phase 3 rerun: nine runtime cases passed in the pinned official container;
 16 independently decoded/checksummed JPEGs survived restart. Evidence:
 `evidence/phase3/result.json`, `cases.csv`, `housekeeping.csv`, and
@@ -43,7 +49,7 @@ space-ros-pull-network-reset*.log. The installed/tested official July image is
 fully pinned with source provenance. Initial Docker/DNS session restrictions
 were resolved when the user enabled access.
 
-NOT RUN: gateway/bus exchange, file/radio
+NOT RUN: live file/radio
 transport, ground mission, full fault campaign, benchmark matrix, ARM hardware.
 No downlinked or ground-received images exist yet. No real cFS or CFDP claim.
 

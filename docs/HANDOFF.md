@@ -1,5 +1,18 @@
 # Handoff
 
+## 2026-11-18 — Codex — Phase 4 passed
+
+Phase 3 pushed as 111fa28. Live Phase 4 acceptance passed three cases: TCP
+fragment/coalesce/wrap/rejection, persistent capture ACK replay across gateway
+SIGKILL, conflict rejection and bus SIGKILL/restart with durable IDs. Optional
+bus_required watchdog inhibits imaging on stale/disconnected gateway authority.
+21 host tests and nine C++ cases pass; Phase 2/3 regressions pass after the new
+catalogue service. See docs/evidence/mission/phase4-result.json. Fixed sequence
+initialization after reconnect and test process shutdown; failed logs retained.
+Transport/ground foundation exists, but Phase 5 live acceptance is next. Benchmark
+runner is in progress. Cross-review requested from another agent. User explicitly
+authorized pushes after each phase; keep doing so without confirmation questions.
+
 ## 2026-11-18 — Codex — Phase 3 verified; full mission requested
 
 Reran `bash scripts/run-phase3.sh`: nine runtime cases passed, 16 decoded JPEGs

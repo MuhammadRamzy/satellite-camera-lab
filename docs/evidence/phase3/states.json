@@ -1,7 +1,7 @@
 [
   {
-    "received_mono": 282.633774962,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2589.509299379,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 1,
     "mode": 0,
     "state": "BOOT",
@@ -13,8 +13,8 @@
     "reason": ""
   },
   {
-    "received_mono": 282.833553514,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2589.709384602,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 2,
     "mode": 0,
     "state": "BOOT",
@@ -26,8 +26,8 @@
     "reason": ""
   },
   {
-    "received_mono": 283.033807973,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2589.909543294,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 3,
     "mode": 0,
     "state": "BOOT",
@@ -39,8 +39,8 @@
     "reason": ""
   },
   {
-    "received_mono": 283.233763749,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2590.109559484,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 4,
     "mode": 0,
     "state": "BOOT",
@@ -52,8 +52,8 @@
     "reason": ""
   },
   {
-    "received_mono": 283.433799686,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2590.309525673,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 5,
     "mode": 0,
     "state": "BOOT",
@@ -65,8 +65,8 @@
     "reason": ""
   },
   {
-    "received_mono": 283.633590258,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2590.50972242,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 6,
     "mode": 0,
     "state": "BOOT",
@@ -78,8 +78,8 @@
     "reason": ""
   },
   {
-    "received_mono": 283.833558112,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2590.70981177,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 7,
     "mode": 0,
     "state": "BOOT",
@@ -91,8 +91,8 @@
     "reason": ""
   },
   {
-    "received_mono": 284.012033286,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2590.8788292,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 8,
     "mode": 1,
     "state": "STANDBY",
@@ -104,8 +104,8 @@
     "reason": ""
   },
   {
-    "received_mono": 284.018849786,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2590.887894815,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 10,
     "mode": 2,
     "state": "READY",
@@ -117,8 +117,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.12103384,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.841719721,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 12,
     "mode": 2,
     "state": "READY",
@@ -130,8 +130,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.121864477,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.842356725,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 13,
     "mode": 2,
     "state": "READY",
@@ -143,8 +143,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.122416999,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.842759273,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 14,
     "mode": 2,
     "state": "READY",
@@ -156,8 +156,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.122928616,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.843123807,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 15,
     "mode": 2,
     "state": "READY",
@@ -169,8 +169,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.123416355,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.843479356,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 16,
     "mode": 2,
     "state": "READY",
@@ -182,8 +182,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.123825959,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.843803885,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 17,
     "mode": 2,
     "state": "READY",
@@ -195,8 +195,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.124404306,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.844263136,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 18,
     "mode": 2,
     "state": "READY",
@@ -208,8 +208,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.124800822,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.844601481,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 19,
     "mode": 2,
     "state": "READY",
@@ -221,8 +221,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.12534834,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.845110757,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 20,
     "mode": 2,
     "state": "READY",
@@ -234,8 +234,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.125731552,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.845462426,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 21,
     "mode": 2,
     "state": "READY",
@@ -247,8 +247,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.126117915,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.845824819,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 22,
     "mode": 2,
     "state": "READY",
@@ -260,8 +260,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.126498291,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.846195644,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 23,
     "mode": 2,
     "state": "READY",
@@ -273,8 +273,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.12688725,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.846569664,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 24,
     "mode": 2,
     "state": "READY",
@@ -286,8 +286,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.127302306,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.846957225,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 25,
     "mode": 2,
     "state": "READY",
@@ -299,8 +299,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.12770224,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.847361283,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 26,
     "mode": 2,
     "state": "READY",
@@ -312,8 +312,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.128106035,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.847766582,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 27,
     "mode": 2,
     "state": "READY",
@@ -325,8 +325,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.12848746,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.848177412,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 28,
     "mode": 2,
     "state": "READY",
@@ -338,8 +338,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.128702825,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.848415335,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 29,
     "mode": 2,
     "state": "READY",
@@ -351,8 +351,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.128879354,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.848593774,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 30,
     "mode": 2,
     "state": "READY",
@@ -364,8 +364,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.129058427,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.848772376,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 31,
     "mode": 2,
     "state": "READY",
@@ -377,21 +377,21 @@
     "reason": ""
   },
   {
-    "received_mono": 288.129234882,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.848950567,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 32,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
-    "burst_active": false,
+    "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 288.129410328,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.849130227,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 33,
     "mode": 2,
     "state": "READY",
@@ -403,73 +403,73 @@
     "reason": ""
   },
   {
-    "received_mono": 288.129585457,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 34,
+    "received_mono": 2594.849308993,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 35,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2594.874542608,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 36,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "8dba48e9-afba-448f-86ae-aa967b4ec221",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2594.874742003,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 37,
+    "mode": 2,
+    "state": "PROCESSING",
+    "in_flight": "8dba48e9-afba-448f-86ae-aa967b4ec221",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2594.876192929,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 38,
+    "mode": 2,
+    "state": "STORING",
+    "in_flight": "8dba48e9-afba-448f-86ae-aa967b4ec221",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2594.882090911,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 39,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
     "burst_active": true,
-    "completed": 0,
+    "completed": 1,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 288.133386276,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 36,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 288.161909393,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 37,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "29f46826-cb46-4a54-9d43-bdb3700c17ca",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 288.162228548,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 38,
-    "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "29f46826-cb46-4a54-9d43-bdb3700c17ca",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 288.165419116,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 39,
-    "mode": 2,
-    "state": "STORING",
-    "in_flight": "29f46826-cb46-4a54-9d43-bdb3700c17ca",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 288.170492587,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2594.909516658,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 40,
     "mode": 2,
     "state": "READY",
@@ -481,8 +481,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.233503193,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.109566029,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 41,
     "mode": 2,
     "state": "READY",
@@ -494,8 +494,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.433421869,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.309580612,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 42,
     "mode": 2,
     "state": "READY",
@@ -507,8 +507,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.633736582,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.509393451,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 43,
     "mode": 2,
     "state": "READY",
@@ -520,8 +520,8 @@
     "reason": ""
   },
   {
-    "received_mono": 288.833907454,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.709585663,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 44,
     "mode": 2,
     "state": "READY",
@@ -533,11 +533,11 @@
     "reason": ""
   },
   {
-    "received_mono": 289.033639918,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.88914525,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 45,
     "mode": 2,
-    "state": "READY",
+    "state": "CAPTURING",
     "in_flight": "",
     "burst_active": true,
     "completed": 1,
@@ -546,12 +546,12 @@
     "reason": ""
   },
   {
-    "received_mono": 289.173782323,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.926469883,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 46,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "",
+    "in_flight": "adb894a7-97ba-448a-9b82-3971fd75c295",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -559,12 +559,12 @@
     "reason": ""
   },
   {
-    "received_mono": 289.208818022,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.926679833,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 47,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "e1e7c807-8f34-460c-aa7c-16b61fd6ae21",
+    "in_flight": "adb894a7-97ba-448a-9b82-3971fd75c295",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -572,12 +572,12 @@
     "reason": ""
   },
   {
-    "received_mono": 289.209048381,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.92687854,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 48,
     "mode": 2,
     "state": "PROCESSING",
-    "in_flight": "e1e7c807-8f34-460c-aa7c-16b61fd6ae21",
+    "in_flight": "adb894a7-97ba-448a-9b82-3971fd75c295",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -585,12 +585,12 @@
     "reason": ""
   },
   {
-    "received_mono": 289.210705188,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.928094449,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 49,
     "mode": 2,
     "state": "STORING",
-    "in_flight": "e1e7c807-8f34-460c-aa7c-16b61fd6ae21",
+    "in_flight": "adb894a7-97ba-448a-9b82-3971fd75c295",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -598,8 +598,8 @@
     "reason": ""
   },
   {
-    "received_mono": 289.218221698,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2595.938454135,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 50,
     "mode": 2,
     "state": "READY",
@@ -611,8 +611,8 @@
     "reason": ""
   },
   {
-    "received_mono": 289.233657764,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.109185723,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 51,
     "mode": 2,
     "state": "READY",
@@ -624,8 +624,8 @@
     "reason": ""
   },
   {
-    "received_mono": 289.433869675,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.309645462,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 52,
     "mode": 2,
     "state": "READY",
@@ -637,8 +637,8 @@
     "reason": ""
   },
   {
-    "received_mono": 289.633852541,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.509548707,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 53,
     "mode": 2,
     "state": "READY",
@@ -650,8 +650,8 @@
     "reason": ""
   },
   {
-    "received_mono": 289.833976628,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.709199699,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 54,
     "mode": 2,
     "state": "READY",
@@ -663,8 +663,8 @@
     "reason": ""
   },
   {
-    "received_mono": 290.033902228,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.909479,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 55,
     "mode": 2,
     "state": "READY",
@@ -676,8 +676,8 @@
     "reason": ""
   },
   {
-    "received_mono": 290.213745542,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.929442934,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 56,
     "mode": 2,
     "state": "CAPTURING",
@@ -689,12 +689,12 @@
     "reason": ""
   },
   {
-    "received_mono": 290.249468706,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.968397471,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 57,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "64a48de6-7de4-4036-89d9-2ab69bcf490a",
+    "in_flight": "611347e7-100c-4161-99ed-21cb54cb0dae",
     "burst_active": true,
     "completed": 2,
     "lifecycle": 3,
@@ -702,12 +702,12 @@
     "reason": ""
   },
   {
-    "received_mono": 290.249695682,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.968637121,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 58,
     "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "64a48de6-7de4-4036-89d9-2ab69bcf490a",
+    "state": "PROCESSING",
+    "in_flight": "611347e7-100c-4161-99ed-21cb54cb0dae",
     "burst_active": true,
     "completed": 2,
     "lifecycle": 3,
@@ -715,12 +715,12 @@
     "reason": ""
   },
   {
-    "received_mono": 290.249901419,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.969588398,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 59,
     "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "64a48de6-7de4-4036-89d9-2ab69bcf490a",
+    "state": "STORING",
+    "in_flight": "611347e7-100c-4161-99ed-21cb54cb0dae",
     "burst_active": true,
     "completed": 2,
     "lifecycle": 3,
@@ -728,21 +728,21 @@
     "reason": ""
   },
   {
-    "received_mono": 290.25058068,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2596.977266813,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 60,
     "mode": 2,
-    "state": "STORING",
-    "in_flight": "64a48de6-7de4-4036-89d9-2ab69bcf490a",
+    "state": "READY",
+    "in_flight": "",
     "burst_active": true,
-    "completed": 2,
+    "completed": 3,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 290.259492038,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2597.109551759,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 61,
     "mode": 2,
     "state": "READY",
@@ -754,8 +754,8 @@
     "reason": ""
   },
   {
-    "received_mono": 290.433628485,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2597.309485659,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 62,
     "mode": 2,
     "state": "READY",
@@ -767,8 +767,8 @@
     "reason": ""
   },
   {
-    "received_mono": 290.633875753,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2597.509606731,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 63,
     "mode": 2,
     "state": "READY",
@@ -780,8 +780,8 @@
     "reason": ""
   },
   {
-    "received_mono": 290.83401679,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2597.709804186,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 64,
     "mode": 2,
     "state": "READY",
@@ -793,8 +793,8 @@
     "reason": ""
   },
   {
-    "received_mono": 291.033480432,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2597.909307814,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 65,
     "mode": 2,
     "state": "READY",
@@ -806,73 +806,73 @@
     "reason": ""
   },
   {
-    "received_mono": 291.233786987,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2597.969792924,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 66,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2597.996655623,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 67,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "9b569455-6f8f-46e2-a442-620fe6541e62",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2597.996922263,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 68,
+    "mode": 2,
+    "state": "PROCESSING",
+    "in_flight": "9b569455-6f8f-46e2-a442-620fe6541e62",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2597.998118083,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 69,
+    "mode": 2,
+    "state": "STORING",
+    "in_flight": "9b569455-6f8f-46e2-a442-620fe6541e62",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2598.005816422,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 70,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
     "burst_active": true,
-    "completed": 3,
+    "completed": 4,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 291.253507948,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 67,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 291.280235295,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 68,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "5cc344ec-2d05-444c-a4b2-de952b41df47",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 291.280435205,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 69,
-    "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "5cc344ec-2d05-444c-a4b2-de952b41df47",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 291.281818029,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 70,
-    "mode": 2,
-    "state": "STORING",
-    "in_flight": "5cc344ec-2d05-444c-a4b2-de952b41df47",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 291.290574855,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2598.10960547,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 71,
     "mode": 2,
     "state": "READY",
@@ -884,8 +884,8 @@
     "reason": ""
   },
   {
-    "received_mono": 291.433474825,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2598.309657235,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 72,
     "mode": 2,
     "state": "READY",
@@ -897,8 +897,8 @@
     "reason": ""
   },
   {
-    "received_mono": 291.633871472,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2598.509700775,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 73,
     "mode": 2,
     "state": "READY",
@@ -910,8 +910,8 @@
     "reason": ""
   },
   {
-    "received_mono": 291.833545379,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2598.709878617,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 74,
     "mode": 2,
     "state": "READY",
@@ -923,8 +923,8 @@
     "reason": ""
   },
   {
-    "received_mono": 292.033780712,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2598.909593706,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 75,
     "mode": 2,
     "state": "READY",
@@ -936,11 +936,11 @@
     "reason": ""
   },
   {
-    "received_mono": 292.233689765,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.009583198,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 76,
     "mode": 2,
-    "state": "READY",
+    "state": "CAPTURING",
     "in_flight": "",
     "burst_active": true,
     "completed": 4,
@@ -949,12 +949,12 @@
     "reason": ""
   },
   {
-    "received_mono": 292.293510405,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.048487688,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 77,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "",
+    "in_flight": "0936156d-5221-406d-a8c1-023ef981482d",
     "burst_active": true,
     "completed": 4,
     "lifecycle": 3,
@@ -962,12 +962,12 @@
     "reason": ""
   },
   {
-    "received_mono": 292.324698811,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.04875382,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 78,
     "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "b384562e-ab9e-444c-9ebb-6d205a526a3a",
+    "state": "PROCESSING",
+    "in_flight": "0936156d-5221-406d-a8c1-023ef981482d",
     "burst_active": true,
     "completed": 4,
     "lifecycle": 3,
@@ -975,25 +975,12 @@
     "reason": ""
   },
   {
-    "received_mono": 292.324927236,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.050859584,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 79,
     "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "b384562e-ab9e-444c-9ebb-6d205a526a3a",
-    "burst_active": true,
-    "completed": 4,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 292.325830433,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 80,
-    "mode": 2,
     "state": "STORING",
-    "in_flight": "b384562e-ab9e-444c-9ebb-6d205a526a3a",
+    "in_flight": "0936156d-5221-406d-a8c1-023ef981482d",
     "burst_active": true,
     "completed": 4,
     "lifecycle": 3,
@@ -1001,9 +988,9 @@
     "reason": ""
   },
   {
-    "received_mono": 292.335776614,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 81,
+    "received_mono": 2599.059167811,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 80,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -1014,9 +1001,9 @@
     "reason": ""
   },
   {
-    "received_mono": 292.354024433,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 82,
+    "received_mono": 2599.069971542,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 81,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -1027,9 +1014,9 @@
     "reason": ""
   },
   {
-    "received_mono": 292.359839588,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 83,
+    "received_mono": 2599.078232146,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 82,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -1040,9 +1027,9 @@
     "reason": ""
   },
   {
-    "received_mono": 292.373746332,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 84,
+    "received_mono": 2599.089439235,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 83,
     "mode": 2,
     "state": "CAPTURING",
     "in_flight": "",
@@ -1053,12 +1040,25 @@
     "reason": ""
   },
   {
-    "received_mono": 292.405783793,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.122384948,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 84,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "a334d392-eec4-49f3-9649-5f97357caa5c",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2599.122948447,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 85,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "df10a591-fe95-4338-bac7-2b66680bdd56",
+    "in_flight": "a334d392-eec4-49f3-9649-5f97357caa5c",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1066,12 +1066,12 @@
     "reason": ""
   },
   {
-    "received_mono": 292.40603778,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.123260886,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 86,
     "mode": 2,
     "state": "PROCESSING",
-    "in_flight": "df10a591-fe95-4338-bac7-2b66680bdd56",
+    "in_flight": "a334d392-eec4-49f3-9649-5f97357caa5c",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1079,12 +1079,12 @@
     "reason": ""
   },
   {
-    "received_mono": 292.407520702,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.123661408,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 87,
     "mode": 2,
     "state": "STORING",
-    "in_flight": "df10a591-fe95-4338-bac7-2b66680bdd56",
+    "in_flight": "a334d392-eec4-49f3-9649-5f97357caa5c",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1092,12 +1092,12 @@
     "reason": ""
   },
   {
-    "received_mono": 292.433659044,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.309447513,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 88,
     "mode": 2,
     "state": "STORING",
-    "in_flight": "df10a591-fe95-4338-bac7-2b66680bdd56",
+    "in_flight": "a334d392-eec4-49f3-9649-5f97357caa5c",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1105,22 +1105,9 @@
     "reason": ""
   },
   {
-    "received_mono": 292.633652908,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.436096996,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 89,
-    "mode": 2,
-    "state": "STORING",
-    "in_flight": "df10a591-fe95-4338-bac7-2b66680bdd56",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 292.720280326,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 90,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -1131,8 +1118,21 @@
     "reason": ""
   },
   {
-    "received_mono": 292.734136028,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.450055191,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 90,
+    "mode": 2,
+    "state": "READY",
+    "in_flight": "",
+    "burst_active": false,
+    "completed": 1,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2599.509366782,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 91,
     "mode": 2,
     "state": "READY",
@@ -1144,8 +1144,8 @@
     "reason": ""
   },
   {
-    "received_mono": 292.833751423,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.709376816,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 92,
     "mode": 2,
     "state": "READY",
@@ -1157,24 +1157,24 @@
     "reason": ""
   },
   {
-    "received_mono": 293.033620029,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.864794787,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 93,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
-    "burst_active": false,
-    "completed": 1,
+    "burst_active": true,
+    "completed": 0,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 293.137669738,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.869431304,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 94,
     "mode": 2,
-    "state": "READY",
+    "state": "CAPTURING",
     "in_flight": "",
     "burst_active": true,
     "completed": 0,
@@ -1183,12 +1183,12 @@
     "reason": ""
   },
   {
-    "received_mono": 293.153722373,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.901846719,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 95,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1196,12 +1196,12 @@
     "reason": ""
   },
   {
-    "received_mono": 293.183957468,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.902109509,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 96,
     "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
+    "state": "PROCESSING",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1209,25 +1209,12 @@
     "reason": ""
   },
   {
-    "received_mono": 293.184236242,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.903120859,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 97,
     "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 293.185999677,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 98,
-    "mode": 2,
     "state": "STORING",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1235,25 +1222,25 @@
     "reason": ""
   },
   {
-    "received_mono": 293.186880503,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.903931867,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 98,
+    "mode": 4,
+    "state": "SAFE",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 2,
+    "imaging_enabled": false,
+    "reason": "spacecraft SAFE or imaging inhibited"
+  },
+  {
+    "received_mono": 2599.904111242,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 99,
     "mode": 4,
     "state": "SAFE",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 2,
-    "imaging_enabled": false,
-    "reason": "spacecraft SAFE or imaging inhibited"
-  },
-  {
-    "received_mono": 293.187100983,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 100,
-    "mode": 4,
-    "state": "SAFE",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 2,
@@ -1261,12 +1248,25 @@
     "reason": ""
   },
   {
-    "received_mono": 293.233639092,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2599.909181276,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 101,
+    "mode": 4,
+    "state": "SAFE",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 2,
+    "imaging_enabled": false,
+    "reason": ""
+  },
+  {
+    "received_mono": 2600.109651583,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 102,
     "mode": 4,
     "state": "SAFE",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 2,
@@ -1274,12 +1274,12 @@
     "reason": ""
   },
   {
-    "received_mono": 293.263172624,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.126780309,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 103,
     "mode": 4,
     "state": "SAFE",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
+    "in_flight": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 2,
@@ -1287,47 +1287,47 @@
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.433830388,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.216863612,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 104,
     "mode": 4,
     "state": "SAFE",
-    "in_flight": "7ec3559d-96d6-4af9-a994-bdae8293c803",
+    "in_flight": "",
     "burst_active": true,
-    "completed": 0,
+    "completed": 1,
     "lifecycle": 2,
     "imaging_enabled": false,
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.498718074,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.229943225,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 105,
     "mode": 4,
     "state": "SAFE",
     "in_flight": "",
-    "burst_active": true,
+    "burst_active": false,
     "completed": 1,
     "lifecycle": 2,
     "imaging_enabled": false,
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.512244023,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.309560749,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 106,
     "mode": 4,
     "state": "SAFE",
     "in_flight": "",
-    "burst_active": true,
+    "burst_active": false,
     "completed": 1,
     "lifecycle": 2,
     "imaging_enabled": false,
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.514461527,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.377218066,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 107,
     "mode": 4,
     "state": "SAFE",
@@ -1339,8 +1339,8 @@
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.633702849,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.509879675,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 108,
     "mode": 4,
     "state": "SAFE",
@@ -1352,8 +1352,8 @@
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.762484395,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.626668219,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 109,
     "mode": 4,
     "state": "SAFE",
@@ -1365,8 +1365,8 @@
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.833802116,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.640372071,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 110,
     "mode": 4,
     "state": "SAFE",
@@ -1378,8 +1378,8 @@
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.937934308,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.640829757,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 111,
     "mode": 4,
     "state": "SAFE",
@@ -1391,8 +1391,8 @@
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.939056805,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.643072165,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 112,
     "mode": 4,
     "state": "SAFE",
@@ -1404,22 +1404,9 @@
     "reason": "spacecraft SAFE or imaging inhibited"
   },
   {
-    "received_mono": 293.941122797,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 113,
-    "mode": 4,
-    "state": "SAFE",
-    "in_flight": "",
-    "burst_active": false,
-    "completed": 1,
-    "lifecycle": 2,
-    "imaging_enabled": false,
-    "reason": "spacecraft SAFE or imaging inhibited"
-  },
-  {
-    "received_mono": 293.943633785,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 115,
+    "received_mono": 2600.646216442,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 114,
     "mode": 1,
     "state": "STANDBY",
     "in_flight": "",
@@ -1430,9 +1417,9 @@
     "reason": ""
   },
   {
-    "received_mono": 293.945428224,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 117,
+    "received_mono": 2600.648252354,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 116,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -1443,9 +1430,9 @@
     "reason": ""
   },
   {
-    "received_mono": 293.949078564,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 119,
+    "received_mono": 2600.653196757,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 118,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -1456,9 +1443,9 @@
     "reason": ""
   },
   {
-    "received_mono": 293.953339949,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 120,
+    "received_mono": 2600.669422792,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 119,
     "mode": 2,
     "state": "CAPTURING",
     "in_flight": "",
@@ -1469,12 +1456,12 @@
     "reason": ""
   },
   {
-    "received_mono": 293.979404237,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 121,
+    "received_mono": 2600.702120757,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 120,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "1c8e4d99-45a2-48ec-91a9-81d75ea2a607",
+    "in_flight": "20591522-e967-4a57-b9e1-f9a279e6b1a9",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1482,12 +1469,12 @@
     "reason": ""
   },
   {
-    "received_mono": 293.979721278,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 122,
+    "received_mono": 2600.702340543,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 121,
     "mode": 2,
     "state": "PROCESSING",
-    "in_flight": "1c8e4d99-45a2-48ec-91a9-81d75ea2a607",
+    "in_flight": "20591522-e967-4a57-b9e1-f9a279e6b1a9",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1495,12 +1482,25 @@
     "reason": ""
   },
   {
-    "received_mono": 293.98102412,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.703658324,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 122,
+    "mode": 2,
+    "state": "STORING",
+    "in_flight": "20591522-e967-4a57-b9e1-f9a279e6b1a9",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2600.709069403,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 123,
     "mode": 2,
     "state": "STORING",
-    "in_flight": "1c8e4d99-45a2-48ec-91a9-81d75ea2a607",
+    "in_flight": "20591522-e967-4a57-b9e1-f9a279e6b1a9",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -1508,8 +1508,8 @@
     "reason": ""
   },
   {
-    "received_mono": 293.988069186,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.711351644,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 124,
     "mode": 2,
     "state": "READY",
@@ -1521,8 +1521,8 @@
     "reason": ""
   },
   {
-    "received_mono": 294.033971352,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.909738813,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 125,
     "mode": 2,
     "state": "READY",
@@ -1534,8 +1534,8 @@
     "reason": ""
   },
   {
-    "received_mono": 294.193891374,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.910725527,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 126,
     "mode": 2,
     "state": "CAPTURING",
@@ -1547,12 +1547,12 @@
     "reason": ""
   },
   {
-    "received_mono": 294.22809134,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.936661166,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 127,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "dcea130e-6b85-4e30-aeae-a48f808338a7",
+    "in_flight": "0fd0865d-1294-4b8a-9945-72caf9b0b35c",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -1560,12 +1560,12 @@
     "reason": ""
   },
   {
-    "received_mono": 294.228325383,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.936894227,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 128,
     "mode": 2,
     "state": "PROCESSING",
-    "in_flight": "dcea130e-6b85-4e30-aeae-a48f808338a7",
+    "in_flight": "0fd0865d-1294-4b8a-9945-72caf9b0b35c",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -1573,12 +1573,12 @@
     "reason": ""
   },
   {
-    "received_mono": 294.229893784,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.938237574,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 129,
     "mode": 2,
     "state": "STORING",
-    "in_flight": "dcea130e-6b85-4e30-aeae-a48f808338a7",
+    "in_flight": "0fd0865d-1294-4b8a-9945-72caf9b0b35c",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -1586,21 +1586,21 @@
     "reason": ""
   },
   {
-    "received_mono": 294.233290826,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2600.946550783,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 130,
     "mode": 2,
-    "state": "STORING",
-    "in_flight": "dcea130e-6b85-4e30-aeae-a48f808338a7",
+    "state": "READY",
+    "in_flight": "",
     "burst_active": true,
-    "completed": 1,
+    "completed": 2,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 294.23864926,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.109693365,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 131,
     "mode": 2,
     "state": "READY",
@@ -1612,73 +1612,73 @@
     "reason": ""
   },
   {
-    "received_mono": 294.433845963,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.149932396,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 132,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "",
+    "burst_active": true,
+    "completed": 2,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.176762614,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 133,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "45cb8f5e-6397-4a6b-a31a-43b73ff3ce5b",
+    "burst_active": true,
+    "completed": 2,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.177017878,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 134,
+    "mode": 2,
+    "state": "PROCESSING",
+    "in_flight": "45cb8f5e-6397-4a6b-a31a-43b73ff3ce5b",
+    "burst_active": true,
+    "completed": 2,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.178238435,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 135,
+    "mode": 2,
+    "state": "STORING",
+    "in_flight": "45cb8f5e-6397-4a6b-a31a-43b73ff3ce5b",
+    "burst_active": true,
+    "completed": 2,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.18750592,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 136,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
     "burst_active": true,
-    "completed": 2,
+    "completed": 3,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 294.43529602,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 133,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "",
-    "burst_active": true,
-    "completed": 2,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.46764411,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 134,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "af1aacb1-abe1-4845-a328-664c81fbe561",
-    "burst_active": true,
-    "completed": 2,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.468043332,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 135,
-    "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "af1aacb1-abe1-4845-a328-664c81fbe561",
-    "burst_active": true,
-    "completed": 2,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.469415148,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 136,
-    "mode": 2,
-    "state": "STORING",
-    "in_flight": "af1aacb1-abe1-4845-a328-664c81fbe561",
-    "burst_active": true,
-    "completed": 2,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.478773731,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.309593658,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 137,
     "mode": 2,
     "state": "READY",
@@ -1690,73 +1690,73 @@
     "reason": ""
   },
   {
-    "received_mono": 294.633647155,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.389403257,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 138,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.435186852,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 139,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "3a82bb92-ad44-4c08-a90a-8686ff19417e",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.43543641,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 140,
+    "mode": 2,
+    "state": "PROCESSING",
+    "in_flight": "3a82bb92-ad44-4c08-a90a-8686ff19417e",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.436665112,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 141,
+    "mode": 2,
+    "state": "STORING",
+    "in_flight": "3a82bb92-ad44-4c08-a90a-8686ff19417e",
+    "burst_active": true,
+    "completed": 3,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.44465413,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 142,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
     "burst_active": true,
-    "completed": 3,
+    "completed": 4,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 294.673660501,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 139,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.700453118,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 140,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "050ec3dc-5db7-4f89-902d-bfc7c6b91e18",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.700693199,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 141,
-    "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "050ec3dc-5db7-4f89-902d-bfc7c6b91e18",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.702031912,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 142,
-    "mode": 2,
-    "state": "STORING",
-    "in_flight": "050ec3dc-5db7-4f89-902d-bfc7c6b91e18",
-    "burst_active": true,
-    "completed": 3,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.709986518,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.509427464,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 143,
     "mode": 2,
     "state": "READY",
@@ -1768,73 +1768,73 @@
     "reason": ""
   },
   {
-    "received_mono": 294.83380713,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.64952104,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 144,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "",
+    "burst_active": true,
+    "completed": 4,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.680817908,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 145,
+    "mode": 2,
+    "state": "CAPTURING",
+    "in_flight": "f6d5b778-6e67-4462-bd49-fd10f746e3ad",
+    "burst_active": true,
+    "completed": 4,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.681047176,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 146,
+    "mode": 2,
+    "state": "PROCESSING",
+    "in_flight": "f6d5b778-6e67-4462-bd49-fd10f746e3ad",
+    "burst_active": true,
+    "completed": 4,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.682260816,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 147,
+    "mode": 2,
+    "state": "STORING",
+    "in_flight": "f6d5b778-6e67-4462-bd49-fd10f746e3ad",
+    "burst_active": true,
+    "completed": 4,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2601.691133037,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 148,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
     "burst_active": true,
-    "completed": 4,
+    "completed": 5,
     "lifecycle": 3,
     "imaging_enabled": true,
     "reason": ""
   },
   {
-    "received_mono": 294.913657372,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 145,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "",
-    "burst_active": true,
-    "completed": 4,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.940467479,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 146,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "146cd733-fdc4-452a-8d77-29d6b664ee1c",
-    "burst_active": true,
-    "completed": 4,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.940717662,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 147,
-    "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "146cd733-fdc4-452a-8d77-29d6b664ee1c",
-    "burst_active": true,
-    "completed": 4,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.942140065,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 148,
-    "mode": 2,
-    "state": "STORING",
-    "in_flight": "146cd733-fdc4-452a-8d77-29d6b664ee1c",
-    "burst_active": true,
-    "completed": 4,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 294.951636035,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.709417979,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 149,
     "mode": 2,
     "state": "READY",
@@ -1846,11 +1846,11 @@
     "reason": ""
   },
   {
-    "received_mono": 295.034051817,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.889825643,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 150,
     "mode": 2,
-    "state": "READY",
+    "state": "CAPTURING",
     "in_flight": "",
     "burst_active": true,
     "completed": 5,
@@ -1859,12 +1859,12 @@
     "reason": ""
   },
   {
-    "received_mono": 295.153708093,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.917125656,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 151,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "",
+    "in_flight": "4e13252d-2601-467f-a686-905561787fe9",
     "burst_active": true,
     "completed": 5,
     "lifecycle": 3,
@@ -1872,12 +1872,12 @@
     "reason": ""
   },
   {
-    "received_mono": 295.185305524,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.917317818,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 152,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "5686f540-6352-4056-9fc6-84790c132029",
+    "in_flight": "4e13252d-2601-467f-a686-905561787fe9",
     "burst_active": true,
     "completed": 5,
     "lifecycle": 3,
@@ -1885,12 +1885,12 @@
     "reason": ""
   },
   {
-    "received_mono": 295.185730091,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.91749734,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 153,
     "mode": 2,
     "state": "PROCESSING",
-    "in_flight": "5686f540-6352-4056-9fc6-84790c132029",
+    "in_flight": "4e13252d-2601-467f-a686-905561787fe9",
     "burst_active": true,
     "completed": 5,
     "lifecycle": 3,
@@ -1898,12 +1898,12 @@
     "reason": ""
   },
   {
-    "received_mono": 295.186053765,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.918666946,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 154,
     "mode": 2,
     "state": "STORING",
-    "in_flight": "5686f540-6352-4056-9fc6-84790c132029",
+    "in_flight": "4e13252d-2601-467f-a686-905561787fe9",
     "burst_active": true,
     "completed": 5,
     "lifecycle": 3,
@@ -1911,8 +1911,8 @@
     "reason": ""
   },
   {
-    "received_mono": 295.194016621,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2601.928581345,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 155,
     "mode": 2,
     "state": "READY",
@@ -1924,8 +1924,8 @@
     "reason": ""
   },
   {
-    "received_mono": 295.233973905,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.109555854,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 156,
     "mode": 2,
     "state": "READY",
@@ -1937,8 +1937,8 @@
     "reason": ""
   },
   {
-    "received_mono": 295.393979538,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.129599349,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 157,
     "mode": 2,
     "state": "CAPTURING",
@@ -1950,74 +1950,61 @@
     "reason": ""
   },
   {
-    "received_mono": 295.421703997,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.156988146,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 158,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "e00347a0-3aea-4ee3-938f-f43597813333",
+    "in_flight": "4383deb4-dbed-4d48-baf9-21bb544a52c6",
     "burst_active": true,
     "completed": 6,
     "lifecycle": 3,
-    "imaging_enabled": true,
+    "imaging_enabled": false,
     "reason": ""
   },
   {
-    "received_mono": 295.421958282,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.157389437,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 159,
-    "mode": 2,
-    "state": "PROCESSING",
-    "in_flight": "e00347a0-3aea-4ee3-938f-f43597813333",
+    "mode": 5,
+    "state": "FAULT",
+    "in_flight": "4383deb4-dbed-4d48-baf9-21bb544a52c6",
     "burst_active": true,
     "completed": 6,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
+    "lifecycle": 2,
+    "imaging_enabled": false,
+    "reason": "authority lease expired"
   },
   {
-    "received_mono": 295.423052637,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.157702806,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 160,
-    "mode": 2,
-    "state": "STORING",
-    "in_flight": "e00347a0-3aea-4ee3-938f-f43597813333",
+    "mode": 5,
+    "state": "FAULT",
+    "in_flight": "4383deb4-dbed-4d48-baf9-21bb544a52c6",
     "burst_active": true,
     "completed": 6,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
+    "lifecycle": 2,
+    "imaging_enabled": false,
+    "reason": "authority lease expired"
   },
   {
-    "received_mono": 295.42901496,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.159363778,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 161,
-    "mode": 2,
-    "state": "READY",
-    "in_flight": "",
+    "mode": 5,
+    "state": "FAULT",
+    "in_flight": "4383deb4-dbed-4d48-baf9-21bb544a52c6",
     "burst_active": true,
-    "completed": 7,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
+    "completed": 6,
+    "lifecycle": 2,
+    "imaging_enabled": false,
+    "reason": "authority lease expired"
   },
   {
-    "received_mono": 295.433367061,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.171052429,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 162,
-    "mode": 2,
-    "state": "READY",
-    "in_flight": "",
-    "burst_active": true,
-    "completed": 7,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 295.45428721,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 163,
     "mode": 5,
     "state": "FAULT",
     "in_flight": "",
@@ -2028,8 +2015,21 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 295.455218752,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.189643672,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 163,
+    "mode": 5,
+    "state": "FAULT",
+    "in_flight": "",
+    "burst_active": false,
+    "completed": 7,
+    "lifecycle": 2,
+    "imaging_enabled": false,
+    "reason": "authority lease expired"
+  },
+  {
+    "received_mono": 2602.309639069,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 164,
     "mode": 5,
     "state": "FAULT",
@@ -2041,8 +2041,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 295.633927769,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.509801696,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 165,
     "mode": 5,
     "state": "FAULT",
@@ -2054,8 +2054,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 295.833846344,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.71005441,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 166,
     "mode": 5,
     "state": "FAULT",
@@ -2067,8 +2067,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 296.033750765,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2602.909892342,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 167,
     "mode": 5,
     "state": "FAULT",
@@ -2080,8 +2080,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 296.234061452,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2603.109677699,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 168,
     "mode": 5,
     "state": "FAULT",
@@ -2093,8 +2093,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 296.433917093,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2603.309659308,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 169,
     "mode": 5,
     "state": "FAULT",
@@ -2106,8 +2106,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 296.63385845,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2603.509545454,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 170,
     "mode": 5,
     "state": "FAULT",
@@ -2119,8 +2119,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 296.833762939,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2603.709618336,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 171,
     "mode": 5,
     "state": "FAULT",
@@ -2132,8 +2132,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 297.033901905,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2603.909433544,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 172,
     "mode": 5,
     "state": "FAULT",
@@ -2145,8 +2145,8 @@
     "reason": "authority lease expired"
   },
   {
-    "received_mono": 297.207067288,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.083854044,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 173,
     "mode": 5,
     "state": "FAULT",
@@ -2158,8 +2158,8 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 297.207946295,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.084266772,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 174,
     "mode": 5,
     "state": "FAULT",
@@ -2171,8 +2171,8 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 297.208528473,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.085590967,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 175,
     "mode": 1,
     "state": "STANDBY",
@@ -2184,8 +2184,8 @@
     "reason": ""
   },
   {
-    "received_mono": 297.210815077,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.087733593,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 177,
     "mode": 2,
     "state": "READY",
@@ -2197,8 +2197,8 @@
     "reason": ""
   },
   {
-    "received_mono": 297.213503456,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.090073914,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 179,
     "mode": 2,
     "state": "READY",
@@ -2210,9 +2210,22 @@
     "reason": ""
   },
   {
-    "received_mono": 297.213846463,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.109657843,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 180,
+    "mode": 2,
+    "state": "READY",
+    "in_flight": "",
+    "burst_active": true,
+    "completed": 0,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2604.110399969,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 181,
     "mode": 2,
     "state": "CAPTURING",
     "in_flight": "",
@@ -2223,25 +2236,12 @@
     "reason": ""
   },
   {
-    "received_mono": 297.236907025,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 181,
-    "mode": 2,
-    "state": "CAPTURING",
-    "in_flight": "9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f",
-    "burst_active": true,
-    "completed": 0,
-    "lifecycle": 3,
-    "imaging_enabled": true,
-    "reason": ""
-  },
-  {
-    "received_mono": 297.237207379,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.144563959,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 182,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f",
+    "in_flight": "f9059a7f-bc16-4efd-b84c-571d9d26cad4",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -2249,12 +2249,12 @@
     "reason": ""
   },
   {
-    "received_mono": 297.237500016,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.144851951,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 183,
     "mode": 2,
     "state": "PROCESSING",
-    "in_flight": "9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f",
+    "in_flight": "f9059a7f-bc16-4efd-b84c-571d9d26cad4",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -2262,12 +2262,12 @@
     "reason": ""
   },
   {
-    "received_mono": 297.238468545,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.146111868,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 184,
     "mode": 2,
     "state": "STORING",
-    "in_flight": "9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f",
+    "in_flight": "f9059a7f-bc16-4efd-b84c-571d9d26cad4",
     "burst_active": true,
     "completed": 0,
     "lifecycle": 3,
@@ -2275,8 +2275,8 @@
     "reason": ""
   },
   {
-    "received_mono": 297.245129278,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.153303884,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 185,
     "mode": 2,
     "state": "READY",
@@ -2288,8 +2288,8 @@
     "reason": ""
   },
   {
-    "received_mono": 297.433772299,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.309446047,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 186,
     "mode": 2,
     "state": "READY",
@@ -2301,8 +2301,8 @@
     "reason": ""
   },
   {
-    "received_mono": 297.453813532,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.349586452,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 187,
     "mode": 2,
     "state": "CAPTURING",
@@ -2314,12 +2314,12 @@
     "reason": ""
   },
   {
-    "received_mono": 297.486333252,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.38339572,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 188,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2327,12 +2327,12 @@
     "reason": ""
   },
   {
-    "received_mono": 297.633832956,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.50948216,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 189,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2340,12 +2340,12 @@
     "reason": ""
   },
   {
-    "received_mono": 297.83383174,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.709568606,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 190,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2353,12 +2353,12 @@
     "reason": ""
   },
   {
-    "received_mono": 298.033629567,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2604.909557386,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 191,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2366,12 +2366,12 @@
     "reason": ""
   },
   {
-    "received_mono": 298.233866967,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2605.109631617,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 192,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2379,12 +2379,12 @@
     "reason": ""
   },
   {
-    "received_mono": 298.433818776,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2605.309474237,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 193,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2392,12 +2392,12 @@
     "reason": ""
   },
   {
-    "received_mono": 298.633496211,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2605.509476405,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 194,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2405,12 +2405,12 @@
     "reason": ""
   },
   {
-    "received_mono": 298.833707928,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2605.709510763,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 195,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2418,12 +2418,12 @@
     "reason": ""
   },
   {
-    "received_mono": 299.033822672,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2605.909607254,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 196,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2431,12 +2431,12 @@
     "reason": ""
   },
   {
-    "received_mono": 299.233895767,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2606.109624271,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 197,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2444,12 +2444,12 @@
     "reason": ""
   },
   {
-    "received_mono": 299.433744832,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2606.309645446,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 198,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2457,12 +2457,12 @@
     "reason": ""
   },
   {
-    "received_mono": 299.633942539,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2606.509775006,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 199,
     "mode": 2,
     "state": "CAPTURING",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 3,
@@ -2470,12 +2470,12 @@
     "reason": ""
   },
   {
-    "received_mono": 299.763810006,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2606.629155877,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 200,
     "mode": 5,
     "state": "FAULT",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 2,
@@ -2483,12 +2483,12 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 299.833861205,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2606.709637518,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 201,
     "mode": 5,
     "state": "FAULT",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 2,
@@ -2496,12 +2496,12 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 300.01246314,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2606.877436777,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 202,
     "mode": 5,
     "state": "FAULT",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 2,
@@ -2509,12 +2509,12 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 300.033833973,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2606.909559726,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 203,
     "mode": 5,
     "state": "FAULT",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 2,
@@ -2522,12 +2522,12 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 300.189341401,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.065078938,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 204,
     "mode": 5,
     "state": "FAULT",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 2,
@@ -2535,12 +2535,12 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 300.194530468,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.072288991,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 205,
     "mode": 5,
     "state": "FAULT",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
+    "in_flight": "f227a8c4-76f9-4772-9418-1286296b8bc2",
     "burst_active": true,
     "completed": 1,
     "lifecycle": 2,
@@ -2548,22 +2548,9 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 300.233696387,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.081128557,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 206,
-    "mode": 5,
-    "state": "FAULT",
-    "in_flight": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
-    "burst_active": true,
-    "completed": 1,
-    "lifecycle": 2,
-    "imaging_enabled": false,
-    "reason": "supervisor detected missing or failed node"
-  },
-  {
-    "received_mono": 300.24190873,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 207,
     "mode": 5,
     "state": "FAULT",
     "in_flight": "",
@@ -2574,8 +2561,21 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 300.254459978,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.090250595,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 207,
+    "mode": 5,
+    "state": "FAULT",
+    "in_flight": "",
+    "burst_active": false,
+    "completed": 2,
+    "lifecycle": 2,
+    "imaging_enabled": false,
+    "reason": "supervisor detected missing or failed node"
+  },
+  {
+    "received_mono": 2607.092141006,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 208,
     "mode": 5,
     "state": "FAULT",
@@ -2587,22 +2587,9 @@
     "reason": "supervisor detected missing or failed node"
   },
   {
-    "received_mono": 300.256449601,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.09367639,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 209,
-    "mode": 5,
-    "state": "FAULT",
-    "in_flight": "",
-    "burst_active": false,
-    "completed": 2,
-    "lifecycle": 2,
-    "imaging_enabled": false,
-    "reason": "supervisor detected missing or failed node"
-  },
-  {
-    "received_mono": 300.258390008,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 210,
     "mode": 1,
     "state": "STANDBY",
     "in_flight": "",
@@ -2613,9 +2600,9 @@
     "reason": ""
   },
   {
-    "received_mono": 300.261502356,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 212,
+    "received_mono": 2607.096359056,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 211,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -2626,9 +2613,9 @@
     "reason": ""
   },
   {
-    "received_mono": 300.265559803,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 214,
+    "received_mono": 2607.099324892,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 213,
     "mode": 3,
     "state": "DOWNLINK",
     "in_flight": "",
@@ -2639,9 +2626,9 @@
     "reason": ""
   },
   {
-    "received_mono": 300.269634283,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 216,
+    "received_mono": 2607.102266411,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 215,
     "mode": 1,
     "state": "STANDBY",
     "in_flight": "",
@@ -2652,8 +2639,21 @@
     "reason": ""
   },
   {
-    "received_mono": 300.434155373,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.109423221,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 217,
+    "mode": 0,
+    "state": "BOOT",
+    "in_flight": "",
+    "burst_active": false,
+    "completed": 2,
+    "lifecycle": 1,
+    "imaging_enabled": false,
+    "reason": ""
+  },
+  {
+    "received_mono": 2607.110412465,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 218,
     "mode": 0,
     "state": "BOOT",
@@ -2665,22 +2665,9 @@
     "reason": ""
   },
   {
-    "received_mono": 300.43737834,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 219,
-    "mode": 0,
-    "state": "BOOT",
-    "in_flight": "",
-    "burst_active": false,
-    "completed": 2,
-    "lifecycle": 1,
-    "imaging_enabled": false,
-    "reason": ""
-  },
-  {
-    "received_mono": 300.440486736,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 221,
+    "received_mono": 2607.112366834,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 220,
     "mode": 1,
     "state": "STANDBY",
     "in_flight": "",
@@ -2691,9 +2678,9 @@
     "reason": ""
   },
   {
-    "received_mono": 300.44278052,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 223,
+    "received_mono": 2607.113716738,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 222,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -2704,9 +2691,9 @@
     "reason": ""
   },
   {
-    "received_mono": 300.633850841,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 225,
+    "received_mono": 2607.309550383,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 224,
     "mode": 4,
     "state": "SAFE",
     "in_flight": "",
@@ -2717,9 +2704,9 @@
     "reason": "external lifecycle deactivation"
   },
   {
-    "received_mono": 300.637731403,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 226,
+    "received_mono": 2607.313074333,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 225,
     "mode": 1,
     "state": "STANDBY",
     "in_flight": "",
@@ -2730,9 +2717,9 @@
     "reason": ""
   },
   {
-    "received_mono": 300.640602965,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
-    "sequence": 228,
+    "received_mono": 2607.316368909,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 227,
     "mode": 2,
     "state": "READY",
     "in_flight": "",
@@ -2743,8 +2730,21 @@
     "reason": ""
   },
   {
-    "received_mono": 300.833859882,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.509521366,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
+    "sequence": 229,
+    "mode": 2,
+    "state": "READY",
+    "in_flight": "",
+    "burst_active": false,
+    "completed": 2,
+    "lifecycle": 3,
+    "imaging_enabled": true,
+    "reason": ""
+  },
+  {
+    "received_mono": 2607.709304768,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 230,
     "mode": 2,
     "state": "READY",
@@ -2756,8 +2756,8 @@
     "reason": ""
   },
   {
-    "received_mono": 301.033485986,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2607.909496289,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 231,
     "mode": 2,
     "state": "READY",
@@ -2769,8 +2769,8 @@
     "reason": ""
   },
   {
-    "received_mono": 301.233840702,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2608.109318884,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 232,
     "mode": 2,
     "state": "READY",
@@ -2782,8 +2782,8 @@
     "reason": ""
   },
   {
-    "received_mono": 301.433711672,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2608.309718766,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 233,
     "mode": 2,
     "state": "READY",
@@ -2795,8 +2795,8 @@
     "reason": ""
   },
   {
-    "received_mono": 301.633492273,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2608.509755381,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 234,
     "mode": 2,
     "state": "READY",
@@ -2808,8 +2808,8 @@
     "reason": ""
   },
   {
-    "received_mono": 301.833810021,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2608.709592726,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 235,
     "mode": 2,
     "state": "READY",
@@ -2821,8 +2821,8 @@
     "reason": ""
   },
   {
-    "received_mono": 302.033563203,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2608.909741198,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 236,
     "mode": 2,
     "state": "READY",
@@ -2834,8 +2834,8 @@
     "reason": ""
   },
   {
-    "received_mono": 302.233904169,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2609.109793697,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 237,
     "mode": 2,
     "state": "READY",
@@ -2847,8 +2847,8 @@
     "reason": ""
   },
   {
-    "received_mono": 302.433659518,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2609.309923571,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 238,
     "mode": 2,
     "state": "READY",
@@ -2860,8 +2860,8 @@
     "reason": ""
   },
   {
-    "received_mono": 302.63349667,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2609.509662439,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 239,
     "mode": 2,
     "state": "READY",
@@ -2873,8 +2873,8 @@
     "reason": ""
   },
   {
-    "received_mono": 302.833728522,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2609.709421624,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 240,
     "mode": 2,
     "state": "READY",
@@ -2886,8 +2886,8 @@
     "reason": ""
   },
   {
-    "received_mono": 303.033644741,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2609.909349312,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 241,
     "mode": 2,
     "state": "READY",
@@ -2899,8 +2899,8 @@
     "reason": ""
   },
   {
-    "received_mono": 303.233982501,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2610.109564237,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 242,
     "mode": 2,
     "state": "READY",
@@ -2912,8 +2912,8 @@
     "reason": ""
   },
   {
-    "received_mono": 303.433868254,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2610.309924636,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 243,
     "mode": 2,
     "state": "READY",
@@ -2925,8 +2925,8 @@
     "reason": ""
   },
   {
-    "received_mono": 303.633731218,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2610.509581819,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 244,
     "mode": 2,
     "state": "READY",
@@ -2938,8 +2938,8 @@
     "reason": ""
   },
   {
-    "received_mono": 303.833437462,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2610.709532247,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 245,
     "mode": 2,
     "state": "READY",
@@ -2951,8 +2951,8 @@
     "reason": ""
   },
   {
-    "received_mono": 304.03348909,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2610.909240941,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 246,
     "mode": 2,
     "state": "READY",
@@ -2964,8 +2964,8 @@
     "reason": ""
   },
   {
-    "received_mono": 304.233816464,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2611.109604894,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 247,
     "mode": 2,
     "state": "READY",
@@ -2977,8 +2977,8 @@
     "reason": ""
   },
   {
-    "received_mono": 304.433543833,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2611.309649644,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 248,
     "mode": 2,
     "state": "READY",
@@ -2990,8 +2990,8 @@
     "reason": ""
   },
   {
-    "received_mono": 304.633825122,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2611.509347936,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 249,
     "mode": 2,
     "state": "READY",
@@ -3003,8 +3003,8 @@
     "reason": ""
   },
   {
-    "received_mono": 304.833849618,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2611.709622176,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 250,
     "mode": 2,
     "state": "READY",
@@ -3016,8 +3016,8 @@
     "reason": ""
   },
   {
-    "received_mono": 305.033790704,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2611.909621497,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 251,
     "mode": 2,
     "state": "READY",
@@ -3029,8 +3029,8 @@
     "reason": ""
   },
   {
-    "received_mono": 305.234052209,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2612.109616213,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 252,
     "mode": 2,
     "state": "READY",
@@ -3042,8 +3042,8 @@
     "reason": ""
   },
   {
-    "received_mono": 305.433889691,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2612.309919033,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 253,
     "mode": 2,
     "state": "READY",
@@ -3055,8 +3055,8 @@
     "reason": ""
   },
   {
-    "received_mono": 305.633694475,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2612.509788244,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 254,
     "mode": 2,
     "state": "READY",
@@ -3068,8 +3068,8 @@
     "reason": ""
   },
   {
-    "received_mono": 305.83409081,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2612.709584338,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 255,
     "mode": 2,
     "state": "READY",
@@ -3081,8 +3081,8 @@
     "reason": ""
   },
   {
-    "received_mono": 306.034149808,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2612.909598034,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 256,
     "mode": 2,
     "state": "READY",
@@ -3094,8 +3094,8 @@
     "reason": ""
   },
   {
-    "received_mono": 306.233862596,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2613.109766225,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 257,
     "mode": 2,
     "state": "READY",
@@ -3107,8 +3107,8 @@
     "reason": ""
   },
   {
-    "received_mono": 306.433833863,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2613.309613153,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 258,
     "mode": 2,
     "state": "READY",
@@ -3120,8 +3120,8 @@
     "reason": ""
   },
   {
-    "received_mono": 306.633798619,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2613.509603839,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 259,
     "mode": 2,
     "state": "READY",
@@ -3133,8 +3133,8 @@
     "reason": ""
   },
   {
-    "received_mono": 306.833717402,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2613.70966649,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 260,
     "mode": 2,
     "state": "READY",
@@ -3146,8 +3146,8 @@
     "reason": ""
   },
   {
-    "received_mono": 307.033835208,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2613.90949702,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 261,
     "mode": 2,
     "state": "READY",
@@ -3159,8 +3159,8 @@
     "reason": ""
   },
   {
-    "received_mono": 307.233713737,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2614.109728047,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 262,
     "mode": 2,
     "state": "READY",
@@ -3172,8 +3172,8 @@
     "reason": ""
   },
   {
-    "received_mono": 307.433654796,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2614.309758692,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 263,
     "mode": 2,
     "state": "READY",
@@ -3185,8 +3185,8 @@
     "reason": ""
   },
   {
-    "received_mono": 307.633733735,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2614.509549755,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 264,
     "mode": 2,
     "state": "READY",
@@ -3198,8 +3198,8 @@
     "reason": ""
   },
   {
-    "received_mono": 307.774914188,
-    "boot_id": "ad33c6a8-eb90-4a9d-bb7a-be9213d10913",
+    "received_mono": 2614.653083253,
+    "boot_id": "1695a836-f8ca-4723-aa8f-ea29e43c9863",
     "sequence": 265,
     "mode": 1,
     "state": "STANDBY",
@@ -3211,8 +3211,8 @@
     "reason": ""
   },
   {
-    "received_mono": 308.697381589,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2615.460694603,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 1,
     "mode": 0,
     "state": "BOOT",
@@ -3224,8 +3224,8 @@
     "reason": ""
   },
   {
-    "received_mono": 308.897062966,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2615.660552696,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 2,
     "mode": 0,
     "state": "BOOT",
@@ -3237,8 +3237,8 @@
     "reason": ""
   },
   {
-    "received_mono": 309.09754911,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2615.860746055,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 3,
     "mode": 0,
     "state": "BOOT",
@@ -3250,8 +3250,8 @@
     "reason": ""
   },
   {
-    "received_mono": 309.2973844,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2616.060772286,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 4,
     "mode": 0,
     "state": "BOOT",
@@ -3263,8 +3263,8 @@
     "reason": ""
   },
   {
-    "received_mono": 309.497349094,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2616.260778352,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 5,
     "mode": 0,
     "state": "BOOT",
@@ -3276,8 +3276,8 @@
     "reason": ""
   },
   {
-    "received_mono": 309.697637147,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2616.461114118,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 6,
     "mode": 0,
     "state": "BOOT",
@@ -3289,8 +3289,8 @@
     "reason": ""
   },
   {
-    "received_mono": 309.897516757,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2616.660946116,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 7,
     "mode": 0,
     "state": "BOOT",
@@ -3302,9 +3302,22 @@
     "reason": ""
   },
   {
-    "received_mono": 310.087811763,
-    "boot_id": "1185ae90-9a34-40f7-b16e-40740d538fcc",
+    "received_mono": 2616.861664173,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
     "sequence": 8,
+    "mode": 0,
+    "state": "BOOT",
+    "in_flight": "",
+    "burst_active": false,
+    "completed": 0,
+    "lifecycle": 1,
+    "imaging_enabled": false,
+    "reason": ""
+  },
+  {
+    "received_mono": 2616.863121589,
+    "boot_id": "56329c74-5269-44a3-9413-d86ce18be872",
+    "sequence": 9,
     "mode": 1,
     "state": "STANDBY",
     "in_flight": "",

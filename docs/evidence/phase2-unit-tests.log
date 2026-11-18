@@ -4,7 +4,7 @@ Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
    Site: 43db24d155d3
    Build name: (empty)
  Add coverage exclude regular expressions.
-Create new tag: 20261118-0730 - Experimental
+Create new tag: 20261118-0852 - Experimental
 UpdateCTestConfiguration  from :/workspace/build/payload_processing/CTestConfiguration.ini
 Parse Config file:/workspace/build/payload_processing/CTestConfiguration.ini
 Test project /workspace/build/payload_processing
@@ -44,14 +44,14 @@ test 1
 1: -- run_test.py: return code 0
 1: -- run_test.py: inject classname prefix into gtest result file '/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml'
 1: -- run_test.py: verify result file '/workspace/build/payload_processing/test_results/payload_processing/test_process.gtest.xml'
-1/1 Test #1: test_process .....................   Passed    0.06 sec
+1/1 Test #1: test_process .....................   Passed    0.05 sec
 
 100% tests passed, 0 tests failed out of 1
 
 Label Time Summary:
-gtest    =   0.06 sec*proc (1 test)
+gtest    =   0.05 sec*proc (1 test)
 
-Total Test time (real) =   0.06 sec
-Finished <<< payload_processing [0.12s]
+Total Test time (real) =   0.05 sec
+Finished <<< payload_processing [0.08s]
 
-Summary: 1 package finished [0.28s]
+Summary: 1 package finished [0.22s]

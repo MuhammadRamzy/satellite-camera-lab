@@ -2,97 +2,97 @@
   {
     "completed": 1,
     "requested": 5,
-    "last_capture_id": "29f46826-cb46-4a54-9d43-bdb3700c17ca",
-    "received_mono": 288.170434618
+    "last_capture_id": "8dba48e9-afba-448f-86ae-aa967b4ec221",
+    "received_mono": 2594.882037031
   },
   {
     "completed": 2,
     "requested": 5,
-    "last_capture_id": "e1e7c807-8f34-460c-aa7c-16b61fd6ae21",
-    "received_mono": 289.218101849
+    "last_capture_id": "adb894a7-97ba-448a-9b82-3971fd75c295",
+    "received_mono": 2595.938339992
   },
   {
     "completed": 3,
     "requested": 5,
-    "last_capture_id": "64a48de6-7de4-4036-89d9-2ab69bcf490a",
-    "received_mono": 290.259420405
+    "last_capture_id": "611347e7-100c-4161-99ed-21cb54cb0dae",
+    "received_mono": 2596.977193099
   },
   {
     "completed": 4,
     "requested": 5,
-    "last_capture_id": "5cc344ec-2d05-444c-a4b2-de952b41df47",
-    "received_mono": 291.290495907
+    "last_capture_id": "9b569455-6f8f-46e2-a442-620fe6541e62",
+    "received_mono": 2598.005749954
   },
   {
     "completed": 5,
     "requested": 5,
-    "last_capture_id": "b384562e-ab9e-444c-9ebb-6d205a526a3a",
-    "received_mono": 292.335690901
+    "last_capture_id": "0936156d-5221-406d-a8c1-023ef981482d",
+    "received_mono": 2599.058939917
   },
   {
     "completed": 1,
     "requested": 20,
-    "last_capture_id": "df10a591-fe95-4338-bac7-2b66680bdd56",
-    "received_mono": 292.719959968
+    "last_capture_id": "a334d392-eec4-49f3-9649-5f97357caa5c",
+    "received_mono": 2599.435948298
   },
   {
     "completed": 1,
     "requested": 20,
-    "last_capture_id": "7ec3559d-96d6-4af9-a994-bdae8293c803",
-    "received_mono": 293.498465688
+    "last_capture_id": "27e49d2a-55a4-4e79-9c39-dbd3eb3d9cce",
+    "received_mono": 2600.216565026
   },
   {
     "completed": 1,
     "requested": 30,
-    "last_capture_id": "1c8e4d99-45a2-48ec-91a9-81d75ea2a607",
-    "received_mono": 293.987590048
+    "last_capture_id": "20591522-e967-4a57-b9e1-f9a279e6b1a9",
+    "received_mono": 2600.710941899
   },
   {
     "completed": 2,
     "requested": 30,
-    "last_capture_id": "dcea130e-6b85-4e30-aeae-a48f808338a7",
-    "received_mono": 294.238589715
+    "last_capture_id": "0fd0865d-1294-4b8a-9945-72caf9b0b35c",
+    "received_mono": 2600.946441831
   },
   {
     "completed": 3,
     "requested": 30,
-    "last_capture_id": "af1aacb1-abe1-4845-a328-664c81fbe561",
-    "received_mono": 294.478699557
+    "last_capture_id": "45cb8f5e-6397-4a6b-a31a-43b73ff3ce5b",
+    "received_mono": 2601.187429568
   },
   {
     "completed": 4,
     "requested": 30,
-    "last_capture_id": "050ec3dc-5db7-4f89-902d-bfc7c6b91e18",
-    "received_mono": 294.70993076
+    "last_capture_id": "3a82bb92-ad44-4c08-a90a-8686ff19417e",
+    "received_mono": 2601.444599062
   },
   {
     "completed": 5,
     "requested": 30,
-    "last_capture_id": "146cd733-fdc4-452a-8d77-29d6b664ee1c",
-    "received_mono": 294.951528778
+    "last_capture_id": "f6d5b778-6e67-4462-bd49-fd10f746e3ad",
+    "received_mono": 2601.69107735
   },
   {
     "completed": 6,
     "requested": 30,
-    "last_capture_id": "5686f540-6352-4056-9fc6-84790c132029",
-    "received_mono": 295.1939105
+    "last_capture_id": "4e13252d-2601-467f-a686-905561787fe9",
+    "received_mono": 2601.928500552
   },
   {
     "completed": 7,
     "requested": 30,
-    "last_capture_id": "e00347a0-3aea-4ee3-938f-f43597813333",
-    "received_mono": 295.428950911
+    "last_capture_id": "4383deb4-dbed-4d48-baf9-21bb544a52c6",
+    "received_mono": 2602.170886384
   },
   {
     "completed": 1,
     "requested": 30,
-    "last_capture_id": "9b47bcb7-f875-4e5d-aa6a-5d9ccfd2b12f",
-    "received_mono": 297.244571934
+    "last_capture_id": "f9059a7f-bc16-4efd-b84c-571d9d26cad4",
+    "received_mono": 2604.152934277
   },
   {
     "completed": 2,
     "requested": 30,
-    "last_capture_id": "fe80f584-ee92-4d8d-b596-19c6b4e96068",
-    "received_mono": 300.241649266
+    "last_capture_id": "f227a8c4-76f9-4772-9418-1286296b8bc2",
+    "received_mono": 2607.080800105
   }
 ]

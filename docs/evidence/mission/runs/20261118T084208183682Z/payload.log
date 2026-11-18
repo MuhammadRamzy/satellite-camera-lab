@@ -1,0 +1,25 @@
+[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-08-42-08-384196-d20b4a406af2-355
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [storage_node-1]: process started with pid [374]
+[INFO] [processing_node-2]: process started with pid [375]
+[INFO] [camera_node-3]: process started with pid [376]
+[INFO] [modes_node-4]: process started with pid [377]
+[INFO] [health_node-5]: process started with pid [378]
+[storage_node-1] [INFO] [1794991328.897162200] [payload_storage]: {"event": "storage_recovered", "entries": 0}
+[camera_node-3] [ERROR] [1794991329.830002245] [payload_camera]: event=capture_rejected reason=camera inhibited or pipeline busy
+[modes_node-4] [ERROR] [1794991329.844052535] [payload_modes]: {"event": "supervisor_fault", "reason": "explicit recovery to STANDBY required"}
+[processing_node-2] [INFO] [1794991329.931468440] [payload_processing]: event=image_processed id=bf7b0e50-13ff-4b8b-8884-6421c1eeb1d9 bytes=25687 processing_ms=2.370
+[storage_node-1] [INFO] [1794991329.937037703] [payload_storage]: {"event": "file_ready", "id": "bf7b0e50-13ff-4b8b-8884-6421c1eeb1d9", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 4.55076299999746}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [health_node-5]: sending signal 'SIGINT' to process[health_node-5]
+[INFO] [modes_node-4]: sending signal 'SIGINT' to process[modes_node-4]
+[INFO] [camera_node-3]: sending signal 'SIGINT' to process[camera_node-3]
+[INFO] [processing_node-2]: sending signal 'SIGINT' to process[processing_node-2]
+[INFO] [storage_node-1]: sending signal 'SIGINT' to process[storage_node-1]
+[camera_node-3] [INFO] [1794991331.293884508] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[processing_node-2] [INFO] [1794991331.294464058] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [processing_node-2]: process has finished cleanly [pid 375]
+[INFO] [camera_node-3]: process has finished cleanly [pid 376]
+[INFO] [storage_node-1]: process has finished cleanly [pid 374]
+[INFO] [health_node-5]: process has finished cleanly [pid 378]
+[INFO] [modes_node-4]: process has finished cleanly [pid 377]

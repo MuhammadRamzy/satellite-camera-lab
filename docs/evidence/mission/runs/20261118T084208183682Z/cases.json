@@ -1,0 +1,24 @@
+[
+  {
+    "test_id": "P4-01",
+    "initial_state": "payload booting",
+    "injected_fault": "fragmented/coalesced, replay/oversized frames",
+    "expected": "valid ACKs; invalid sessions close",
+    "recovery_action": "fresh session",
+    "recovery_ms": null,
+    "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified",
+    "result": "PASS",
+    "duration_ms": 73.94311500002004
+  },
+  {
+    "test_id": "P4-02",
+    "initial_state": "STANDBY/inhibited",
+    "injected_fault": "duplicate/conflicting IDs, reconnect, gateway/bus SIGKILL",
+    "expected": "one exposure; durable replay; SAFE and explicit recovery",
+    "recovery_action": "restart/recover",
+    "recovery_ms": null,
+    "observed": "AssertionError: ({'op': 'capture', 'command_id': 121}, {'status': 'ERROR', 'reason': 'peer disconnected'})",
+    "result": "FAIL",
+    "duration_ms": 680.3608620000432
+  }
+]

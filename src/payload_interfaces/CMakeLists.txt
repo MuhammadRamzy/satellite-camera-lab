@@ -10,6 +10,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   srv/Capture.srv
   msg/Authority.msg msg/CameraStatus.msg msg/StageEvent.msg msg/NodeHealth.msg msg/Housekeeping.msg
   srv/ApplyControl.srv srv/SetMode.srv srv/SpacecraftControl.srv
+  srv/CatalogueCommand.srv
   action/CaptureBurst.action
   DEPENDENCIES sensor_msgs builtin_interfaces action_msgs)
 ament_export_dependencies(rosidl_default_runtime)

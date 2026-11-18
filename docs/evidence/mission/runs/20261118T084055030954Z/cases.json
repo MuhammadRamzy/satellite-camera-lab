@@ -1,0 +1,13 @@
+[
+  {
+    "test_id": "P4-01",
+    "initial_state": "payload booting",
+    "injected_fault": "fragmented/coalesced, replay/oversized frames",
+    "expected": "valid ACKs; invalid sessions close",
+    "recovery_action": "fresh session",
+    "recovery_ms": null,
+    "observed": "fragmented/coalesced TCP, 16383->0 wrap, sequence replay and oversized-header close verified",
+    "result": "PASS",
+    "duration_ms": 79.62833400006275
+  }
+]

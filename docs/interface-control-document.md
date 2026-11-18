@@ -1,8 +1,8 @@
 # Mission interface control document — v1 draft
 
-Implemented subset: interfaces/space_packet.py. Constants and exact command
-body validation are tested. Live sockets, dispatch, duplicate journal, ACK,
-telemetry semantics and file transport are **not implemented yet**.
+Implemented subset: interfaces/space_packet.py and payload_gateway. Phase 4
+verifies live sockets, dispatch, persistent duplicate journal, correlated ACKs,
+status and restart behavior. File transport runtime acceptance is the next gate.
 
 Reference: [CCSDS Space Packet Protocol, 133.0-B-2 with corrections](https://ccsds.org/Pubs/133x0b2e2.pdf).
 This implements an unsegmented mission subset of the primary header, not a
@@ -42,6 +42,9 @@ The application body follows immediately; trailing bytes are forbidden for TC.
 | 9 | PL_DELETE_FILE | 16-byte UUID; dispatch must guard ground confirmation |
 | 10 | PL_ABORT_CAPTURE | Empty |
 | 11 | PL_SAFE | Empty |
+| 12 | PL_CONFIRM_FILE | 16-byte UUID + 32-byte ground SHA-256 |
+| 13 | PL_SPACECRAFT_CONTROL | uint8 mode (0 STANDBY, 1 OPERATIONAL, 2 SAFE, 3 COMMUNICATIONS), uint8 permission (0/1, only OPERATIONAL may permit) |
+| 14 | PL_RECOVER | Empty; explicit recovery to STANDBY |
 
 Sequence tracking is per APID within a TCP session, wraps 16383→0 and rejects
 gaps/replays/out-of-order. New sessions explicitly create new tracker objects.
@@ -49,19 +52,30 @@ TC stream parsing uses the primary header for length. Close on malformed input;
 there is no sync marker to search for. A future endpoint must impose read
 deadlines and maximum connection/read sizes before feeding this decoder.
 
-Duplicate semantics to implement before dispatch: persistent command ID and
+Implemented duplicate semantics before dispatch: persistent command ID and
 request fingerprint, completed response replay, conflicting reuse rejected,
 in-progress result reported without repeating exposure. A crash between physical
 side effect and journal completion must produce IN_DOUBT and reconcile by image
 ID; exactly-once side effects cannot be inferred from TCP delivery. Command IDs
 must survive bus restart; sequence count alone is not duplicate protection.
 
-ACK application schema remains an open ICD item: define accepted/completed/error
-status, reason enum, and correlation before gateway implementation. Health and
-catalogue page schemas likewise require typed ROS definitions and wire-size
-tests. No operational wire compatibility is promised for those draft items.
+ACK APID 0x101 echoes command ID/opcode and has an independent session sequence.
+Its body is bounded UTF-8 JSON: status COMPLETED (synchronous result), ACCEPTED
+(capture/action accepted), ERROR or IN_DOUBT; reason is a bounded diagnostic.
+Capture ACK includes capture_id; burst ACK includes job (command ID string).
+GET_STATUS/PING carry fresh state, health, counts, resource snapshot and up to
+eight burst job summaries with durable-completion feedback. The bus requests
+GET_STATUS at 1 Hz; this version has no unsolicited APID 0x102/0x103 streams.
+LIST returns compact file entries and next_offset; pagination uses the actual
+returned count to stay within the 4096-byte packet cap. REQUEST returns the
+UUID, size, SHA-256 and separate file port. CONFIRM/DELETE are serialized by
+the storage owner. A capture ACK is never a storage or ground-delivery receipt.
+Configuration is atomic and requires STANDBY. Only source=0 is implemented;
+directory and V4L2 selections return ERROR. FPS describes the intended burst
+interval; it does not start continuous acquisition.
 
 Bulk transport design is separate from SPP: transfer ID, file UUID, total length,
 SHA-256 manifest; bounded chunks with sequence/offset, CRC32, ACK and retransmit;
 durable contiguous receiver offset for restart; final SHA-256 before rename and
-delivery receipt. This remains a design, not a working CFDP or TCP transport.
+delivery receipt. This experimental transport is implemented and host-tested;
+live file/radio acceptance follows Phase 4. It is not CFDP.

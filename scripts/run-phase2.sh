@@ -2,7 +2,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 check_phase=${PAYLOAD_CHECK_PHASE:-2}
-case "$check_phase" in 2|3) ;; *) echo 'Supported check phases: 2 or 3' >&2; exit 1;; esac
+case "$check_phase" in 2|3|mission) ;; *) echo 'Supported check phases: 2, 3 or mission' >&2; exit 1;; esac
 exec 9>.bootstrap.lock
 flock -n 9 || { echo 'Another bootstrap/build owns this workspace' >&2; exit 1; }
 mkdir -p docs/evidence
@@ -32,5 +32,6 @@ print(image['Id'])
 PY
 )
 docker run --rm --network none --memory 4g --cpus 2 --cap-drop ALL \
+  -e "MISSION_THROUGH=${MISSION_THROUGH:-6}" -e "MISSION_REGRESSION=${MISSION_REGRESSION:-1}" \
   --security-opt no-new-privileges -v "$PWD:/workspace" "$image_id" \
   bash "scripts/phase${check_phase}-container.sh" 2>&1 | tee "docs/evidence/phase${check_phase}-execution.log"

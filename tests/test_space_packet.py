@@ -58,7 +58,8 @@ class PacketTests(unittest.TestCase):
     def test_every_command_has_exact_length(self):
         bodies = {3: b"\x02", 5: struct.pack("!HI", 5, 1000),
                   6: struct.pack("!HHBBIBB", 640, 480, 5, 75, 10000, 3, 0),
-                  7: struct.pack("!IH", 0, 32), 8: bytes(16), 9: bytes(16)}
+                  7: struct.pack("!IH", 0, 32), 8: bytes(16), 9: bytes(16),
+                  12: bytes(48), 13: bytes([1, 1])}
         for cmd in Command:
             p = Packet(COMMAND_APID, 0, True, cmd, 1, 0, bodies.get(cmd, b""))
             self.assertEqual(validate_command(p), cmd)

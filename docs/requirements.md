@@ -16,8 +16,8 @@ PASS=verified phase acceptance; P=passing partial/foundation check; N=not implem
 | HK-01 | 1 Hz CPU/RAM/disk/state/heartbeat | Phase 3 six consecutive timed samples | PASS |
 | ICD-01 | SPP header, bounds, TC validation | test_space_packet known vector/bad headers/every command | P |
 | ICD-02 | Sequence validation | test_space_packet roundtrip_sequence_wrap | P |
-| ICD-03 | Duplicate journal, ACKs, reconnect dispatch | Persistent duplicate/side-effect tests + socket tests | N |
-| BUS-01 | Independent cFS behavioral simulator | Scheduler/modes/HS integration | N |
+| ICD-03 | Duplicate journal, ACKs, reconnect dispatch | Phase 4 real capture replay across SIGKILL + uncertainty library test | PASS |
+| BUS-01 | Independent cFS behavioral simulator | Separate process, scheduler, persistent IDs, spacecraft authority; full watchdog campaign next | P |
 | FIL-01 | Reliable experimental file transport | Resume, CRC, retransmit, final digest tests | N |
 | RF-01 | Enforced data rates/windows/loss | Timed wire-byte tests and pass restart | N |
 | GND-01 | CLI and five-image ground receipt | Complete mission with five independent SHA-256 checks | N |

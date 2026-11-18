@@ -1,11 +1,11 @@
 [
     {
-        "Id": "sha256:7761837d3e291b2c3a58bfe72656f4ef7c452ac151185433119eef7f4797eb48",
+        "Id": "sha256:1978a5d4375a7c9d599a6cfee60b5f07c8197f4b4b08d3d7a1963d105bca87cb",
         "RepoTags": [
             "satellite-camera-lab:phase2"
         ],
         "RepoDigests": [
-            "satellite-camera-lab@sha256:7761837d3e291b2c3a58bfe72656f4ef7c452ac151185433119eef7f4797eb48"
+            "satellite-camera-lab@sha256:1978a5d4375a7c9d599a6cfee60b5f07c8197f4b4b08d3d7a1963d105bca87cb"
         ],
         "Comment": "buildkit.dockerfile.v0",
         "Created": "2026-11-18T12:49:43.674487218+05:30",
@@ -78,18 +78,18 @@
             ]
         },
         "Metadata": {
-            "LastTagTime": "2026-11-18T08:19:05.994180782Z"
+            "LastTagTime": "2026-11-18T09:02:23.30171826Z"
         },
         "Descriptor": {
             "mediaType": "application/vnd.oci.image.index.v1+json",
-            "digest": "sha256:7761837d3e291b2c3a58bfe72656f4ef7c452ac151185433119eef7f4797eb48",
+            "digest": "sha256:1978a5d4375a7c9d599a6cfee60b5f07c8197f4b4b08d3d7a1963d105bca87cb",
             "size": 856
         },
         "Identity": {
             "Build": [
                 {
-                    "Ref": "sosfd6yr5ox385y7f2ivlitok",
-                    "CreatedAt": "2026-11-18T13:49:06.008019776+05:30"
+                    "Ref": "xpr9bpqxi8bwy61rded3zk88q",
+                    "CreatedAt": "2026-11-18T14:32:23.314810409+05:30"
                 }
             ]
         }

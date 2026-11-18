@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>payload_gateway</name><version>0.1.0</version>
+  <description>SPP command gateway and experimental file endpoint.</description>
+  <maintainer email="maintainer@example.invalid">Satellite Camera Lab</maintainer>
+  <license>Apache-2.0</license><buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend><exec_depend>payload_interfaces</exec_depend>
+  <exec_depend>payload_storage</exec_depend><exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

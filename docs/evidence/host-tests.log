@@ -8,6 +8,10 @@ test_quota_exhaustion (test_catalogue.CatalogueTests.test_quota_exhaustion) ... 
 test_boot_inhibited_and_validated_update (test_control.AuthorityTests.test_boot_inhibited_and_validated_update) ... ok
 test_permission_revocation_and_internal_modes (test_control.AuthorityTests.test_permission_revocation_and_internal_modes) ... ok
 test_safe_cannot_be_overridden_by_local_recovery (test_control.AuthorityTests.test_safe_cannot_be_overridden_by_local_recovery) ... ok
+test_interrupt_resume_crc_loss_rate_and_receipt_replay (test_file_link.FileLinkTests.test_interrupt_resume_crc_loss_rate_and_receipt_replay) ... ok
+test_pass_budget_and_identity_guards (test_file_link.FileLinkTests.test_pass_budget_and_identity_guards) ... ok
+test_trickle_cannot_extend_absolute_command_deadline (test_framing.FramingTests.test_trickle_cannot_extend_absolute_command_deadline) ... ok
+test_replay_conflict_restart_and_uncertain_effect (test_journal.JournalTests.test_replay_conflict_restart_and_uncertain_effect) ... ok
 test_bad_command_values (test_space_packet.PacketTests.test_bad_command_values) ... ok
 test_bad_primary_and_mission_headers (test_space_packet.PacketTests.test_bad_primary_and_mission_headers) ... ok
 test_encoder_limits (test_space_packet.PacketTests.test_encoder_limits) ... ok
@@ -18,6 +22,6 @@ test_stream_fragmentation_and_coalescence (test_space_packet.PacketTests.test_st
 test_stream_size_rejected_at_header (test_space_packet.PacketTests.test_stream_size_rejected_at_header) ... ok
 
 ----------------------------------------------------------------------
-Ran 18 tests in 0.007s
+Ran 22 tests in 0.329s
 
 OK

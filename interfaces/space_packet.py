@@ -32,6 +32,9 @@ class Command(IntEnum):
     PL_DELETE_FILE = 9
     PL_ABORT_CAPTURE = 10
     PL_SAFE = 11
+    PL_CONFIRM_FILE = 12
+    PL_SPACECRAFT_CONTROL = 13
+    PL_RECOVER = 14
 
 
 @dataclass(frozen=True)
@@ -79,10 +82,12 @@ class Packet:
 
 
 # Body lengths are exact. No trailing bytes, implicit native widths or JSON.
-EMPTY = {Command.PL_PING, Command.PL_GET_STATUS, Command.PL_ABORT_CAPTURE, Command.PL_SAFE}
+EMPTY = {Command.PL_PING, Command.PL_GET_STATUS, Command.PL_ABORT_CAPTURE, Command.PL_SAFE,
+         Command.PL_RECOVER}
 LENGTHS = {Command.PL_SET_MODE: 1, Command.PL_CAPTURE: 0, Command.PL_CAPTURE_BURST: 6,
            Command.PL_SET_CAMERA_CONFIG: 12, Command.PL_LIST_FILES: 6,
-           Command.PL_REQUEST_FILE: 16, Command.PL_DELETE_FILE: 16}
+           Command.PL_REQUEST_FILE: 16, Command.PL_DELETE_FILE: 16,
+           Command.PL_CONFIRM_FILE: 48, Command.PL_SPACECRAFT_CONTROL: 2}
 
 
 def validate_command(packet):
@@ -111,6 +116,10 @@ def validate_command(packet):
         _, limit = struct.unpack("!IH", packet.payload)
         if not 1 <= limit <= 32:
             raise ProtocolError("catalogue page size out of bounds")
+    if cmd == Command.PL_SPACECRAFT_CONTROL:
+        mode, permitted = packet.payload
+        if mode > 3 or permitted > 1 or (permitted and mode != 1):
+            raise ProtocolError("invalid spacecraft authority")
     return cmd
 
 

@@ -1,5 +1,5 @@
 {
-  "image_id": "sha256:7761837d3e291b2c3a58bfe72656f4ef7c452ac151185433119eef7f4797eb48",
+  "image_id": "sha256:1978a5d4375a7c9d599a6cfee60b5f07c8197f4b4b08d3d7a1963d105bca87cb",
   "base": "osrf/space-ros@sha256:411c4810a3bc234071d8fa32d4d7daeaf7528a51c17ff4f88b97d1ab8edba85e",
   "base_source_commit": "749aabd8820dceee6fad7347e014002774906d89",
   "architecture": "amd64",

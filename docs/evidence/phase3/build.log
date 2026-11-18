@@ -1,11 +1,10 @@
 Starting >>> payload_interfaces
 Starting >>> payload_smoke
-[  1%] Built target payload_interfaces__rosidl_generator_type_description
 [  1%] Built target payload_interfaces__rs
-[  1%] Built target ament_cmake_python_copy_payload_interfaces
-[  1%] Built target payload_interfaces__cpp
+[  2%] Built target payload_interfaces__rosidl_generator_type_description
 [100%] Built target smoke
-[ 35%] Built target payload_interfaces__rosidl_generator_c
+[  2%] Built target ament_cmake_python_copy_payload_interfaces
+[  2%] Built target payload_interfaces__cpp
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_smoke/lib/payload_smoke/smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/ament_index/resource_index/package_run_dependencies/payload_smoke
@@ -23,20 +22,21 @@ Starting >>> payload_smoke
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig.cmake
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/cmake/payload_smokeConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_smoke/share/payload_smoke/package.xml
-Finished <<< payload_smoke [0.24s]
-[ 47%] Built target payload_interfaces__rosidl_typesupport_introspection_c
-[ 60%] Built target payload_interfaces__rosidl_typesupport_introspection_cpp
-[ 72%] Built target payload_interfaces__rosidl_typesupport_c
-[ 84%] Built target payload_interfaces__rosidl_typesupport_cpp
-[ 84%] Built target payload_interfaces
-[ 85%] Built target payload_interfaces__py
+Finished <<< payload_smoke [0.12s]
+[ 36%] Built target payload_interfaces__rosidl_generator_c
+[ 49%] Built target payload_interfaces__rosidl_typesupport_introspection_c
+[ 61%] Built target payload_interfaces__rosidl_typesupport_introspection_cpp
+[ 73%] Built target payload_interfaces__rosidl_typesupport_c
+[ 85%] Built target payload_interfaces__rosidl_typesupport_cpp
+[ 85%] Built target payload_interfaces
+[ 86%] Built target payload_interfaces__py
+[ 97%] Built target payload_interfaces__rosidl_generator_py
+[ 99%] Built target payload_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target payload_interfaces_s__rosidl_typesupport_c
 running egg_info
-[ 96%] Built target payload_interfaces__rosidl_generator_py
 writing payload_interfaces.egg-info/PKG-INFO
 writing dependency_links to payload_interfaces.egg-info/dependency_links.txt
 writing top-level names to payload_interfaces.egg-info/top_level.txt
-[ 98%] Built target payload_interfaces_s__rosidl_typesupport_introspection_c
-[100%] Built target payload_interfaces_s__rosidl_typesupport_c
 reading manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 [100%] Built target ament_cmake_python_build_payload_interfaces_egg
@@ -55,20 +55,26 @@ writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/ApplyControl.json
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SetMode.json
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SpacecraftControl.json
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/CatalogueCommand.json
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/action/CaptureBurst.json
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__functions.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__type_support.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__struct.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__description.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__functions.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__functions.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__struct.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__type_support.c
 -- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.c
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__functions.c
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__functions.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__functions.c
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__description.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__struct.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__functions.c
@@ -79,12 +85,14 @@ writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__functions.h
 -- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.c
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__struct.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__description.c
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__functions.h
 -- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.c
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__struct.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/capture.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/apply_control.h
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/catalogue_command.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/spacecraft_control.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/set_mode.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action
@@ -169,7 +177,9 @@ writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__type_support.c
 -- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.c
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__rosidl_typesupport_introspection_c.h
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__rosidl_typesupport_introspection_c.h
 -- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.c
 -- Installing: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.c
@@ -212,7 +222,10 @@ writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__struct.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__struct.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__builder.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__type_support.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__struct.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__builder.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__builder.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/capture__type_support.hpp
@@ -220,9 +233,11 @@ writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__struct.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__type_support.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__traits.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__traits.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__struct.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__traits.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/spacecraft_control__builder.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/catalogue_command.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/spacecraft_control.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/capture.hpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/apply_control.hpp
@@ -292,6 +307,8 @@ writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__type_support.cpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/apply_control__type_support.cpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/srv/detail/catalogue_command__type_support.cpp
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail
 -- Up-to-date: /workspace/install/payload_interfaces/include/payload_interfaces/payload_interfaces/action/detail/capture_burst__rosidl_typesupport_introspection_cpp.hpp
@@ -327,9 +344,11 @@ writing manifest file 'payload_interfaces.egg-info/SOURCES.txt'
 -- Installing: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_catalogue_command.py
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_spacecraft_control_s.c
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_set_mode_s.c
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/__init__.py
+-- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_catalogue_command_s.c
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_spacecraft_control.py
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_capture_s.c
 -- Up-to-date: /workspace/install/payload_interfaces/lib/python3.12/site-packages/payload_interfaces/srv/_apply_control_s.c
@@ -400,6 +419,7 @@ Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/ApplyControl.idl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SetMode.idl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SpacecraftControl.idl
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/CatalogueCommand.idl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/action/CaptureBurst.idl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/ImageMetadata.msg
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/msg/Capture.msg
@@ -414,6 +434,7 @@ Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/ApplyControl.srv
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SetMode.srv
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/SpacecraftControl.srv
+-- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/srv/CatalogueCommand.srv
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/action/CaptureBurst.action
 -- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/package_run_dependencies/payload_interfaces
 -- Up-to-date: /workspace/install/payload_interfaces/share/ament_index/resource_index/parent_prefix_path/payload_interfaces
@@ -450,13 +471,14 @@ Listing '/workspace/install/payload_interfaces/lib/python3.12/site-packages/payl
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig.cmake
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/cmake/payload_interfacesConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_interfaces/share/payload_interfaces/package.xml
-Finished <<< payload_interfaces [0.51s]
+Finished <<< payload_interfaces [0.46s]
 Starting >>> payload_storage
 Starting >>> payload_processing
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target process
 Built target ament_cmake_python_copy_foundations
-[ 20%] Built target process
-[ 40%] Built target gtest_main
-[ 60%] Built target gtest
+Built target ament_cmake_python_copy_interfaces
 [ 80%] Built target test_process
 [100%] Built target processing_node
 -- Install configuration: "RelWithDebInfo"
@@ -479,12 +501,19 @@ Built target ament_cmake_python_copy_foundations
 -- Up-to-date: /workspace/install/payload_processing/share/payload_processing/package.xml
 Finished <<< payload_processing [0.16s]
 running egg_info
+running egg_info
 writing foundations.egg-info/PKG-INFO
 writing dependency_links to foundations.egg-info/dependency_links.txt
 writing top-level names to foundations.egg-info/top_level.txt
+writing interfaces.egg-info/PKG-INFO
+writing dependency_links to interfaces.egg-info/dependency_links.txt
+writing top-level names to interfaces.egg-info/top_level.txt
 reading manifest file 'foundations.egg-info/SOURCES.txt'
 writing manifest file 'foundations.egg-info/SOURCES.txt'
+reading manifest file 'interfaces.egg-info/SOURCES.txt'
+writing manifest file 'interfaces.egg-info/SOURCES.txt'
 Built target ament_cmake_python_build_foundations_egg
+Built target ament_cmake_python_build_interfaces_egg
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/pythonpath.sh
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/environment/pythonpath.dsv
@@ -495,9 +524,27 @@ Built target ament_cmake_python_build_foundations_egg
 -- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations-0.1.0-py3.12.egg-info/PKG-INFO
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/control.py
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/catalogue.py
 -- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/__init__.py
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/ground.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/foundations/command_journal.py
 Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations'...
+Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations/bus.py'...
+Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/foundations/ground.py'...
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/space_packet.py
+-- Installing: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/framing.py
+-- Up-to-date: /workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/__init__.py
+Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/interfaces'...
+Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/file_link.py'...
+Compiling '/workspace/install/payload_storage/lib/python3.12/site-packages/interfaces/framing.py'...
 -- Up-to-date: /workspace/install/payload_storage/lib/payload_storage/storage_node
 -- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/package_run_dependencies/payload_storage
 -- Up-to-date: /workspace/install/payload_storage/share/ament_index/resource_index/parent_prefix_path/payload_storage
@@ -514,27 +561,9 @@ Listing '/workspace/install/payload_storage/lib/python3.12/site-packages/foundat
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig.cmake
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/cmake/payload_storageConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_storage/share/payload_storage/package.xml
-Finished <<< payload_storage [0.39s]
+Finished <<< payload_storage [0.48s]
 Starting >>> payload_health
 Starting >>> payload_modes
--- Install configuration: "RelWithDebInfo"
--- Up-to-date: /workspace/install/payload_health/lib/payload_health/health_node
--- Up-to-date: /workspace/install/payload_health/share/ament_index/resource_index/package_run_dependencies/payload_health
--- Up-to-date: /workspace/install/payload_health/share/ament_index/resource_index/parent_prefix_path/payload_health
--- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/ament_prefix_path.sh
--- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/ament_prefix_path.dsv
--- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/path.sh
--- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/path.dsv
--- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.bash
--- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.sh
--- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.zsh
--- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.dsv
--- Installing: /workspace/install/payload_health/share/payload_health/package.dsv
--- Up-to-date: /workspace/install/payload_health/share/ament_index/resource_index/packages/payload_health
--- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig.cmake
--- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig-version.cmake
--- Up-to-date: /workspace/install/payload_health/share/payload_health/package.xml
-Finished <<< payload_health [0.06s]
 -- Install configuration: "RelWithDebInfo"
 -- Up-to-date: /workspace/install/payload_modes/lib/payload_modes/modes_node
 -- Up-to-date: /workspace/install/payload_modes/share/ament_index/resource_index/package_run_dependencies/payload_modes
@@ -552,8 +581,45 @@ Finished <<< payload_health [0.06s]
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/cmake/payload_modesConfig.cmake
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/cmake/payload_modesConfig-version.cmake
 -- Up-to-date: /workspace/install/payload_modes/share/payload_modes/package.xml
-Finished <<< payload_modes [0.07s]
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspace/install/payload_health/lib/payload_health/health_node
+-- Up-to-date: /workspace/install/payload_health/share/ament_index/resource_index/package_run_dependencies/payload_health
+-- Up-to-date: /workspace/install/payload_health/share/ament_index/resource_index/parent_prefix_path/payload_health
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/path.sh
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.bash
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.sh
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/local_setup.dsv
+-- Installing: /workspace/install/payload_health/share/payload_health/package.dsv
+Finished <<< payload_modes [0.06s]
+Starting >>> payload_gateway
+-- Up-to-date: /workspace/install/payload_health/share/ament_index/resource_index/packages/payload_health
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig.cmake
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/cmake/payload_healthConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_health/share/payload_health/package.xml
+Finished <<< payload_health [0.08s]
 Starting >>> payload_camera
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /workspace/install/payload_gateway/lib/payload_gateway/gateway_node
+-- Up-to-date: /workspace/install/payload_gateway/share/ament_index/resource_index/package_run_dependencies/payload_gateway
+-- Up-to-date: /workspace/install/payload_gateway/share/ament_index/resource_index/parent_prefix_path/payload_gateway
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/environment/path.sh
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/environment/path.dsv
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/local_setup.bash
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/local_setup.sh
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/local_setup.zsh
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/local_setup.dsv
+-- Installing: /workspace/install/payload_gateway/share/payload_gateway/package.dsv
+-- Up-to-date: /workspace/install/payload_gateway/share/ament_index/resource_index/packages/payload_gateway
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/cmake/payload_gatewayConfig.cmake
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/cmake/payload_gatewayConfig-version.cmake
+-- Up-to-date: /workspace/install/payload_gateway/share/payload_gateway/package.xml
+Finished <<< payload_gateway [0.07s]
 [ 25%] Built target gtest
 [ 50%] Built target gtest_main
 [ 75%] Built target camera_node
@@ -582,4 +648,4 @@ Starting >>> payload_camera
 -- Up-to-date: /workspace/install/payload_camera/share/payload_camera/package.xml
 Finished <<< payload_camera [0.12s]
 
-Summary: 7 packages finished [1.21s]
+Summary: 8 packages finished [1.24s]

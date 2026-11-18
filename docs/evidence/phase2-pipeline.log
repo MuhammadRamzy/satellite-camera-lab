@@ -1,34 +1,34 @@
-[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-07-56-50-179895-f6d57e9b9643-31
+[INFO] [launch]: All log files can be found below /home/spaceros-user/.ros/log/2026-11-18-08-52-27-936953-267eee56f351-353
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [storage_node-1]: process started with pid [34]
-[INFO] [processing_node-2]: process started with pid [35]
-[INFO] [camera_node-3]: process started with pid [36]
-[INFO] [modes_node-4]: process started with pid [37]
-[INFO] [health_node-5]: process started with pid [38]
-[storage_node-1] [INFO] [1794988610.677733071] [payload_storage]: {"event": "storage_recovered", "entries": 0}
-[processing_node-2] [INFO] [1794988614.519037524] [payload_processing]: event=image_processed id=0a1e598b-7f36-4510-9183-87eec76a1e5c bytes=25687 processing_ms=2.385
-[storage_node-1] [INFO] [1794988614.525700062] [payload_storage]: {"event": "file_ready", "id": "0a1e598b-7f36-4510-9183-87eec76a1e5c", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 5.750262999754341}
-[processing_node-2] [INFO] [1794988615.559715895] [payload_processing]: event=image_processed id=309cf296-464a-41b3-9ea2-900202906cc8 bytes=25687 processing_ms=5.667
-[storage_node-1] [INFO] [1794988615.568979481] [payload_storage]: {"event": "file_ready", "id": "309cf296-464a-41b3-9ea2-900202906cc8", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.29885000075592}
-[processing_node-2] [INFO] [1794988616.554576977] [payload_processing]: event=image_processed id=3b4cd927-237a-4ce9-a92c-2645b00096f2 bytes=25687 processing_ms=5.314
-[storage_node-1] [INFO] [1794988616.563662185] [payload_storage]: {"event": "file_ready", "id": "3b4cd927-237a-4ce9-a92c-2645b00096f2", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 8.077899000454636}
-[processing_node-2] [INFO] [1794988617.604467795] [payload_processing]: event=image_processed id=9a8037ac-b81f-4aa9-b031-5c2551e3e23b bytes=25687 processing_ms=3.528
-[storage_node-1] [INFO] [1794988617.613182496] [payload_storage]: {"event": "file_ready", "id": "9a8037ac-b81f-4aa9-b031-5c2551e3e23b", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 7.9537629999322235}
-[processing_node-2] [INFO] [1794988618.603280677] [payload_processing]: event=image_processed id=cc6cf006-a6f8-407e-b957-9eb83dd81cdc bytes=25687 processing_ms=2.194
-[storage_node-1] [INFO] [1794988618.611196797] [payload_storage]: {"event": "file_ready", "id": "cc6cf006-a6f8-407e-b957-9eb83dd81cdc", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 7.052446000670898}
-[camera_node-3] [ERROR] [1794988619.571471428] [payload_camera]: event=capture_rejected reason=camera configuration outside experiment bounds
-[processing_node-2] [INFO] [1794988619.609593154] [payload_processing]: event=image_processed id=8b88bdc3-dfd1-4750-8022-4826f74877d1 bytes=2321 processing_ms=0.199
-[storage_node-1] [INFO] [1794988619.618793930] [payload_storage]: {"event": "file_ready", "id": "8b88bdc3-dfd1-4750-8022-4826f74877d1", "bytes": 2321, "sha256": "fb8b823d983e5f63d4084b4e739a24db6ce7c6d28912ddc84723048db0868f61", "storage_ms": 8.137494999573391}
+[INFO] [storage_node-1]: process started with pid [356]
+[INFO] [processing_node-2]: process started with pid [357]
+[INFO] [camera_node-3]: process started with pid [358]
+[INFO] [modes_node-4]: process started with pid [359]
+[INFO] [health_node-5]: process started with pid [360]
+[storage_node-1] [INFO] [1794991948.425963681] [payload_storage]: {"event": "storage_recovered", "entries": 0}
+[processing_node-2] [INFO] [1794991952.301547264] [payload_processing]: event=image_processed id=da649da7-f40d-428b-b71a-d718a7b53e77 bytes=25687 processing_ms=2.358
+[storage_node-1] [INFO] [1794991952.311997507] [payload_storage]: {"event": "file_ready", "id": "da649da7-f40d-428b-b71a-d718a7b53e77", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 9.696277999864833}
+[processing_node-2] [INFO] [1794991953.341698321] [payload_processing]: event=image_processed id=77b04d04-231a-4ef6-a6d3-a7b744f91ca7 bytes=25687 processing_ms=2.236
+[storage_node-1] [INFO] [1794991953.366243804] [payload_storage]: {"event": "file_ready", "id": "77b04d04-231a-4ef6-a6d3-a7b744f91ca7", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 22.620541999913257}
+[processing_node-2] [INFO] [1794991954.349102981] [payload_processing]: event=image_processed id=279e9cab-370e-49d1-b5ec-f1c1ab5b46f8 bytes=25687 processing_ms=2.234
+[storage_node-1] [INFO] [1794991954.369522474] [payload_storage]: {"event": "file_ready", "id": "279e9cab-370e-49d1-b5ec-f1c1ab5b46f8", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 19.240188000367198}
+[processing_node-2] [INFO] [1794991955.383495506] [payload_processing]: event=image_processed id=5da8ffe7-242c-488d-881c-32ca237a3701 bytes=25687 processing_ms=2.212
+[storage_node-1] [INFO] [1794991955.410653375] [payload_storage]: {"event": "file_ready", "id": "5da8ffe7-242c-488d-881c-32ca237a3701", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 25.499468999896635}
+[processing_node-2] [INFO] [1794991956.381588674] [payload_processing]: event=image_processed id=340a1267-1c8d-4489-97b1-50d63a73bbbe bytes=25687 processing_ms=2.235
+[storage_node-1] [INFO] [1794991956.406757829] [payload_storage]: {"event": "file_ready", "id": "340a1267-1c8d-4489-97b1-50d63a73bbbe", "bytes": 25687, "sha256": "ecfd84ab303a996114a6d602b7bdb30fe511dbc0e1ea985c2073036bc1ed255c", "storage_ms": 23.809110000001965}
+[camera_node-3] [ERROR] [1794991957.407886169] [payload_camera]: event=capture_rejected reason=camera configuration outside experiment bounds
+[processing_node-2] [INFO] [1794991957.442735702] [payload_processing]: event=image_processed id=03abfafb-95c2-4a23-924c-c1d939667661 bytes=2321 processing_ms=0.200
+[storage_node-1] [INFO] [1794991957.477355541] [payload_storage]: {"event": "file_ready", "id": "03abfafb-95c2-4a23-924c-c1d939667661", "bytes": 2321, "sha256": "fb8b823d983e5f63d4084b4e739a24db6ce7c6d28912ddc84723048db0868f61", "storage_ms": 32.65810299990335}
 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
 [INFO] [health_node-5]: sending signal 'SIGINT' to process[health_node-5]
 [INFO] [modes_node-4]: sending signal 'SIGINT' to process[modes_node-4]
 [INFO] [camera_node-3]: sending signal 'SIGINT' to process[camera_node-3]
 [INFO] [processing_node-2]: sending signal 'SIGINT' to process[processing_node-2]
 [INFO] [storage_node-1]: sending signal 'SIGINT' to process[storage_node-1]
-[camera_node-3] [INFO] [1794988619.656294742] [rclcpp]: signal_handler(SIGINT/SIGTERM)
-[processing_node-2] [INFO] [1794988619.656780517] [rclcpp]: signal_handler(SIGINT/SIGTERM)
-[INFO] [health_node-5]: process has finished cleanly [pid 38]
-[INFO] [storage_node-1]: process has finished cleanly [pid 34]
-[INFO] [processing_node-2]: process has finished cleanly [pid 35]
-[INFO] [camera_node-3]: process has finished cleanly [pid 36]
-[INFO] [modes_node-4]: process has finished cleanly [pid 37]
+[camera_node-3] [INFO] [1794991957.504615006] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[processing_node-2] [INFO] [1794991957.504771040] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [health_node-5]: process has finished cleanly [pid 360]
+[INFO] [storage_node-1]: process has finished cleanly [pid 356]
+[INFO] [processing_node-2]: process has finished cleanly [pid 357]
+[INFO] [camera_node-3]: process has finished cleanly [pid 358]
+[INFO] [modes_node-4]: process has finished cleanly [pid 359]
